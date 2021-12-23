@@ -66,26 +66,26 @@ export default function Footer() {
     <Box
       bg={useColorModeValue('gray.50', 'gray.900')}
       color={useColorModeValue('gray.700', 'gray.200')}>
-      <Container
+      {/* <Container
         as={Stack}
         maxW={'6xl'}
         py={4}
         spacing={4}
         justify={'center'}
         align={'center'}>
-        <Logo />
+         <Logo />
         <Stack direction={'row'} spacing={6}>
           <Link href={'#'}>Home</Link>
           <Link href={'#'}>About</Link>
           <Link href={'#'}>Blog</Link>
           <Link href={'#'}>Contact</Link>
-        </Stack>
-      </Container>
+        </Stack> 
+    </Container> */}
 
-      <Box
+      < Box
         borderTopWidth={1}
         borderStyle={'solid'}
-        borderColor={useColorModeValue('gray.200', 'gray.700')}>
+        borderColor={useColorModeValue('gray.200', 'gray.700')} >
         <Container
           as={Stack}
           maxW={'6xl'}
@@ -94,20 +94,17 @@ export default function Footer() {
           spacing={4}
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}>
-          <Text>© 2020 Chakra Templates. All rights reserved</Text>
+          <Text fontFamily="Inter">Website under development, see you soon.🚀</Text>
           <Stack direction={'row'} spacing={6}>
-            <SocialButton label={'Twitter'} href={'#'}>
+            <SocialButton label={'Twitter'} href={'twttr.com/hackclubsvit'}>
               <FaTwitter />
             </SocialButton>
-            <SocialButton label={'YouTube'} href={'#'}>
-              <FaYoutube />
-            </SocialButton>
-            <SocialButton label={'Instagram'} href={'#'}>
+            <SocialButton label={'Instagram'} href={'instagram.com/hackclubsvit'}>
               <FaInstagram />
             </SocialButton>
           </Stack>
         </Container>
-      </Box>
-    </Box>
+      </Box >
+    </Box >
   );
 }
