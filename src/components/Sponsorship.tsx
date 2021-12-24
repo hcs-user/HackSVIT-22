@@ -1,5 +1,5 @@
 import { Text, Heading, Container, Center, chakra, HStack } from "@chakra-ui/react"
-import HackClub from "../HackClub"
+import HackClub from "./HackClub"
 import StickerMule from "./StickerMule"
 
 export default function Sponsorship() {

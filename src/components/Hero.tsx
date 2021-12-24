@@ -41,7 +41,7 @@ export default function Hero() {
             lineHeight={'110%'}>
             {/* HackSVIT */}
           </Heading>
-          <Heading size="4xl" fontFamily="Inter" >
+          <Heading size="3xl" fontFamily="Inter">
             <Text as="span">HACK</Text>
             <Text as="span" color="brand">&nbsp;SVIT</Text>
 
@@ -78,16 +78,17 @@ export default function Hero() {
                 color={useColorModeValue('gray.800', 'gray.300')}
                 w={71}
                 position={'absolute'}
-                right={-71}
-                top={'10px'}
+                right={"-20px"}
+                top={"68px"}
+                transform={'rotate(54deg)'}
               />
               <Text
                 fontSize={'lg'}
                 fontFamily={'Caveat'}
                 position={'absolute'}
-                right={'-125px'}
-                top={'-15px'}
-                transform={'rotate(10deg)'}>
+                right={'-80px'}
+                top={'90px'}
+                transform={'rotate(54deg)'}>
                 stay tuned ✨
               </Text>
             </Box>
