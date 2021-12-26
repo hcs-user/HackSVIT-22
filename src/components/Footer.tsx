@@ -96,10 +96,10 @@ export default function Footer() {
           align={{ base: 'center', md: 'center' }}>
           <Text fontFamily="Inter">Website under development, see you soon.🚀</Text>
           <Stack direction={'row'} spacing={6}>
-            <SocialButton label={'Twitter'} href={'twttr.com/hackclubsvit'}>
+            <SocialButton label={'Twitter'} href={'https://twitter.com/hackclubsvit'}>
               <FaTwitter />
             </SocialButton>
-            <SocialButton label={'Instagram'} href={'instagram.com/hackclubsvit'}>
+            <SocialButton label={'Instagram'} href={'https;//instagram.com/hackclubsvit'}>
               <FaInstagram />
             </SocialButton>
           </Stack>
