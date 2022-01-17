@@ -53,7 +53,7 @@ export default function Hero() {
 
           </Box> */}
           <Heading size="sm" color="brand" letterSpacing="widest" fontWeight="hairline">
-            11-13 FEBRUARY 2022  <Text as="span" color="white"> | IN-PERSON HACKATHON</Text>
+            13-15 MAY 2022  <Text as="span" color="white"> | IN-PERSON HACKATHON</Text>
           </Heading>
 
           <Stack
@@ -100,7 +100,7 @@ export default function Hero() {
               that aims to give a platform to the new
               age innovators and give them amazing
               opportunities to get a headstart into the
-              Tech World. The hackathon will be hosted at Sarder Vallabhbhai Patel Institute of Technology, Vasad between 11 & 13 February 2022.
+              Tech World. The hackathon will be hosted at Sarder Vallabhbhai Patel Institute of Technology, Vasad between 13-15 May 2022.
             </Text>
           </Flex>
         </Stack>
