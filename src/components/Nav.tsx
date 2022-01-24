@@ -1,3 +1,4 @@
+import { HamburgerIcon } from "@chakra-ui/icons";
 import {
 	Box,
 	Container,
@@ -5,14 +6,16 @@ import {
 	Heading,
 	HStack,
 	Icon,
+	IconButton,
 	Link,
 } from "@chakra-ui/react";
+import { GrMenu } from "react-icons/gr";
 
 const Nav = () => (
 	<>
 		<Box>
-			<Container maxW="container.xl" py="8">
-				<Flex justify="center" align="center">
+			<Container maxW="container.xl" py="10">
+				<Flex justify="space-between" align="center">
 					<Icon
 						width="206px"
 						height="40px"
@@ -63,13 +66,12 @@ const Nav = () => (
 							</clipPath>
 						</defs>
 					</Icon>
-
-					{/* <HStack size="lg">
-						<Link>About</Link>
-						<Link>Speakers</Link>
-						<Link>Schedule</Link>
-						<Link>Sponsors</Link>
-					</HStack> */}
+					<IconButton
+						variant="ghost"
+						size="lg"
+						aria-label="Menu"
+						icon={<GrMenu fill="white" />}
+					/>
 				</Flex>
 			</Container>
 		</Box>
