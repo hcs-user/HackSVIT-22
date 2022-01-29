@@ -2,8 +2,8 @@ import { extendTheme } from "@chakra-ui/react";
 import { createBreakpoints } from "@chakra-ui/theme-tools";
 
 const fonts = {
-	heading: "Poppins",
-	body: "Ubuntu Mono",
+	heading: "Lexend Deca",
+	body: "Poppins",
 };
 
 const breakpoints = createBreakpoints({
@@ -17,49 +17,49 @@ const colors = {
 	black: "#001010",
 	white: "#FAF8F5",
 	purple: {
-		100: "#F2E3FF",
-		200: "#D4B2FF",
-		300: "#B580FF",
-		400: "#974DFF",
-		500: "#7A1BFE",
-		600: "#6002E5",
-		700: "#4A02B1",
+		50: "#F2E3FF",
+		100: "#D4B2FF",
+		200: "#B580FF",
+		300: "#974DFF",
+		400: "#7A1BFE",
+		500: "#6002E5",
+		600: "#4A02B1",
 	},
 	blue: {
-		100: "#DBF4FF",
-		200: "#ADDBFF",
-		300: "#7CC2FF",
-		400: "#4AA9FF",
-		500: "#1A90FF",
-		600: "#0077E6",
-		700: "#005CB2",
+		50: "#DBF4FF",
+		100: "#ADDBFF",
+		200: "#7CC2FF",
+		300: "#4AA9FF",
+		400: "#1A90FF",
+		500: "#0077E6",
+		600: "#005CB2",
 	},
 	red: {
-		100: "#FFE2F2",
-		200: "#FFB1D4",
-		300: "#FF7FB5",
-		400: "#FF4D97",
-		500: "#FE1E7A",
-		600: "#E50760",
-		700: "#B2054B",
+		50: "#FFE2F2",
+		100: "#FFB1D4",
+		200: "#FF7FB5",
+		300: "#FF4D97",
+		400: "#FE1E7A",
+		500: "#E50760",
+		600: "#B2054B",
 	},
 	orange: {
-		100: "#FFF3DA",
-		200: "#FFDCAE",
-		300: "#FFC67D",
-		400: "#FFAF4B",
-		500: "#FF981A",
-		600: "#E67E00",
-		700: "#B26200",
+		50: "#FFF3DA",
+		100: "#FFDCAE",
+		200: "#FFC67D",
+		300: "#FFAF4B",
+		400: "#FF981A",
+		500: "#E67E00",
+		600: "#B26200",
 	},
 	yellow: {
-		100: "#FFF3DA",
-		200: "#FFE3AD",
-		300: "#FFD47D",
-		400: "#FFCA4B",
-		500: "#FFC21A",
-		600: "#E69A00",
-		700: "#B27800",
+		50: "#FFF3DA",
+		100: "#FFE3AD",
+		200: "#FFD47D",
+		300: "#FFCA4B",
+		400: "#FFC21A",
+		500: "#E69A00",
+		600: "#B27800",
 	},
 	gray: {
 		50: "#F2F2F2",
@@ -90,6 +90,18 @@ const theme = extendTheme({
 	breakpoints,
 	config: {
 		defaultColorMode: "dark",
+	},
+	components: {
+		Heading: {
+			baseStyle: {
+				fontWeight: 500,
+			},
+		},
+		Button: {
+			baseStyle: {
+				rounded: "none",
+			},
+		},
 	},
 });
 

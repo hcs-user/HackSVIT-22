@@ -15,14 +15,245 @@ import {
 	Button,
 	Flex,
 	VStack,
+	AccordionPanel,
+	AccordionButton,
+	AccordionItem,
+	AccordionIcon,
+	Accordion,
+	Icon,
+	LinkBox,
 } from "@chakra-ui/react";
 import { CheckCircleIcon, LinkIcon } from "@chakra-ui/icons";
 
 import Hero from "../components/Hero";
 import Nav from "@components/Nav";
-import { useViewportScroll } from "framer-motion";
+import { motion, useViewportScroll } from "framer-motion";
 import Domains from "@components/Domains";
 import BackgroundAnimation from "@components/BackgroundAnimation";
+import React, {
+	ReactChild,
+	ReactElement,
+	useEffect,
+	useRef,
+	useState,
+} from "react";
+import { MinusIcon, PlusIcon } from "@radix-ui/react-icons";
+
+const DISCORD_LINK = "https://discord.gg/8sBegK2hK9";
+const FORM_LINK = "https://form.typeform.com/to/n1g8GYnj";
+const AREAS = [
+	{
+		graphic: "/areas/education.png",
+		title: "EdTech",
+		description: "asdfadsf asdfjklakdsf asdfkjasdlkf sdf",
+		color: "purple",
+	},
+	{
+		graphic: "/areas/finance.png",
+		title: "Finance",
+		description: "asdfadsf asdfjklakdsf asdfkjasdlkf sdf",
+		color: "red",
+	},
+	{
+		graphic: "/areas/open_innovation.png",
+		title: "Open Innovation",
+		description: "asdfadsf asdfjklakdsf asdfkjasdlkf sdf",
+		color: "orange",
+	},
+	{
+		graphic: "/areas/social_welfare.png",
+		title: "Social Welfare",
+		description: "asdfadsf asdfjklakdsf asdfkjasdlkf sdf",
+		color: "blue",
+	},
+	{
+		graphic: "/areas/blockchain.png",
+		title: "Blockchain & Decentralized Systems",
+		description: "asdfadsf asdfjklakdsf asdfkjasdlkf sdf",
+		color: "yellow",
+	},
+	{
+		graphic: "/areas/climate_change.png",
+		title: "Climate Change",
+		description: "asdfadsf asdfjklakdsf asdfkjasdlkf sdf",
+		color: "red",
+	},
+];
+
+const cards = [1, 2, 3, 4, 5];
+const cardVariants = {
+	selected: {
+		rotateY: 180,
+		scale: 1.1,
+		transition: { duration: 0.35 },
+		zIndex: 10,
+		boxShadow:
+			"rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px",
+	},
+	notSelected: (i) => ({
+		rotateY: i * 15,
+		scale: 1 - Math.abs(i * 0.15),
+		x: i ? i * 50 : 0,
+		opacity: 1 - Math.abs(i * 0.15),
+		zIndex: 10 - Math.abs(i),
+		boxShadow:
+			"rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px",
+		transition: { duration: 0.35 },
+	}),
+};
+
+const Flashcards = () => {
+	const [selectedCard, setSelectedCard] = useState(null);
+	const [{ startX, startScrollLeft, isDragging }, setDragStart] = useState({
+		startX: undefined,
+		startScrollLeft: undefined,
+		isDragging: false,
+	});
+	const containerRef = useRef();
+	const cardRefs = useRef(new Array());
+	useEffect(() => {
+		const { scrollWidth, clientWidth } = containerRef.current;
+		const halfScroll = (scrollWidth - clientWidth) / 2;
+		containerRef.current.scrollLeft = halfScroll;
+	}, [containerRef.current]);
+	const handleMouseDown = (e) => {
+		setDragStart({
+			startX: e.pageX - containerRef.current.offsetLeft,
+			startScrollLeft: containerRef.current.scrollLeft,
+			isDragging: true,
+		});
+	};
+	const handleMouseMove = (e) => {
+		if (!isDragging || selectedCard) return;
+		const x = e.pageX - containerRef.current.offsetLeft;
+		const walk = x - startX;
+		containerRef.current.scrollLeft = startScrollLeft - walk;
+	};
+	const selectCard = (card) => {
+		setSelectedCard(selectedCard ? null : card);
+
+		if (card && !selectedCard) {
+			cardRefs.current[card - 1].scrollIntoView({
+				behavior: "smooth",
+				block: "nearest",
+				inline: "center",
+			});
+		}
+	};
+	const handleCardMouseUp = (e, card) => {
+		if (isDragging) {
+			const x = e.pageX - containerRef.current.offsetLeft;
+			const walk = x - startX;
+			if (Math.abs(walk) < 5) selectCard(card);
+		} else selectCard(card);
+	};
+	return (
+		<>
+			<style jsx>
+				{`
+					.flashcards {
+						height: 100%;
+						width: 100%;
+						display: grid;
+						place-items: center center;
+						background: #4da6ff;
+					}
+					.flashcards__container {
+						max-width: 100%;
+						white-space: nowrap;
+						overflow-x: scroll;
+						perspective: 150px;
+						-ms-overflow-style: none;
+						scrollbar-width: none;
+					}
+					.flashcards__container::-webkit-scrollbar {
+						display: none;
+					}
+					.flashcards .card {
+						position: relative;
+						display: inline-block;
+						height: 80px;
+						width: 80px;
+						background: white;
+						margin: 2rem 1rem;
+						border-radius: 15px;
+						cursor: pointer;
+					}
+					.flashcards .card:first-of-type {
+						margin-left: 15rem;
+					}
+					.flashcards .card:last-of-type {
+						margin-right: 15rem;
+					}
+				`}
+			</style>
+			<div
+				className="flashcards"
+				onMouseDown={handleMouseDown}
+				onMouseUp={() =>
+					setDragStart((prev) => ({ ...prev, isDragging: false }))
+				}
+				onMouseMove={handleMouseMove}
+			>
+				<div className="flashcards__container" ref={containerRef}>
+					{cards.map((card, i) => (
+						<motion.div
+							className="card"
+							key={card}
+							ref={(el) => cardRefs.current.push(el)}
+							onMouseUp={(e) => handleCardMouseUp(e, card)}
+							variants={cardVariants}
+							animate={
+								selectedCard === card
+									? "selected"
+									: "notSelected"
+							}
+							custom={selectedCard ? selectedCard - card : 0}
+						/>
+					))}
+				</div>
+			</div>
+		</>
+	);
+};
+
+const FAQ = ({ question, answer }: { question: string; answer: string }) => (
+	<AccordionItem>
+		{({ isExpanded }) => (
+			<>
+				<AccordionButton _focus={{ shadow: "none" }} px="4" py="8">
+					{/* {isExpanded ? (
+											<Icon
+												as={MinusIcon}
+												me="4"
+												h="4"
+												w="4"
+											/>
+										) : (
+											<Icon
+												as={PlusIcon}
+												me="4"
+												h="4"
+												w="4"
+											/>
+										)} */}
+					<Icon as={AccordionIcon} me="4" h="8" w="8" />
+					<Text
+						flex="1"
+						textAlign="left"
+						fontSize="2xl"
+						fontWeight="600"
+					>
+						{question}
+					</Text>
+				</AccordionButton>
+				<AccordionPanel ps="16" pb="4" fontSize="lg">
+					{answer}
+				</AccordionPanel>
+			</>
+		)}
+	</AccordionItem>
+);
 
 const Index = () => {
 	const { scrollYProgress } = useViewportScroll();
@@ -32,7 +263,7 @@ const Index = () => {
 		<>
 			{/* hero */}
 			<Box>
-				<BackgroundAnimation />
+				{/* <BackgroundAnimation /> */}
 				<Container
 					maxW="container.lg"
 					zIndex="100"
@@ -43,21 +274,37 @@ const Index = () => {
 					alignItems="center"
 				>
 					<Logo mb="5" />
-					<Text fontSize="lg">
-						Gujarat's largest in-person Hackathon
+					<Text fontSize="2xl" fontWeight="700">
+						12-15{" "}
+						<Text as="span" color="red.400">
+							May
+						</Text>{" "}
+						2022
 					</Text>
 
 					<HStack my="4" spacing="4">
-						<Button variant="solid" colorScheme="blue">
-							Register Now
-						</Button>
-						<Button variant="outline" colorScheme="orange">
-							Join Discord
-						</Button>
+						<form action={FORM_LINK} method="get" target="_blank">
+							<Button variant="solid" colorScheme="purple">
+								Register Now
+							</Button>
+						</form>
+						<form
+							action={DISCORD_LINK}
+							method="get"
+							target="_blank"
+						>
+							<Button
+								type="submit"
+								variant="outline"
+								colorScheme="yellow"
+							>
+								Join Discord
+							</Button>
+						</form>
 					</HStack>
 				</Container>
 			</Box>
-			<Box bg="gray.500">
+			<Box bg="purple.400">
 				<Container py="8" maxW="container.lg" zIndex="100">
 					<Heading>About Hack SVIT</Heading>
 					<Text>
@@ -70,16 +317,52 @@ const Index = () => {
 				</Container>
 			</Box>
 			<Container maxW="container.md" py="12">
-				<Flex bg="purple.500" rounded="lg" p="4">
-					<Image src="/domains/education.png" />
-					<VStack align="start" spacing="0" ms="4">
-						<Heading size="lg">Title</Heading>
-						<Text>
-							Lorem, ipsum dolor sit amet consectetur adipisicing
-							elit. Ipsa, eum.
-						</Text>
-					</VStack>
-				</Flex>
+				{AREAS.map(({ title, description, graphic, color }, i) => (
+					<Flex
+						key={i}
+						bgGradient={`linear(to-r, ${color}.400, ${color}.700)`}
+						p="4"
+					>
+						<Image src={graphic} />
+						<VStack align="start" spacing="0" ms="4">
+							<Heading size="lg">{title}</Heading>
+							<Text>{description}</Text>
+						</VStack>
+					</Flex>
+				))}
+			</Container>
+			<Flashcards />
+			<Box bg="red.400">
+				<Container py="8" maxW="container.lg" zIndex="100">
+					<Heading fontSize={["3xl", null, null, "4xl"]} mb="8">
+						Frequently asked questions
+					</Heading>
+					<Accordion allowToggle allowMultiple>
+						<FAQ
+							question="Who can participate?"
+							answer="Everyone is welcome to apply, be it students,
+							professionals or turing-test certified androids. As
+							long as you wish to learn something, we'll be
+							waiting to see you. If you are under 18 years of age, we’ll need a parental consent form."
+						/>
+						<FAQ
+							question="Does it cost anything?"
+							answer="HackSVIT is 100% free. You do not have to spend anything!"
+						/>
+						<FAQ
+							question="Can I bring a project that was built earlier?"
+							answer="We apologize, but all the hackathon's projects should be developed during the event from scratch. All hackers will be strictly monitored for any kind of plagiarism or cheating."
+						/>
+					</Accordion>
+				</Container>
+			</Box>
+			<Container maxW="container.lg" textAlign="center" py="8">
+				<Text fontSize="4rem" fontWeight="300">
+					<Text as="span" color="orange.400">
+						hello
+					</Text>
+					@hackclubsvit.co
+				</Text>
 			</Container>
 		</>
 	);
