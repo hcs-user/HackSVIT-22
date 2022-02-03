@@ -75,6 +75,7 @@ const theme = extendTheme({
 	styles: {
 		global: {
 			"html, body": {
+				height: "100%",
 				backgroundColor: "black",
 				// background: "linear-gradient(to left, #23272a, #001010)",
 				lineHeight: "1.6",

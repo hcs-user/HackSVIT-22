@@ -1,0 +1,11 @@
+.cursor-style {
+	position: fixed;
+	background-color: rgba(97, 2, 229, 0.3);
+	height: 8rem;
+	width: 8rem;
+	border-radius: 100%;
+	transform-origin: 100% 100%;
+	transform: translate(-50%, -50%);
+	pointer-events: none;
+	mix-blend-mode: difference;
+}
