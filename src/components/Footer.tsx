@@ -5,7 +5,7 @@ import { FiFacebook, FiInstagram, FiTwitter } from "react-icons/fi";
 const Footer = () => (
 	<Stack py="4" bg="purple.900" color="white" align="center">
 		<Text>Still having doubts?</Text>
-		<Text fontSize="4rem" fontWeight="300">
+		<Text fontSize={["2rem", null, "4rem"]} fontWeight="300">
 			<Text as="span" color="orange.400">
 				hello
 			</Text>
@@ -30,19 +30,4 @@ const Footer = () => (
 		</Container>
 	</Stack>
 );
-
-const FooterLink = ({ href, label }: { href: any; label: string }) => (
-	<NextLink href={href} passHref>
-		<Link
-			fontSize="sm"
-			_hover={{
-				color: "orange.500",
-				textDecor: "underline",
-			}}
-		>
-			{label}
-		</Link>
-	</NextLink>
-);
-
 export default Footer;
