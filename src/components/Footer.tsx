@@ -1,18 +1,6 @@
-import {
-	Box,
-	Container,
-	Divider,
-	HStack,
-	Icon,
-	Link,
-	SimpleGrid,
-	Text,
-	Stack,
-	IconButton,
-	Flex,
-} from "@chakra-ui/react";
+import { Container, Flex, HStack, Icon, IconButton, Link, Stack, Text } from "@chakra-ui/react";
 import { default as NextLink } from "next/link";
-import { FiFacebook, FiInstagram, FiLinkedin, FiYoutube, FiTwitter } from "react-icons/fi";
+import { FiFacebook, FiInstagram, FiTwitter } from "react-icons/fi";
 
 const Footer = () => (
 	<Stack py="4" bg="purple.900" color="white" align="center">

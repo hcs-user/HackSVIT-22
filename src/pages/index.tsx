@@ -1,51 +1,22 @@
 import {
+	Box,
+	Button,
+	Container,
+	Flex,
+	Heading,
+	HStack,
+	Image,
 	Link as ChakraLink,
 	Text,
-	Code,
-	List,
-	ListIcon,
-	ListItem,
-	Stack,
-	Heading,
-	Image,
-	HStack,
-	Container,
-	Box,
-	Center,
-	Button,
-	Flex,
-	VStack,
-	AccordionPanel,
-	AccordionButton,
-	AccordionItem,
-	AccordionIcon,
-	Accordion,
-	Icon,
-	LinkBox,
 } from "@chakra-ui/react";
-import { CheckCircleIcon, LinkIcon } from "@chakra-ui/icons";
-
-import Hero from "../components/Hero";
-import Nav from "@components/Nav";
-import {
-	AnimatePresence,
-	motion,
-	motionValue,
-	useMotionValue,
-	useTransform,
-	useViewportScroll,
-} from "framer-motion";
-// import Domains from "@components/Domains";
-import BackgroundAnimation from "@components/BackgroundAnimation";
-import React, { ReactChild, ReactElement, useEffect, useRef, useState } from "react";
-import { MinusIcon, PlusIcon } from "@radix-ui/react-icons";
-import FAQs from "@components/FAQs";
 import Areas from "@components/Areas";
+import FAQs from "@components/FAQs";
 import Footer from "@components/Footer";
-import Link from "next/link";
+import SPONSORS from "data/sponsors.json";
+import { motion, useViewportScroll } from "framer-motion";
+import React, { useEffect } from "react";
 import Marquee from "react-fast-marquee";
 
-import SPONSORS from "data/sponsors.json";
 const DISCORD_LINK = "https://discord.gg/8sBegK2hK9";
 const FORM_LINK = "https://form.typeform.com/to/n1g8GYnj";
 
