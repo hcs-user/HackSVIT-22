@@ -43,11 +43,9 @@ export default function Areas() {
 	return (
 		<SimpleGrid columns={[1, 2, 3]} spacing="3">
 			{AREAS.map(({ title, description, graphic, color }, i) => (
-				<Flex key={i} m="2" p="2" rounded="none" bg="gray.500" maxW="md">
-					<Box bgGradient={`linear(to-r, ${color}.400, ${color}.700)`} p="4">
-						<Image src={graphic} h="16" w="16" />
-					</Box>
-					<VStack align="start" spacing="0" ms="4">
+				<Flex key={i} maxW="md" align="center" flexDir="column" textAlign="center">
+					<Image src={graphic} h="auto" maxW="16" mb="4" />
+					<VStack spacing="0">
 						<Heading size="md">{title}</Heading>
 						<Text>{description}</Text>
 					</VStack>

@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Axure",
+        "iconPath": "/sponsors/axure.svg",
+        "siteUrl": "https://www.axure.com/",
+        "bg": "#fff"
+    },
+    {
+        "name": "Clerky",
+        "iconPath": "/sponsors/clerky.svg",
+        "siteUrl": "https://www.clerky.com/",
+        "bg": "#fff"
+    },
+    {
+        "name": "Sashido",
+        "iconPath": "/sponsors/sashido.svg",
+        "siteUrl": "#",
+        "bg": "#fff"
+    },
+    {
+        "name": "Taskade",
+        "iconPath": "/sponsors/taskade.svg",
+        "siteUrl": "https://www.taskade.com/",
+        "bg": "gray.500"
+    },
+    {
+        "name": "Echo3D",
+        "iconPath": "/sponsors/echo3D.webp",
+        "siteUrl": "#",
+        "bg": "gray.500"
+    },
+    {
+        "name": "TestMail",
+        "iconPath": "/sponsors/testmail.png",
+        "siteUrl": "https://testmail.app/",
+        "bg": "#fff"
+    },
+    {
+        "name": "Voiceflow",
+        "iconPath": "/sponsors/voiceflow.svg",
+        "siteUrl": "https://www.voiceflow.com/",
+        "bg": "#fff"
+    }
+]

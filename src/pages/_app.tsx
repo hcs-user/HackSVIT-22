@@ -34,11 +34,15 @@ function MyApp({ Component, pageProps, router }: AppProps) {
 							key={router.route}
 							initial="pageInitial"
 							animate="pageAnimate"
+							exit="pageInitial"
+							transition={{ duration: 0.7 }}
 							variants={{
 								pageInitial: {
 									opacity: 0,
+									y: -50,
 								},
 								pageAnimate: {
+									y: 0,
 									opacity: 1,
 								},
 							}}

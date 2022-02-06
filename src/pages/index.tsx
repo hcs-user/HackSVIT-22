@@ -41,221 +41,125 @@ import React, { ReactChild, ReactElement, useEffect, useRef, useState } from "re
 import { MinusIcon, PlusIcon } from "@radix-ui/react-icons";
 import FAQs from "@components/FAQs";
 import Areas from "@components/Areas";
+import Footer from "@components/Footer";
+import Link from "next/link";
+import Marquee from "react-fast-marquee";
 
+import SPONSORS from "data/sponsors.json";
 const DISCORD_LINK = "https://discord.gg/8sBegK2hK9";
 const FORM_LINK = "https://form.typeform.com/to/n1g8GYnj";
 
-const cards = [1, 2, 3, 4, 5];
-const cardVariants = {
-	selected: {
-		rotateY: 180,
-		scale: 1.1,
-		transition: { duration: 0.35 },
-		zIndex: 10,
-		boxShadow: "rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px",
-	},
-	notSelected: i => ({
-		rotateY: i * 15,
-		scale: 1 - Math.abs(i * 0.15),
-		x: i ? i * 50 : 0,
-		opacity: 1 - Math.abs(i * 0.15),
-		zIndex: 10 - Math.abs(i),
-		boxShadow: "rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px",
-		transition: { duration: 0.35 },
-	}),
-};
-
-const Flashcards = () => {
-	const [selectedCard, setSelectedCard] = useState(null);
-	const [{ startX, startScrollLeft, isDragging }, setDragStart] = useState({
-		startX: undefined,
-		startScrollLeft: undefined,
-		isDragging: false,
-	});
-	const containerRef = useRef();
-	const cardRefs = useRef(new Array());
-	useEffect(() => {
-		const { scrollWidth, clientWidth } = containerRef.current;
-		const halfScroll = (scrollWidth - clientWidth) / 2;
-		containerRef.current.scrollLeft = halfScroll;
-	}, [containerRef.current]);
-	const handleMouseDown = e => {
-		setDragStart({
-			startX: e.pageX - containerRef.current.offsetLeft,
-			startScrollLeft: containerRef.current.scrollLeft,
-			isDragging: true,
-		});
-	};
-	const handleMouseMove = e => {
-		if (!isDragging || selectedCard) return;
-		const x = e.pageX - containerRef.current.offsetLeft;
-		const walk = x - startX;
-		containerRef.current.scrollLeft = startScrollLeft - walk;
-	};
-	const selectCard = card => {
-		setSelectedCard(selectedCard ? null : card);
-
-		if (card && !selectedCard) {
-			cardRefs.current[card - 1].scrollIntoView({
-				behavior: "smooth",
-				block: "nearest",
-				inline: "center",
-			});
-		}
-	};
-	const handleCardMouseUp = (e, card) => {
-		if (isDragging) {
-			const x = e.pageX - containerRef.current.offsetLeft;
-			const walk = x - startX;
-			if (Math.abs(walk) < 5) selectCard(card);
-		} else selectCard(card);
-	};
-
-	return (
-		<>
-			<style jsx>
-				{`
-					.flashcards {
-						height: 100;
-						width: 100%;
-						display: grid;
-						place-items: center center;
-						background: #4da6ff;
-					}
-					.flashcards__container {
-						max-width: 100%;
-						white-space: nowrap;
-						overflow-x: scroll;
-						perspective: 150px;
-						-ms-overflow-style: none;
-						scrollbar-width: none;
-					}
-					.flashcards__container::-webkit-scrollbar {
-						display: none;
-					}
-					.flashcards .card {
-						position: relative;
-						display: inline-block;
-						height: 80px;
-						width: 80px;
-						background: white;
-						margin: 2rem 1rem;
-						border-radius: 15px;
-						cursor: pointer;
-					}
-					.flashcards .card:first-of-type {
-						margin-left: 15rem;
-					}
-					.flashcards .card:last-of-type {
-						margin-right: 15rem;
-					}
-				`}
-			</style>
-			<div
-				className="flashcards"
-				onMouseDown={handleMouseDown}
-				onMouseUp={() => setDragStart(prev => ({ ...prev, isDragging: false }))}
-				onMouseMove={handleMouseMove}
-			>
-				<div className="flashcards__container" ref={containerRef}>
-					{cards.map((card, i) => (
-						<motion.div
-							className="card"
-							key={card}
-							ref={el => cardRefs.current.push(el)}
-							onMouseUp={e => handleCardMouseUp(e, card)}
-							variants={cardVariants}
-							animate={selectedCard === card ? "selected" : "notSelected"}
-							custom={selectedCard ? selectedCard - card : 0}
-						/>
-					))}
-				</div>
-			</div>
-		</>
-	);
-};
-const contentOffsetY = motionValue(0);
-
 const Index = () => {
 	const { scrollYProgress } = useViewportScroll();
-	const [scrollPosition, setScrollPosition] = useState<number>();
-	console.log(contentOffsetY);
-	const y = useTransform(contentOffsetY, [0, -100], [0, 50], {
-		clamp: false,
-	});
 
-	const handleScroll = () => {
-		if (typeof window != undefined) setScrollPosition(window.pageYOffset);
-	};
-
-	useEffect(() => {
-		document.addEventListener("scroll", handleScroll);
-
-		return document.removeEventListener("scroll", handleScroll);
-	}, []);
-
-	useEffect(() => console.log(scrollPosition), [scrollPosition]);
+	useEffect(() => console.log(scrollYProgress), [scrollYProgress]);
 
 	return (
 		<>
-			<AnimatePresence>
-				<Flex h="100vh" align="center">
-					<Container
-						as={Flex}
-						maxW="container.lg"
-						justifyContent="center"
-						alignItems="center"
-						flexDir="column"
-					>
-						<Logo mb="5" />
-						<Text fontSize="2xl" fontWeight="700">
-							12-15{" "}
-							<Text as="span" color="red.400">
-								May
-							</Text>{" "}
-							2022
-						</Text>
+			<Flex
+				h="100vh"
+				align="center"
+				justifyContent="space-between"
+				alignItems="center"
+				flexDir="column"
+				pos="relative"
+			>
+				{/* <Container as={Flex} maxW="container.lg"> */}
+				<Flex flexDir="column" justify="center" align="center" flexGrow="1" minW="50vw">
+					<Text fontSize="2xl" fontWeight="700">
+						12-15{" "}
+						<Text as="span" color="red.400">
+							MAY
+						</Text>{" "}
+						2022
+					</Text>
+					<Logo my="5" />
 
-						<HStack my="4" spacing="8">
-							<form action={FORM_LINK} method="get" target="_blank">
-								<Button variant="solid" colorScheme="purple">
-									Register Now
-								</Button>
-							</form>
-							<form action={DISCORD_LINK} method="get" target="_blank">
-								<Button type="submit" variant="outline" colorScheme="yellow">
-									Join Discord
-								</Button>
-							</form>
-						</HStack>
-					</Container>
+					<HStack my="4" spacing="8">
+						<form action={FORM_LINK} method="get" target="_blank">
+							<Button variant="solid" colorScheme="purple">
+								Register Now
+							</Button>
+						</form>
+						<form action={DISCORD_LINK} method="get" target="_blank">
+							<Button type="submit" variant="outline" colorScheme="red">
+								Join Discord
+							</Button>
+						</form>
+					</HStack>
 				</Flex>
-				<Flex h="100vh" align="center">
-					<Container py="8" maxW="container.lg">
-						<Heading>About Hack SVIT</Heading>
-						<Text>
-							HackSVIT is going to be an in-person hackathon at Sardar Vallabhbhai Patel Institute of
-							Technology (Vasad). It will be a 36-hour long joy ride where students will go build awesome
-							projects, attend workshops, mentoring sessions, networking sessions & fun mini-events.
-						</Text>
-					</Container>
-				</Flex>
-				<Container maxW="container.lg" py="12">
-					<Areas />
-				</Container>
-				{/* <Flashcards /> */}
-				<Box bg="red.400">
-					<FAQs />
+				<Box
+					pos="absolute"
+					bottom="0"
+					as="svg"
+					w="full"
+					// height="374"
+					viewBox="0 0 1895 374"
+					fill="purple.300"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path d="M0 36.4322L63.1667 22.3229C126.333 8.74112 252.667 -20.2686 379 22.3229C505.333 64.1233 631.667 177.525 758 212.205C884.333 247.412 1010.67 205.216 1137 191.107C1263.33 177.525 1389.67 190.711 1516 184.118C1642.33 177.525 1768.67 148.515 1831.83 134.933L1895 120.824V374H1831.83C1768.67 374 1642.33 374 1516 374C1389.67 374 1263.33 374 1137 374C1010.67 374 884.333 374 758 374C631.667 374 505.333 374 379 374C252.667 374 126.333 374 63.1667 374H0V36.4322Z" />
 				</Box>
-				<Container maxW="container.lg" textAlign="center" py="8">
-					<Text fontSize="4rem" fontWeight="300">
-						<Text as="span" color="orange.400">
-							hello
-						</Text>
-						@hackclubsvit.co
+				{/* </Container> */}
+			</Flex>
+			<Flex h="80vh" align="center" bg="purple.300">
+				<Container py="20" maxW="container.lg">
+					<Heading>About Hack SVIT</Heading>
+					<Text>
+						HackSVIT is going to be an in-person hackathon at Sardar Vallabhbhai Patel Institute of
+						Technology (Vasad). It will be a 36-hour long joy ride where students will go build awesome
+						projects, attend workshops, mentoring sessions, networking sessions & fun mini-events.
 					</Text>
 				</Container>
-			</AnimatePresence>
+			</Flex>
+			<Box bg="purple.800">
+				<Container maxW="container.lg" py="20">
+					<Heading textAlign="center" mb="6">
+						Areas
+					</Heading>
+					<Areas />
+				</Container>
+			</Box>
+			{/* <Flashcards /> */}
+			<Box bg="purple.300">
+				<Container maxW="container.xl" py="12">
+					<Heading textAlign="center" mb="6">
+						Our Sponsors
+					</Heading>
+					<Marquee gradient={false} speed={100}>
+						<HStack>
+							{SPONSORS.map(s => (
+								<motion.div>
+									<ChakraLink
+										target="_blank"
+										as={Flex}
+										m="3"
+										p="2"
+										bg={s.bg}
+										rounded="lg"
+										userSelect="none"
+										_hover={{ transform: "scale(1.1)" }}
+									>
+										<Image h="16" rounded="lg" src={s.iconPath} />
+									</ChakraLink>
+								</motion.div>
+							))}
+						</HStack>
+					</Marquee>
+				</Container>
+			</Box>
+			<Box bg="purple.800">
+				<FAQs />
+			</Box>
+			{/* <Container maxW="container.lg" textAlign="center" py="8">
+				<Text fontSize="4rem" fontWeight="300">
+					<Text as="span" color="orange.400">
+						hello
+					</Text>
+					@hackclubsvit.co
+				</Text>
+			</Container> */}
+			<Footer />
 		</>
 	);
 };

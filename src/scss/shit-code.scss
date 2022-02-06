@@ -1,11 +1,13 @@
 .cursor-style {
+	z-index: 1000;
 	position: fixed;
-	background-color: rgba(97, 2, 229, 0.3);
+	opacity: 0.2;
+	background-color: var(--chakra-colors-purple-100);
 	height: 8rem;
 	width: 8rem;
 	border-radius: 100%;
 	transform-origin: 100% 100%;
 	transform: translate(-50%, -50%);
 	pointer-events: none;
-	mix-blend-mode: difference;
+	// mix-blend-mode: difference;
 }
