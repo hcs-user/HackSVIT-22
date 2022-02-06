@@ -1,26 +1,9 @@
-import Head from "next/head";
-import {
-	Box,
-	Heading,
-	Container,
-	Text,
-	Button,
-	Stack,
-	Icon,
-	useColorModeValue,
-	createIcon,
-	Center,
-	Flex,
-} from "@chakra-ui/react";
+import { Box, Container, Heading } from "@chakra-ui/react";
 
 export default function Hero() {
 	return (
 		<Container maxW="container.xl" height="100vh">
-			<Heading
-				size="4xl"
-				textAlign="center"
-				children="Gujarat's biggest In-person Hackathon"
-			/>
+			<Heading size="4xl" textAlign="center" children="Gujarat's biggest In-person Hackathon" />
 			<Box as="svg" viewBox="0 0 200 200" h="80">
 				<path
 					fill="#2E9BFF"
