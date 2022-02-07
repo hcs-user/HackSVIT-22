@@ -5,7 +5,7 @@ import { FiFacebook, FiInstagram, FiTwitter } from "react-icons/fi";
 const Footer = () => (
 	<Stack py="4" bg="purple.900" color="white" align="center">
 		<Text>Still having doubts?</Text>
-		<Text fontSize={["2rem", null, "4rem"]} fontWeight="300">
+		<Text fontSize={["2rem", null, "4rem"]} fontWeight="300" href="mailto:hello@hackclubsvit.co">
 			<Text as="span" color="orange.400">
 				hello
 			</Text>

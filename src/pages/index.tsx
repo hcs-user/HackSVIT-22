@@ -38,7 +38,7 @@ const Index = () => {
 				{/* <Container as={Flex} maxW="container.lg"> */}
 				<Flex flexDir="column" justify="center" align="center" flexGrow="1" minW="50vw">
 					<Text fontSize="2xl" fontWeight="700">
-						12-15{" "}
+						13-15{" "}
 						<Text as="span" color="red.400">
 							MAY
 						</Text>{" "}
@@ -117,6 +117,14 @@ const Index = () => {
 							))}
 						</HStack>
 					</Marquee>
+					<Text href="mailto:sponsors@hackclubsvit.co">
+						Interested sponsors can drop an e-mail at 
+						<Text as="span" color="orange.400">
+				sponsors@hackclubsvit.co
+			</Text>
+							
+						
+					</Text>
 				</Container>
 			</Box>
 			<Box bg="purple.800">
