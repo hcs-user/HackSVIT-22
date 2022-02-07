@@ -117,6 +117,12 @@ const Index = () => {
 							))}
 						</HStack>
 					</Marquee>
+					<Text>
+							Interested sponsors can Drop us e-mail at 
+							<a as="span" color="orange.400">
+				sponsors@hackclubsvit.co
+			</a>
+					</Text>
 				</Container>
 			</Box>
 			<Box bg="purple.800">

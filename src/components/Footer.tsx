@@ -5,12 +5,12 @@ import { FiFacebook, FiInstagram, FiTwitter } from "react-icons/fi";
 const Footer = () => (
 	<Stack py="4" bg="purple.900" color="white" align="center">
 		<Text>Still having doubts?</Text>
-		<Text fontSize={["2rem", null, "4rem"]} fontWeight="300">
+		<a fontSize={["2rem", null, "4rem"]} fontWeight="300">
 			<Text as="span" color="orange.400">
 				hello
 			</Text>
 			@hackclubsvit.co
-		</Text>
+		</a>
 		<Container
 			px={[4, 12]}
 			py="3"
