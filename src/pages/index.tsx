@@ -38,7 +38,7 @@ const Index = () => {
 				{/* <Container as={Flex} maxW="container.lg"> */}
 				<Flex flexDir="column" justify="center" align="center" flexGrow="1" minW="50vw">
 					<Text fontSize="2xl" fontWeight="700">
-						12-15{" "}
+						13-15{" "}
 						<Text as="span" color="red.400">
 							MAY
 						</Text>{" "}
