@@ -18,16 +18,16 @@
         "bg": "#fff"
     },
     {
-        "name": "Taskade",
-        "iconPath": "/sponsors/taskade.svg",
-        "siteUrl": "https://www.taskade.com/",
-        "bg": "gray.500"
+        "name": "Interview Cake",
+        "iconPath": "/sponsors/interview-cake.svg",
+        "siteUrl": "https://www.interviewcake.com/",
+        "bg": "#fff"
     },
     {
-        "name": "Echo3D",
-        "iconPath": "/sponsors/echo3D.webp",
-        "siteUrl": "#",
-        "bg": "gray.500"
+        "name": "Rosenfeld Media",
+        "iconPath": "/sponsors/rosenfeld.svg",
+        "siteUrl": "https://www.rosenfeldmedia.com/",
+        "bg": "#fff"
     },
     {
         "name": "TestMail",
@@ -40,5 +40,17 @@
         "iconPath": "/sponsors/voiceflow.svg",
         "siteUrl": "https://www.voiceflow.com/",
         "bg": "#fff"
+    },
+    {
+        "name": "Taskade",
+        "iconPath": "/sponsors/taskade.svg",
+        "siteUrl": "https://www.taskade.com/",
+        "bg": "gray.500"
+    },
+    {
+        "name": "Echo3D",
+        "iconPath": "/sponsors/echo3D.webp",
+        "siteUrl": "#",
+        "bg": "gray.500"
     }
 ]

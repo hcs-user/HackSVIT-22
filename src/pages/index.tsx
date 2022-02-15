@@ -7,6 +7,7 @@ import {
 	HStack,
 	Image,
 	Link as ChakraLink,
+	Link,
 	Text,
 } from "@chakra-ui/react";
 import Areas from "@components/Areas";
@@ -14,6 +15,7 @@ import FAQs from "@components/FAQs";
 import Footer from "@components/Footer";
 import SPONSORS from "data/sponsors.json";
 import { motion, useViewportScroll } from "framer-motion";
+import { useRouter } from "next/router";
 import React, { useEffect } from "react";
 import Marquee from "react-fast-marquee";
 
@@ -22,7 +24,7 @@ const FORM_LINK = "https://form.typeform.com/to/n1g8GYnj";
 
 const Index = () => {
 	const { scrollYProgress } = useViewportScroll();
-
+	const { push } = useRouter();
 	useEffect(() => console.log(scrollYProgress), [scrollYProgress]);
 
 	return (
@@ -47,16 +49,16 @@ const Index = () => {
 					<Logo my="5" />
 
 					<HStack my="4" spacing="8">
-						<form action={FORM_LINK} method="get" target="_blank">
+						<a href={FORM_LINK} target="_blank">
 							<Button variant="solid" colorScheme="purple">
 								Register Now
 							</Button>
-						</form>
-						<form action={DISCORD_LINK} method="get" target="_blank">
+						</a>
+						<a href={DISCORD_LINK} target="_blank">
 							<Button type="submit" variant="outline" colorScheme="red">
 								Join Discord
 							</Button>
-						</form>
+						</a>
 					</HStack>
 				</Flex>
 				<Box
@@ -103,6 +105,7 @@ const Index = () => {
 								<motion.div>
 									<ChakraLink
 										target="_blank"
+										href={s.siteUrl}
 										as={Flex}
 										m="3"
 										p="2"

@@ -41,13 +41,25 @@ const AREAS = [
 
 export default function Areas() {
 	return (
-		<SimpleGrid columns={[1, 2, 3]} spacing="3">
+		<SimpleGrid columns={[1, 2]} spacing="3">
 			{AREAS.map(({ title, description, graphic, color }, i) => (
-				<Flex key={i} maxW="md" align="center" flexDir="column" textAlign="center">
+				<Flex
+					key={i}
+					mx="auto"
+					my="4"
+					px="4"
+					py="2"
+					bg="purple.300"
+					rounded="md"
+					maxW="sm"
+					w="full"
+					align="center"
+					flexDir="column"
+					textAlign="center"
+				>
 					<Image src={graphic} h="auto" maxW="16" mb="4" />
 					<VStack spacing="0">
 						<Heading size="md">{title}</Heading>
-						<Text>{description}</Text>
 					</VStack>
 				</Flex>
 			))}

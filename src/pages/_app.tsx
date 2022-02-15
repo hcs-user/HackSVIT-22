@@ -19,38 +19,38 @@ import "../scss/shit-code.scss";
 function MyApp({ Component, pageProps, router }: AppProps) {
 	const cursor = useRef(null);
 
-	const handleMouseMove = e => {
-		cursor.current.style.top = `${e.clientY}px`;
-		cursor.current.style.left = `${e.clientX}px`;
-	};
+	// const handleMouseMove = e => {
+	// 	cursor.current.style.top = `${e.clientY}px`;
+	// 	cursor.current.style.left = `${e.clientX}px`;
+	// };
 
 	return (
 		<>
 			<ChakraProvider cssVarsRoot={undefined} resetCSS theme={theme}>
-				<div style={{ minHeight: "100%", minWidth: "100%" }} onMouseMove={handleMouseMove}>
-					<div className="cursor-style" ref={cursor} />
-					<AnimatePresence>
-						<motion.div
-							key={router.route}
-							initial="pageInitial"
-							animate="pageAnimate"
-							exit="pageInitial"
-							transition={{ duration: 0.7 }}
-							variants={{
-								pageInitial: {
-									opacity: 0,
-									y: -50,
-								},
-								pageAnimate: {
-									y: 0,
-									opacity: 1,
-								},
-							}}
-						>
-							<Component {...pageProps} />
-						</motion.div>
-					</AnimatePresence>
-				</div>
+				{/* <div style={{ minHeight: "100%", minWidth: "100%" }} onMouseMove={handleMouseMove}> */}
+				{/* <div className="cursor-style" ref={cursor} /> */}
+				<AnimatePresence>
+					<motion.div
+						key={router.route}
+						initial="pageInitial"
+						animate="pageAnimate"
+						exit="pageInitial"
+						transition={{ duration: 0.7 }}
+						variants={{
+							pageInitial: {
+								opacity: 0,
+								y: -50,
+							},
+							pageAnimate: {
+								y: 0,
+								opacity: 1,
+							},
+						}}
+					>
+						<Component {...pageProps} />
+					</motion.div>
+				</AnimatePresence>
+				{/* </div> */}
 			</ChakraProvider>
 		</>
 	);
