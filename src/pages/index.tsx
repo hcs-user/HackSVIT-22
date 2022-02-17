@@ -17,6 +17,7 @@ import FAQs from "@components/FAQs";
 import Footer from "@components/Footer";
 import SPONSORS from "data/sponsors.json";
 import { motion, useViewportScroll } from "framer-motion";
+import Head from "next/head";
 import { useRouter } from "next/router";
 import React, { useEffect } from "react";
 import Marquee from "react-fast-marquee";
@@ -31,6 +32,16 @@ const Index = () => {
 
 	return (
 		<>
+			<Head>
+				<title>Hack SVIT | SVIT Vasad</title>
+
+				<meta property="og:title" content="Hack SVIT | SVIT Vasad" key="title" />
+				<meta
+					property="og:title"
+					content="HackSVIT is going to be an in-person hackathon at Sardar Vallabhbhai Patel Institute of	Technology (Vasad). It will be a 36-hour long joy ride where students will go build awesome	projects, attend workshops, mentoring sessions, networking sessions & fun mini-events."
+					key="description"
+				/>
+			</Head>
 			<Flex
 				h="100vh"
 				align="center"
