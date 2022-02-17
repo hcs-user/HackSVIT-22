@@ -1,6 +1,7 @@
 import {
 	Box,
 	Button,
+	Center,
 	Container,
 	Flex,
 	Heading,
@@ -8,6 +9,7 @@ import {
 	Image,
 	Link as ChakraLink,
 	Link,
+	LinkBox,
 	Text,
 } from "@chakra-ui/react";
 import Areas from "@components/Areas";
@@ -38,7 +40,7 @@ const Index = () => {
 				pos="relative"
 			>
 				{/* <Container as={Flex} maxW="container.lg"> */}
-				<Flex flexDir="column" justify="center" align="center" flexGrow="1" minW="50vw">
+				<Flex zIndex="10" flexDir="column" justify="center" align="center" flexGrow="1" minW="50vw">
 					<Text fontSize="2xl" fontWeight="700">
 						13-15{" "}
 						<Text as="span" color="red.400">
@@ -48,18 +50,24 @@ const Index = () => {
 					</Text>
 					<Logo my="5" />
 
-					<HStack my="4" spacing="8">
-						<a href={FORM_LINK} target="_blank">
-							<Button variant="solid" colorScheme="purple">
-								Register Now
-							</Button>
-						</a>
-						<a href={DISCORD_LINK} target="_blank">
-							<Button type="submit" variant="outline" colorScheme="red">
-								Join Discord
-							</Button>
-						</a>
-					</HStack>
+					<Flex my="4" flexDir={["column", "row"]}>
+						<Button
+							m="2"
+							variant="solid"
+							colorScheme="purple"
+							onClick={() => window.open(FORM_LINK, "_blank")}
+						>
+							Pre-register Now
+						</Button>
+						<Button
+							m="2"
+							variant="outline"
+							colorScheme="red"
+							onClick={() => window.open(DISCORD_LINK, "_blank")}
+						>
+							Join Discord
+						</Button>
+					</Flex>
 				</Flex>
 				<Box
 					pos="absolute"
@@ -124,6 +132,17 @@ const Index = () => {
 			</Box>
 			<Box bg="purple.800">
 				<FAQs />
+			</Box>
+			<Box bg="purple.300">
+				<Center flexDir="column" py="4">
+					<Text>Still having doubts?</Text>
+					<Text fontSize={["1.6rem", null, "4rem"]} fontWeight="300">
+						<Text as="span" color="orange.400">
+							hello
+						</Text>
+						@hackclubsvit.co
+					</Text>
+				</Center>
 			</Box>
 			{/* <Container maxW="container.lg" textAlign="center" py="8">
 				<Text fontSize="4rem" fontWeight="300">
