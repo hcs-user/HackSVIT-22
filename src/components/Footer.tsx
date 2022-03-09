@@ -14,8 +14,8 @@ import { default as NextLink } from "next/link";
 import { FiFacebook, FiInstagram, FiTwitter } from "react-icons/fi";
 
 const FACEBOOK_LINK = "https://facebook.com/hackclubsvit";
-const TWITTER_LINK = "https://facebook.com/hackclubsvit";
-const INSTAGRAM_LINK = "https://facebook.com/hackclubsvit";
+const TWITTER_LINK = "https://twitter.com/hackclubsvit";
+const INSTAGRAM_LINK = "https://instagram.com/hackclubsvit";
 
 const Footer = () => (
 	<Stack py="4" bg="purple.800" color="white" align="center">
