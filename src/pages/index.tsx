@@ -147,7 +147,7 @@ const Index = () => {
 			<Box bg="purple.300">
 				<Center flexDir="column" py="4">
 					<Text>Still having doubts?</Text>
-					<Text fontSize={["1.6rem", null, "4rem"]} fontWeight="300">
+					<Text fontSize={["1.6rem", null, "4rem"]} fontWeight="300"  onClick="mailto:hello@hackclubsvit.co">
 						<Text as="span" color="orange.400">
 							hello
 						</Text>
