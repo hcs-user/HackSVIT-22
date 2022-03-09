@@ -35,7 +35,11 @@ const Index = () => {
 			<Head>
 				<title>Hack SVIT | SVIT Vasad</title>
 
-				<meta property="og:title" content="Hack SVIT | SVIT Vasad" key="title" />
+				<meta
+					property="og:title"
+					content="Hack SVIT | SVIT Vasad"
+					key="title"
+				/>
 				<meta
 					property="og:title"
 					content="HackSVIT is going to be an in-person hackathon at Sardar Vallabhbhai Patel Institute of	Technology (Vasad). It will be a 36-hour long joy ride where students will go build awesome	projects, attend workshops, mentoring sessions, networking sessions & fun mini-events."
@@ -51,7 +55,14 @@ const Index = () => {
 				pos="relative"
 			>
 				{/* <Container as={Flex} maxW="container.lg"> */}
-				<Flex zIndex="10" flexDir="column" justify="center" align="center" flexGrow="1" minW="50vw">
+				<Flex
+					zIndex="10"
+					flexDir="column"
+					justify="center"
+					align="center"
+					flexGrow="1"
+					minW="50vw"
+				>
 					<Text fontSize="2xl" fontWeight="700">
 						29/04/2022{" "}
 						<Text as="span" color="red.400">
@@ -98,9 +109,11 @@ const Index = () => {
 				<Container py="20" maxW="container.lg">
 					<Heading>About Hack SVIT</Heading>
 					<Text>
-						HackSVIT is going to be an in-person hackathon at Sardar Vallabhbhai Patel Institute of
-						Technology (Vasad). It will be a 36-hour long joy ride where students will go build awesome
-						projects, attend workshops, mentoring sessions, networking sessions & fun mini-events.
+						HackSVIT is going to be an in-person hackathon at Sardar
+						Vallabhbhai Patel Institute of Technology (Vasad). It
+						will be a 36-hour long joy ride where students will go
+						build awesome projects, attend workshops, mentoring
+						sessions, networking sessions & fun mini-events.
 					</Text>
 				</Container>
 			</Flex>
@@ -120,7 +133,7 @@ const Index = () => {
 					</Heading>
 					<Marquee gradient={false} speed={100}>
 						<HStack>
-							{SPONSORS.map(s => (
+							{SPONSORS.map((s) => (
 								<motion.div>
 									<ChakraLink
 										target="_blank"
@@ -133,7 +146,11 @@ const Index = () => {
 										userSelect="none"
 										_hover={{ transform: "scale(1.1)" }}
 									>
-										<Image h="16" rounded="lg" src={s.iconPath} />
+										<Image
+											h="16"
+											rounded="lg"
+											src={s.iconPath}
+										/>
 									</ChakraLink>
 								</motion.div>
 							))}
@@ -147,12 +164,20 @@ const Index = () => {
 			<Box bg="purple.300">
 				<Center flexDir="column" py="4">
 					<Text>Still having doubts?</Text>
-					<Text fontSize={["1.6rem", null, "4rem"]} fontWeight="300"  onClick="mailto:hello@hackclubsvit.co">
-						<Text as="span" color="orange.400">
-							hello
+					<Link
+						href="mailto:hello@hackclubsvit.co"
+						_hover={{ textDecor: "none" }}
+					>
+						<Text
+							fontSize={["1.6rem", null, "4rem"]}
+							fontWeight="300"
+						>
+							<Text as="span" color="orange.400">
+								hello
+							</Text>
+							@hackclubsvit.co
 						</Text>
-						@hackclubsvit.co
-					</Text>
+					</Link>
 				</Center>
 			</Box>
 			{/* <Container maxW="container.lg" textAlign="center" py="8">
@@ -171,7 +196,14 @@ const Index = () => {
 export default Index;
 
 const Logo = ({ ...rest }) => (
-	<Box as="svg" w="full" maxW="600" viewBox="0 0 1114 223" fill="none" {...rest}>
+	<Box
+		as="svg"
+		w="full"
+		maxW="600"
+		viewBox="0 0 1114 223"
+		fill="none"
+		{...rest}
+	>
 		{/* <svg width="1114" height="223"  xmlns="http://www.w3.org/2000/svg"> */}
 		<path
 			d="M215.25 8.17999V80.18C215.25 80.6046 215.183 81.0266 215.05 81.43L192.74 148.36L169.84 217.06C169.581 217.844 169.081 218.526 168.411 219.009C167.741 219.492 166.936 219.752 166.11 219.75H147.35C146.308 219.75 145.308 219.336 144.571 218.599C143.834 217.862 143.42 216.862 143.42 215.82V152.3C143.421 151.782 143.32 151.269 143.123 150.791C142.925 150.312 142.635 149.877 142.269 149.511C141.903 149.145 141.468 148.855 140.989 148.657C140.511 148.46 139.998 148.359 139.48 148.36H75.48C74.435 148.36 73.4329 148.775 72.694 149.514C71.9551 150.253 71.54 151.255 71.54 152.3V215.82C71.54 216.862 71.1259 217.862 70.3889 218.599C69.6519 219.336 68.6523 219.75 67.61 219.75H3.92999C2.88769 219.75 1.88808 219.336 1.15106 218.599C0.414044 217.862 0 216.862 0 215.82V8.17999C0 7.6639 0.101663 7.15287 0.299164 6.67606C0.496665 6.19925 0.786128 5.76601 1.15106 5.40108C1.516 5.03614 1.94925 4.74665 2.42606 4.54915C2.90287 4.35165 3.4139 4.25 3.92999 4.25H67.65C68.6923 4.25 69.6919 4.66406 70.4289 5.40108C71.1659 6.1381 71.58 7.13769 71.58 8.17999V72.4C71.5827 73.4432 71.9989 74.4428 72.7375 75.1795C73.4762 75.9163 74.4768 76.33 75.52 76.33H139.52C140.037 76.3313 140.549 76.2306 141.027 76.0337C141.505 75.8368 141.939 75.5475 142.305 75.1825C142.671 74.8174 142.962 74.3837 143.16 73.9062C143.358 73.4288 143.46 72.9169 143.46 72.4V8.17999C143.46 7.6639 143.562 7.15287 143.759 6.67606C143.957 6.19925 144.246 5.76601 144.611 5.40108C144.976 5.03614 145.409 4.74665 145.886 4.54915C146.363 4.35165 146.874 4.25 147.39 4.25H211.39C212.42 4.26835 213.402 4.69048 214.124 5.42552C214.846 6.16056 215.25 7.14971 215.25 8.17999V8.17999Z"
