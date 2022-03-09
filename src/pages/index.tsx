@@ -53,11 +53,11 @@ const Index = () => {
 				{/* <Container as={Flex} maxW="container.lg"> */}
 				<Flex zIndex="10" flexDir="column" justify="center" align="center" flexGrow="1" minW="50vw">
 					<Text fontSize="2xl" fontWeight="700">
-						13-15{" "}
+						29/04/2022{" "}
 						<Text as="span" color="red.400">
-							MAY
+							to
 						</Text>{" "}
-						2022
+						01/05/2022
 					</Text>
 					<Logo my="5" />
 
