@@ -12,7 +12,7 @@ export default function Home() {
 						</Box>
 						<Heading color="yellow.300" size="lg" transform="rotate(-15deg)">Coming soon</Heading>
 					</Box>
-					<Logo h="120" w="auto" />
+					<Logo h={[40, "60px", 120]} w="auto" />
 					<Text color="gray.500" fontSize="2xl" fontWeight="700">
 						12-14 May 2022
 					</Text>
