@@ -16,16 +16,17 @@ const breakpoints = createBreakpoints({
 const colors = {
 	white: "#F0F1F1",
 	black: "#0D0F0F",
+	// red done
 	red: {
-		50: "#FFE3EE",
-		100: "#FFAACD",
-		200: "#FE72AC",
-		300: "#FE398A",
-		400: "#FE0169",
-		500: "#C60152",
-		600: "#8D013A",
+		50: "#ffe3ee",
+		100: "#ffaacd",
+		200: "#fe72ac",
+		300: "#fe398a",
+		400: "#fe0169",
+		500: "#c60152",
+		600: "#8d013a",
 		700: "#550023",
-		800: "#1C000C",
+		800: "#1c000c",
 	},
 	purple: {
 		50: "#EFE3FF",
