@@ -9,10 +9,12 @@ import {
 	VStack,
 } from "@chakra-ui/react";
 import { FullLogo } from "@components/Branding";
+import Navbar from "@components/Navbar";
 
 export default function Home() {
 	return (
 		<>
+			<Navbar />
 			<Container
 				as={Flex}
 				pt='60'
