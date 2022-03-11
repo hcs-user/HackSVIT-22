@@ -1,5 +1,6 @@
 import { Box, Button, Container, Flex, Heading, HStack, Text, VStack } from "@chakra-ui/react";
 import Logo from "@components/Logo";
+import { OpenDoodle } from "@components/svgs";
 
 export default function Home() {
 	return (
@@ -29,7 +30,12 @@ export default function Home() {
 							}}>
 							Register Now
 						</Button>
-						<Button variant={'outline'} rounded={'full'} fontSize={'lg'} p={7}>
+						<Button variant={'outline'} rounded={'full'} fontSize={'lg'} p={7} borderColor="blue.400"
+							_focus={{
+								border: "1px",
+								borderColor: "blue.400",
+							}}
+						>
 							Join Discord
 						</Button>
 					</HStack>
@@ -48,7 +54,7 @@ export default function Home() {
 				</Heading>
 				<Flex flexDir={["column", null, "row"]} align="center">
 					<Text fontSize="xl">
-						imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit amet mattis vulputateimperdiet massa tincidunt nunc pulvinar sapien
+						HackSVIT is going to be an in-person hackathon at Sardar Vallabhbhai Patel Institute of Technology (Vasad). It will be a 36-hour long joy ride where students will go build awesome projects, attend workshops, mentoring sessions, networking sessions & fun mini-events.
 					</Text>
 					<Box h="full" rounded="xl" bg="gray.700" w="full"></Box>
 
