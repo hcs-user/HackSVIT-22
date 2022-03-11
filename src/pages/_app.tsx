@@ -11,6 +11,7 @@ import "@fontsource/poppins/700.css";
 import { AnimatePresence, motion } from "framer-motion";
 import { AppProps } from "next/app";
 import theme from "../theme";
+import 'swiper/css';
 
 
 function MyApp({ Component, pageProps, router }: AppProps) {

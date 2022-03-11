@@ -9,6 +9,7 @@ import {
 	VStack,
 } from "@chakra-ui/react";
 import { FullLogo } from "@components/Branding";
+import ThemeCard from "@components/ThemeCard";
 
 export default function Home() {
 	return (
@@ -111,7 +112,8 @@ export default function Home() {
 						/>
 					</Box>
 				</Flex>
-				<Box h='80' rounded='xl' bg='gray.700' w='full'></Box>
+					
+				<ThemeCard/>
 			</Container>
 			<Container maxW='container.xl' pb='6'>
 				<Flex align='flex-end' gap='4' mb='4'>
