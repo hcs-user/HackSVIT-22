@@ -109,6 +109,7 @@ const theme = extendTheme({
 			},
 			"button:focus": {
 				boxShadow: "none",
+				border: "none"
 			},
 		},
 	},

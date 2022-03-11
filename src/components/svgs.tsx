@@ -1694,7 +1694,7 @@ export const BlockchainDoodle = createIcon({
 							fill="#0083ff"
 							stroke="#fff"
 							stroke-miterlimit="10"
-							stroke-width="5"
+							strokeWidth="5"
 						/>
 						<path
 							id="Path_455"
@@ -1703,7 +1703,7 @@ export const BlockchainDoodle = createIcon({
 							fill="#0083ff"
 							stroke="#fff"
 							stroke-miterlimit="10"
-							stroke-width="5"
+							strokeWidth="5"
 						/>
 						<path
 							id="Path_456"
