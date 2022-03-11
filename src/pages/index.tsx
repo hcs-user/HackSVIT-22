@@ -97,7 +97,7 @@ export default function Home() {
 				</Flex>
 			</Container>
 			<Container maxW='container.xl' pb='6'>
-				<Flex align='flex-end' gap='4' mb='4'>
+				<Flex align='flex-end' gap='4' mb='12'>
 					<Heading size='2xl'>Theme</Heading>
 					<Box as='svg' viewBox='0 0 370.202 403.333' maxW='sm' mb='2'>
 						<path
@@ -112,7 +112,6 @@ export default function Home() {
 						/>
 					</Box>
 				</Flex>
-					
 				<ThemeCard/>
 			</Container>
 			<Container maxW='container.xl' pb='6'>
