@@ -1649,7 +1649,7 @@ export const BlockchainDoodle = createIcon({
 							fill="#0083ff"
 							stroke="#fff"
 							stroke-miterlimit="10"
-							stroke-width="5"
+							strokeWidth="5"
 						/>
 						<path
 							id="Path_450"
@@ -1820,6 +1820,7 @@ export const BlockchainDoodle = createIcon({
 		</>
 	),
 });
+
 export const SocialWelfareDoodle = createIcon({
 	displayName: "SocialWelfareDoodle",
 	viewBox: "0 0 330.19 233.943",
@@ -2029,6 +2030,7 @@ export const SocialWelfareDoodle = createIcon({
 		</>
 	),
 });
+
 export const FinanceDoodle = createIcon({
 	displayName: "FinanceDoodle",
 	viewBox: "0 0 478.487 207.281",
@@ -2568,6 +2570,7 @@ export const FinanceDoodle = createIcon({
 		</>
 	),
 });
+
 export const OpenDoodle = createIcon({
 	displayName: "OpenDoodle",
 	viewBox: "0 0 296.57 315",
