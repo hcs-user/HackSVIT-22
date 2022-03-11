@@ -14,8 +14,25 @@ export default function Home() {
 					</Box>
 					<Logo h={[40, "60px", 120]} w="auto" />
 					<Text color="gray.500" fontSize="2xl" fontWeight="700">
-						29 April - 1 March 2022
+						29-04-2022 to 01-05-2022
 					</Text>
+					<HStack gap={48} p={10}>
+						<Button bg={'blue.400'} rounded={'full'} fontSize={'lg'} p={7}
+							_hover={{
+								bg: "blue.500"
+							}}
+							_active={{
+								bg: "blue.400"
+							}}
+							_focus={{
+								border: "none"
+							}}>
+							Register Now
+						</Button>
+						<Button variant={'outline'} rounded={'full'} fontSize={'lg'} p={7}>
+							Join Discord
+						</Button>
+					</HStack>
 				</VStack>
 			</Container>
 			<Container maxW="container.xl" my="4">
@@ -39,7 +56,6 @@ export default function Home() {
 			</Container>
 			<Container maxW="container.xl" pb="6">
 				<Flex align="flex-end" gap='4' mb="4">
-
 					<Heading size="2xl" >
 						Theme
 					</Heading>
