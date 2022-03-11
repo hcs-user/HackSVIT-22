@@ -42,11 +42,7 @@ export default function Home() {
 								strokeWidth='5'
 							/>
 						</Box>
-						<Heading
-							color='yellow.300'
-							size='lg'
-							transform='rotate(-15deg)'
-						>
+						<Heading color='yellow.300' size='lg' transform='rotate(-15deg)'>
 							Coming soon
 						</Heading>
 					</Box>
@@ -92,10 +88,9 @@ export default function Home() {
 				</Heading>
 				<Flex flexDir={["column", null, "row"]} align='center'>
 					<Text fontSize='xl'>
-						imperdiet massa tincidunt nunc pulvinar sapien et ligula
-						ullamcorper malesuada proin libero nunc consequat
-						interdum varius sit amet mattis vulputateimperdiet massa
-						tincidunt nunc pulvinar sapien
+						imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper
+						malesuada proin libero nunc consequat interdum varius sit amet mattis
+						vulputateimperdiet massa tincidunt nunc pulvinar sapien
 					</Text>
 					<Box h='full' rounded='xl' bg='gray.700' w='full'></Box>
 				</Flex>
@@ -103,12 +98,7 @@ export default function Home() {
 			<Container maxW='container.xl' pb='6'>
 				<Flex align='flex-end' gap='4' mb='4'>
 					<Heading size='2xl'>Theme</Heading>
-					<Box
-						as='svg'
-						viewBox='0 0 370.202 403.333'
-						maxW='sm'
-						mb='2'
-					>
+					<Box as='svg' viewBox='0 0 370.202 403.333' maxW='sm' mb='2'>
 						<path
 							id='Path_11'
 							data-name='Path 11'
@@ -126,12 +116,7 @@ export default function Home() {
 			<Container maxW='container.xl' pb='6'>
 				<Flex align='flex-end' gap='4' mb='4'>
 					<Heading size='2xl'>Speakers & Judges</Heading>
-					<Box
-						as='svg'
-						viewBox='0 0 661.099 359.579'
-						maxW='md'
-						mb='2'
-					>
+					<Box as='svg' viewBox='0 0 661.099 359.579' maxW='md' mb='2'>
 						<path
 							data-name='Path 14'
 							d='M1929.157,5045.173c21.265,294.752-134.373,288.267-279.152,184.251s-209.538,142.455-364.223,159.051'
@@ -147,13 +132,7 @@ export default function Home() {
 				<Box h='80' rounded='xl' bg='gray.700' w='full'></Box>
 			</Container>
 			<Container maxW='container.xl' pb='6'>
-				<Box
-					as='svg'
-					viewBox='0 0 361.402 196.332'
-					my='4'
-					ps='20'
-					maxW='lg'
-				>
+				<Box as='svg' viewBox='0 0 361.402 196.332' my='4' ps='20' maxW='lg'>
 					<path
 						id='Path_13'
 						data-name='Path 13'
