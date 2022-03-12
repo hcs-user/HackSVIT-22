@@ -6,10 +6,10 @@ export default function Navbar() {
 	const { isOpen, onOpen, onClose } = useDisclosure();
 
 	return (
-		<Box pos='fixed' top='0' left='0' w='full' zIndex='10'>
+		<Box pos='fixed' top='0' left='0' w='full' zIndex='10' bg={isOpen ? 'blue.300' : 'transparent'}>
 			<Container as={Flex} maxW='container.xl' justify='space-between' py='5'>
 				<MonogramLogo h='10' w='auto' />
-				<Button size='lg' variant='ghost'>
+				<Button size='lg' variant='ghost' onClick={isOpen ? onClose : onOpen}>
 					Menu
 				</Button>
 			</Container>
