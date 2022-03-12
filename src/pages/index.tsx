@@ -10,6 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { FullLogo } from "@components/Branding";
 import Navbar from "@components/Navbar";
+import Speaker from "@components/Speaker";
 import ThemeCard from "@components/ThemeCard";
 
 export default function Home() {
@@ -132,7 +133,7 @@ export default function Home() {
 						/>
 					</Box>
 				</Flex>
-				<Box h='80' rounded='xl' bg='gray.700' w='full'></Box>
+				<Speaker />
 			</Container>
 			<Container maxW='container.xl' pb='6'>
 				<Box as='svg' viewBox='0 0 361.402 196.332' my='4' ps='20' maxW='lg'>
