@@ -26,7 +26,7 @@ export default function Home() {
 				pos='relative'
 			>
 				<VStack pos='relative' spacing='6'>
-					<Box pos='absolute' top='-1rem' left='-7rem'>
+					<Box pos='absolute' top='-1rem' left={["0rem", "-4rem", "-7rem"]}>
 						<Box
 							as='svg'
 							viewBox='0 0 353.877 192.802'
@@ -50,7 +50,7 @@ export default function Home() {
 							Coming soon
 						</Heading>
 					</Box>
-					<FullLogo h={[12, 20, 24, 120]} w='auto'/>
+					<FullLogo h={[12, 20, 24, 120]} w='auto' />
 					<Text fontSize='2xl' color='red.400' fontWeight='700'>
 						29 Apr - 1 May
 					</Text>
