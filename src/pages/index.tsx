@@ -12,11 +12,13 @@ import { FullLogo } from "@components/Branding";
 import Navbar from "@components/Navbar";
 import Speaker from "@components/Speaker";
 import ThemeCard from "@components/ThemeCard";
+import Footer from "../components/Footer";
 
 export default function Home() {
 	return (
 		<>
 			<Navbar />
+
 			<Container
 				as={Flex}
 				pt='60'
@@ -154,12 +156,13 @@ export default function Home() {
 						strokeWidth='15'
 					/>
 				</Box>
-
 				<Flex align='flex-end' gap='4' mb='4'>
 					<Heading size='2xl'>Prizes</Heading>
 				</Flex>
 				<Box h='80' rounded='xl' bg='gray.700' w='full'></Box>
 			</Container>
+
+			<Footer/>
 		</>
 	);
 }

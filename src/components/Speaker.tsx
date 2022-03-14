@@ -9,7 +9,7 @@ export default function Speaker() {
             grabCursor={true}
             breakpoints={{
                 280: {
-                    slidesPerView: 1.2,
+                    slidesPerView: 1.4,
                 },
                 620: {
                     slidesPerView: 2.4,
