@@ -28,31 +28,34 @@ export default function Home() {
 				pos='relative'
 			>
 				<VStack pos='relative' spacing='6'>
-					<Box pos='absolute' top='-1rem' left={["0rem", "-4rem", "-7rem"]}>
-						<Box
-							as='svg'
-							viewBox='0 0 353.877 192.802'
-							pos='absolute'
-							top='-90%'
-							left='0'
-						>
-							<path
-								id='Path_19'
-								data-name='Path 19'
-								d='M-2033.143,7922.238c-20.067-60.759-340.043-56.942-329.426,17.91,5.044,35.555,93.888,44.429,172.719,42.382,87.373-2.269,164.918-19.312,156.707-60.292-15.641-78.057-278.2-56.812-329.426,17.91'
-								transform='translate(-37.86 8320.525) rotate(166)'
-								fill='none'
-								stroke='#0083ff'
-								strokeLinecap='round'
-								strokeLinejoin='round'
-								strokeWidth='5'
-							/>
+					<Box>
+						<Box pos='absolute' top='-1rem' left={["0rem", "-4rem", "-7rem"]}>
+							<Box
+								as='svg'
+								viewBox='0 0 353.877 192.802'
+								pos='absolute'
+								top={['-80%', null, '-90%']}
+								left='0'
+								transform={['rotate(7deg)', null, undefined]}
+							>
+								<path
+									id='Path_19'
+									data-name='Path 19'
+									d='M-2033.143,7922.238c-20.067-60.759-340.043-56.942-329.426,17.91,5.044,35.555,93.888,44.429,172.719,42.382,87.373-2.269,164.918-19.312,156.707-60.292-15.641-78.057-278.2-56.812-329.426,17.91'
+									transform='translate(-37.86 8320.525) rotate(166)'
+									fill='none'
+									stroke='#0083ff'
+									strokeLinecap='round'
+									strokeLinejoin='round'
+									strokeWidth='5'
+								/>
+							</Box>
+							<Heading color='yellow.300' fontSize={['md', 'xl', '3xl']} transform={['rotate(-7deg)', null, 'rotate(-15deg)']}>
+								Coming soon
+							</Heading>
 						</Box>
-						<Heading color='yellow.300' fontSize={['lg','xl','3xl']} transform='rotate(-15deg)'>
-							Coming soon
-						</Heading>
+						<FullLogo w={['100%', 480, 680]} h='auto' mt={[2, null, 6]} />
 					</Box>
-					<FullLogo h={[12, 20, 24, 120]} w='auto' />
 					<Text fontSize='2xl' color='red.400' fontWeight='700'>
 						29 Apr - 1 May
 					</Text>

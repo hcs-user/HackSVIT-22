@@ -9,11 +9,11 @@ import {
 } from "./svgs";
 
 const doodle = [
-	<BlockchainDoodle h='60' w='60' />,
-	<EducationDoodle h='60' w='60' />,
-	<FinanceDoodle h='60' w='60' />,
-	<OpenDoodle h='60' w='60' />,
-	<SocialWelfareDoodle h='60' w='60' />
+	<BlockchainDoodle h={[40, null, 60]} w={[40, null, 60]} />,
+	<EducationDoodle h={[40, null, 60]} w={[40, null, 60]} />,
+	<FinanceDoodle h={[40, null, 60]} w={[40, null, 60]} />,
+	<OpenDoodle h={[40, null, 60]} w={[40, null, 60]} />,
+	<SocialWelfareDoodle h={[40, null, 60]} w={[40, null, 60]} />
 ]
 
 export default function ThemeCard() {
