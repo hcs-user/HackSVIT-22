@@ -70,6 +70,7 @@ export default function Home() {
 					</Flex>
 				</VStack>
 			</Container>
+
 			<Container maxW='container.xl' my='4'>
 				<Box maxW='container.sm'>
 					<Box as='svg' viewBox='0 0 645.453 446.241' ps='6'>
@@ -86,6 +87,7 @@ export default function Home() {
 					</Box>
 				</Box>
 			</Container>
+
 			<Container maxW='container.xl' my='4'>
 				<Heading size='2xl' mb='4'>
 					About
@@ -99,6 +101,7 @@ export default function Home() {
 					<Box h='full' rounded='xl' bg='gray.700' w='full'></Box>
 				</Flex>
 			</Container>
+
 			<Container maxW='container.xl' pb='6'>
 				<Flex align='flex-end' gap='4' mb='12'>
 					<Heading size='2xl'>Theme</Heading>
@@ -117,8 +120,9 @@ export default function Home() {
 				</Flex>
 				<ThemeCard />
 			</Container>
+
 			<Container maxW='container.xl' pb='6'>
-				<Flex align='flex-end' gap='4' mb='4'>
+				<Flex align='flex-end' gap='4' mb='12'>
 					<Heading size='2xl'>Speakers & Judges</Heading>
 					<Box as='svg' viewBox='0 0 661.099 359.579' maxW='md' mb='2'>
 						<path
@@ -135,6 +139,7 @@ export default function Home() {
 				</Flex>
 				<Speaker />
 			</Container>
+
 			<Container maxW='container.xl' pb='6'>
 				<Box as='svg' viewBox='0 0 361.402 196.332' my='4' ps='20' maxW='lg'>
 					<path
