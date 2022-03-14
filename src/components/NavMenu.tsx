@@ -1,4 +1,4 @@
-import { Box, Portal, Stack, Link } from "@chakra-ui/react";
+import { Box, Portal, Stack, Link, Heading, Text } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import { ReactNode } from "react";
 
@@ -12,7 +12,6 @@ const NavLink = ({ children }: { children: ReactNode }) => {
 			px={2}
 			py={1}
 			rounded={'md'}
-			textDecoration='none'
 			href={'#'}>
 			{children}
 		</Link>

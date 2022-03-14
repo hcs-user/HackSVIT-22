@@ -50,11 +50,11 @@ export default function Home() {
 							Coming soon
 						</Heading>
 					</Box>
-					<FullLogo h={[40, "60px", 120]} w='auto' />
+					<FullLogo h={[12, 20, 24, 120]} w='auto'/>
 					<Text fontSize='2xl' color='red.400' fontWeight='700'>
 						29 Apr - 1 May
 					</Text>
-					<Flex gap='8' p='10'>
+					<Flex gap='8' p='10' flexWrap='wrap' justifyContent='center'>
 						<Button colorScheme='blue' size='lg'>
 							Register Now
 						</Button>
