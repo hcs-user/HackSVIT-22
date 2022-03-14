@@ -48,7 +48,7 @@ export default function Home() {
 								strokeWidth='5'
 							/>
 						</Box>
-						<Heading color='yellow.300' size='lg' transform='rotate(-15deg)'>
+						<Heading color='yellow.300' fontSize={['lg','xl','3xl']} transform='rotate(-15deg)'>
 							Coming soon
 						</Heading>
 					</Box>
@@ -162,7 +162,7 @@ export default function Home() {
 				<Box h='80' rounded='xl' bg='gray.700' w='full'></Box>
 			</Container>
 
-			<Footer/>
+			<Footer />
 		</>
 	);
 }
