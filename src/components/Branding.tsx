@@ -64,6 +64,7 @@ export const FullLogo = createIcon({
 		</g>
 	),
 });
+
 export const MonogramLogo = createIcon({
 	displayName: "MonogramLogo",
 	viewBox: "0 0 76.097 81.927",
