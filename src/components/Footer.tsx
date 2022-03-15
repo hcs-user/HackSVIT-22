@@ -8,6 +8,7 @@ import {
   Text,
   IconButton,
   HStack,
+  Divider
 } from '@chakra-ui/react';
 import { ReactNode } from 'react';
 import { FaDiscord, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
@@ -64,8 +65,14 @@ export default function Footer() {
               <IconButton aria-label='Discord' icon={<FaDiscord />} />
             </HStack>
           </Stack>
+          
         </SimpleGrid>
+        <Box pt={10} >
+          <Divider/>
+        </Box>
+        <Text p={5} textAlign='center'>© 2021, Hack SVIT. All rights reserved.</Text>
       </Container>
+
     </Box>
   );
 }
