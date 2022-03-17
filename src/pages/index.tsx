@@ -9,8 +9,10 @@ import {
 	VStack,
 } from "@chakra-ui/react";
 import { FullLogo } from "@components/Branding";
+import FAQs from "@components/FAQs";
 import Navbar from "@components/Navbar";
 import Speaker from "@components/Speaker";
+import Sponsors from "@components/Sponsors";
 import ThemeCard from "@components/ThemeCard";
 import Footer from "../components/Footer";
 
@@ -29,7 +31,7 @@ export default function Home() {
 			>
 				<VStack pos='relative' spacing='6'>
 					<Box>
-						<Box pos='absolute' top='-1rem' left={["0rem", "-4rem", "-7rem"]}>
+						<Box pos='absolute' top='-1rem' left={["0rem", "-4rem", "-7rem"]} _hover={{ transform: 'rotate(7deg)' }}>
 							<Box
 								as='svg'
 								viewBox='0 0 353.877 192.802'
@@ -67,8 +69,15 @@ export default function Home() {
 							colorScheme='gray'
 							size='lg'
 							variant='outline'
-							borderColor='blue.400'
+							borderColor='blue.200'
 							borderWidth='2px'
+						// _hover={{
+						// 	bg: "blue.200",
+						// 	color: "black"
+						// }}
+						// _active={{
+						// 	bg: "blue.300"
+						// }}
 						>
 							Join Discord
 						</Button>
@@ -118,6 +127,7 @@ export default function Home() {
 							transform='translate(-2090.921 -356.868)'
 							fill='none'
 							stroke='#ffca39'
+							strokeLinecap='round'
 							strokeLinejoin='round'
 							strokeWidth='15'
 						/>
@@ -165,6 +175,8 @@ export default function Home() {
 				<Box h='80' rounded='xl' bg='gray.700' w='full'></Box>
 			</Container>
 
+			<Sponsors />
+			<FAQs/>
 			<Footer />
 		</>
 	);
