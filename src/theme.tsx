@@ -100,6 +100,7 @@ const theme = extendTheme({
 	styles: {
 		global: {
 			"html, body": {
+				scrollBehavior: "smooth",
 				height: "100%",
 				backgroundColor: "black",
 				// background: "linear-gradient(to left, #23272a, #001010)",
@@ -110,6 +111,18 @@ const theme = extendTheme({
 			// 	boxShadow: "none",
 			// 	border: "none",
 			// },
+			"&::-webkit-scrollbar": {
+				width: "1",
+				borderRadius: "8px",
+				backgroundColor: "transparent",
+			},
+			"&::-webkit-scrollbar-thumb": {
+				borderRadius: "5",
+				backgroundColor: "white",
+			},
+			"&::-webkit-scrollbar-thumb:hover": {
+				backgroundColor: "whitesmoke",
+			},
 		},
 	},
 	colors,
