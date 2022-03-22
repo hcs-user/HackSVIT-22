@@ -100,7 +100,6 @@ export default function Home() {
 							variant='outline'
 							borderColor='blue.200'
 							borderWidth='2px'
-<<<<<<< HEAD
 							_hover={{
 								bg: "blue.200",
 								color: "black"
@@ -108,17 +107,6 @@ export default function Home() {
 							_active={{
 								bg: "blue.300"
 							}}
-=======
-							py='2'
-							rounded='base'
-							// _hover={{
-							// 	bg: "blue.200",
-							// 	color: "black"
-							// }}
-							// _active={{
-							// 	bg: "blue.300"
-							// }}
->>>>>>> b5e97e6207dd3b5fda643671afde13adc46cafb0
 						>
 							Join Discord
 						</Button>
