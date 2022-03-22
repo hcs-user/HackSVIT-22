@@ -1,0 +1,22 @@
+[
+	{
+		"question": "Who can participate in the hackathon?",
+		"answer": "Everyone is welcome to apply, be it students, professionals or turing-test certified androids. As long as you wish to learn something, we'll be waiting to see you. If you are under 18 years of age, we’ll need a parental consent form."
+	},
+	{
+		"question": "Are there any fees to participate?",
+		"answer": "Nope. HackSVIT is free of cost and open for all."
+	},
+	{
+		"question": "Do I need a team?",
+		"answer": "Yes! keeping overall fairness and productivity in mind, participants will be required to have teams of EXACTLY 4 people."
+	},
+	{
+		"question": "What if I don't have a team?",
+		"answer": "No worries, head on to the Discord channel and meet people in the find-my-team channel."
+	},
+	{
+		"question": "Can I bring a project that was built earlier?",
+		"answer": "We apologize, but all the hackathon's projects should be developed during the event from scratch. All hackers will be strictly monitored for any kind of plagiarism or cheating."
+	}
+]

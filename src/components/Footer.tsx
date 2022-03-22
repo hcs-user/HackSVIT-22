@@ -1,66 +1,78 @@
 import {
+	Box,
+	chakra,
 	Container,
-	Flex,
-	Heading,
-	HStack,
-	Icon,
-	IconButton,
-	Image,
 	Link,
+	SimpleGrid,
 	Stack,
 	Text,
+	IconButton,
+	HStack,
+	Divider,
 } from "@chakra-ui/react";
-import { default as NextLink } from "next/link";
-import { FiFacebook, FiInstagram, FiTwitter } from "react-icons/fi";
+import { ReactNode } from "react";
+import { FaDiscord, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FullLogo } from "./Branding";
 
-const FACEBOOK_LINK = "https://facebook.com/hackclubsvit";
-const TWITTER_LINK = "https://twitter.com/hackclubsvit";
-const INSTAGRAM_LINK = "https://instagram.com/hackclubsvit";
+const List = ["Sponsors", "About", "Contact"];
 
-const Footer = () => (
-	<Stack py="4" bg="purple.800" color="white" align="center">
-		{/* <Heading size="lg" textAlign="center" mb="6"> */}
-
-		{/* </Heading> */}
-		<Text>Organized By</Text>
-
-		<Flex justify="center" align="center" flexDir={["column", "row"]}>
-			<Image h="40" src="/hsc.svg" />
-			<Image h="32" src="/codingclub.png" />
-			<Image h="40" src="/svit_25yrs.png" />
-		</Flex>
-		<Container
-			px={[4, 12]}
-			py="3"
-			maxW="container.xl"
-			as={Flex}
-			justify="space-between"
-			align="center"
+const FooterLink = ({ children }: { children: ReactNode }) => {
+	return (
+		<Link
+			py={1}
+			_hover={{
+				textDecoration: "none",
+			}}
+			href={"#"}
 		>
-			<Text fontSize="sm" lineHeight="tall">
-				© 2022 | Hack Club SVIT. All Rights Reserved.
-			</Text>
-			<HStack>
-				<IconButton
-					rounded="full"
-					aria-label="Facebook"
-					icon={<Icon as={FiFacebook} />}
-					onClick={() => window.open(FACEBOOK_LINK, "_blank")}
-				/>
-				<IconButton
-					rounded="full"
-					aria-label="Twitter"
-					icon={<Icon as={FiTwitter} />}
-					onClick={() => window.open(TWITTER_LINK, "_blank")}
-				/>
-				<IconButton
-					rounded="full"
-					aria-label="Instagram"
-					icon={<Icon as={FiInstagram} />}
-					onClick={() => window.open(INSTAGRAM_LINK, "_blank")}
-				/>
-			</HStack>
-		</Container>
-	</Stack>
-);
-export default Footer;
+			{children}
+		</Link>
+	);
+};
+
+const ListHeader = ({ children }: { children: ReactNode }) => {
+	return (
+		<Text fontWeight={"500"} fontSize={"lg"} mb={2}>
+			{children}
+		</Text>
+	);
+};
+
+export default function Footer() {
+	return (
+		<Box bg='gray.900'>
+			<Container as={Stack} maxW={"6xl"} py={10}>
+				<SimpleGrid
+					templateColumns={{ sm: "1fr 1fr", md: "2fr 2fr 2fr" }}
+					spacing={8}
+				>
+					<Stack alignItems='center' justifyContent='center'>
+						<FullLogo w={["100%", 300, 400]} h='auto' />
+					</Stack>
+					<Stack alignItems='center'>
+						<Stack>
+							<ListHeader>Explore</ListHeader>
+							{List.map((link) => {
+								return <FooterLink key={link}>{link}</FooterLink>;
+							})}
+						</Stack>
+					</Stack>
+					<Stack alignItems='center'>
+						<ListHeader>Find us online</ListHeader>
+						<HStack>
+							<IconButton aria-label='Instagram' icon={<FaInstagram />} />
+							<IconButton aria-label='Twitter' icon={<FaTwitter />} />
+							<IconButton aria-label='Discord' icon={<FaDiscord />} />
+						</HStack>
+					</Stack>
+				</SimpleGrid>
+				<Box pt={10}>
+					<Divider />
+				</Box>
+				<Text p={5} textAlign='center'>
+					© 2021, Hack SVIT. All rights reserved.
+				</Text>
+			</Container>
+		</Box>
+	);
+}
