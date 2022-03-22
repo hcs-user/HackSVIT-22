@@ -14,9 +14,20 @@ import Navbar from "@components/Navbar";
 import Speaker from "@components/Speaker";
 import Sponsors from "@components/Sponsors";
 import ThemeCard from "@components/ThemeCard";
+import { useEffect } from "react";
 import Footer from "../components/Footer";
 
 export default function Home() {
+	useEffect(() => {
+		const script = document.createElement("script");
+		script.src = "https://apply.devfolio.co/v2/sdk.js";
+		script.async = true;
+		script.defer = true;
+		document.body.appendChild(script);
+		return () => {
+			document.body.removeChild(script);
+		};
+	}, []);
 	return (
 		<>
 			<Navbar />
@@ -31,14 +42,19 @@ export default function Home() {
 			>
 				<VStack pos='relative' spacing='6'>
 					<Box>
-						<Box pos='absolute' top='-1rem' left={["0rem", "-4rem", "-7rem"]} _hover={{ transform: 'rotate(7deg)' }}>
+						<Box
+							pos='absolute'
+							top='-1rem'
+							left={["0rem", "-4rem", "-7rem"]}
+							_hover={{ transform: "rotate(7deg)" }}
+						>
 							<Box
 								as='svg'
 								viewBox='0 0 353.877 192.802'
 								pos='absolute'
-								top={['-80%', null, '-90%']}
+								top={["-80%", null, "-90%"]}
 								left='0'
-								transform={['rotate(7deg)', null, undefined]}
+								transform={["rotate(7deg)", null, undefined]}
 							>
 								<path
 									id='Path_19'
@@ -52,25 +68,39 @@ export default function Home() {
 									strokeWidth='5'
 								/>
 							</Box>
-							<Heading color='yellow.300' fontSize={['md', 'xl', '3xl']} transform={['rotate(-7deg)', null, 'rotate(-15deg)']}>
+							<Heading
+								color='yellow.300'
+								fontSize={["md", "xl", "3xl"]}
+								transform={["rotate(-7deg)", null, "rotate(-15deg)"]}
+							>
 								Coming soon
 							</Heading>
 						</Box>
-						<FullLogo w={['100%', 480, 680]} h='auto' mt={[2, null, 6]} />
+						<FullLogo w={["100%", 480, 680]} h='auto' mt={[2, null, 6]} />
 					</Box>
 					<Text fontSize='2xl' color='red.400' fontWeight='700'>
 						29 Apr - 1 May
 					</Text>
-					<Flex gap='8' p='10' flexWrap='wrap' justifyContent='center'>
-						<Button colorScheme='blue' size='lg'>
-							Register Now
-						</Button>
+					<Flex
+						gap='8'
+						p='10'
+						flexWrap='wrap'
+						flexDir='column'
+						justifyContent='center'
+					>
+						<div
+							className='apply-button'
+							data-hackathon-slug='hack-svit-22'
+							data-button-theme='dark'
+							style={{ height: "48px", width: "200px" }}
+						/>
 						<Button
 							colorScheme='gray'
 							size='lg'
 							variant='outline'
 							borderColor='blue.200'
 							borderWidth='2px'
+<<<<<<< HEAD
 							_hover={{
 								bg: "blue.200",
 								color: "black"
@@ -78,6 +108,17 @@ export default function Home() {
 							_active={{
 								bg: "blue.300"
 							}}
+=======
+							py='2'
+							rounded='base'
+							// _hover={{
+							// 	bg: "blue.200",
+							// 	color: "black"
+							// }}
+							// _active={{
+							// 	bg: "blue.300"
+							// }}
+>>>>>>> b5e97e6207dd3b5fda643671afde13adc46cafb0
 						>
 							Join Discord
 						</Button>
