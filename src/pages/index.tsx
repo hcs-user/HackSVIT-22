@@ -146,10 +146,10 @@ export default function Home() {
 				</Heading>
 				<Flex flexDir={["column", null, "row"]} align='center'>
 					<Text fontSize='xl'>
-						HackSVIT is going to be an in-person hackathon at Sardar Vallabhbhai Patel
-						Institute of Technology (Vasad). It will be a 36-hour long joy ride where
-						students will go build awesome projects, attend workshops, mentoring
-						sessions, networking sessions & fun mini-events.
+						HackSVIT found its roots in the common aim of providing an agile platform
+						for young hacking enthusiasts. Join us for a 36 hour long action-packed
+						event where like-minded people gather to manifest their ideas into reality
+						in the premises of Sardar Vallabhbhai Institute of Technology, Vasad.
 					</Text>
 					<Box h='full' rounded='xl' bg='gray.700' w='full'></Box>
 				</Flex>

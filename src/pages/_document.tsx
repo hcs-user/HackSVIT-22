@@ -1,12 +1,28 @@
 import NextDocument, { Html, Head, Main, NextScript } from "next/document";
 import { ColorModeScript } from "@chakra-ui/react";
-import { MonogramLogo } from "../components/Branding";
 
 export default class Document extends NextDocument {
 	render() {
 		return (
 			<Html>
-				<title>HACK SVIT</title>
+				<title>Hack SVIT | Gujarat's largest in-person hackathon</title>
+				<meta
+					name='description'
+					content='HackSVIT found its roots in the common aim of providing an agile platform for young hacking enthusiasts. Join us for a 36 hour long action-packed event where like-minded people gather to manifest their ideas into reality in the premises of Sardar Vallabhbhai Institute of Technology, Vasad.'
+				/>
+				<meta
+					property='og:title'
+					content="Hack SVIT | Gujarat's largest in-person hackathon"
+				/>
+				<meta
+					property='og:description'
+					content='HackSVIT found its roots in the common aim of providing an agile platform for young hacking enthusiasts. Join us for a 36 hour long action-packed event where like-minded people gather to manifest their ideas into reality in the premises of Sardar Vallabhbhai Institute of Technology, Vasad.'
+				/>
+				<meta
+					property='og:site_name'
+					content='hackathon.hackclubsvit.co'
+					key='ogsitename'
+				/>
 				<meta name='viewport' content='initial-scale=1.0, width=device-width' />
 				<link rel='shortcut icon' href='/monogram.ico' type='image/x-icon' />
 				<link href='' rel='shortcut icon' />
