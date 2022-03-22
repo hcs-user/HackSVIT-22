@@ -13,13 +13,13 @@ export default function Navbar() {
 				{/* <Button size='lg' variant='ghost' onClick={isOpen ? onClose : onOpen}>
 					Menu
 				</Button> */}
-				<Menu>
+				<Menu size='sm'>
 					<MenuButton>Menu</MenuButton>
 					<Portal>
-						<MenuList mt={5}>
+						<MenuList zIndex='20'>
 							{List.map((link) => {
 								return (
-									<MenuItem>{link}</MenuItem>
+									<MenuItem justifyContent='flex-end'>{link}</MenuItem>
 								)
 							})}
 						</MenuList>

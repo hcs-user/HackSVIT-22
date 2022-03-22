@@ -11,13 +11,16 @@ import {
 import { FullLogo } from "@components/Branding";
 import FAQs from "@components/FAQs";
 import Navbar from "@components/Navbar";
+import Organization from "@components/Organization";
 import Speaker from "@components/Speaker";
 import Sponsors from "@components/Sponsors";
 import ThemeCard from "@components/ThemeCard";
 import { useEffect } from "react";
+import { FaDiscord } from "react-icons/fa";
 import Footer from "../components/Footer";
 
 export default function Home() {
+
 	useEffect(() => {
 		const script = document.createElement("script");
 		script.src = "https://apply.devfolio.co/v2/sdk.js";
@@ -28,6 +31,7 @@ export default function Home() {
 			document.body.removeChild(script);
 		};
 	}, []);
+
 	return (
 		<>
 			<Navbar />
@@ -47,6 +51,7 @@ export default function Home() {
 							top='-1rem'
 							left={["0rem", "-4rem", "-7rem"]}
 							_hover={{ transform: "rotate(7deg)" }}
+							transition="0.3s"
 						>
 							<Box
 								as='svg'
@@ -88,24 +93,29 @@ export default function Home() {
 						flexDir='column'
 						justifyContent='center'
 					>
-						<div
+						<Box
 							className='apply-button'
 							data-hackathon-slug='hack-svit-22'
-							data-button-theme='dark'
+							data-button-theme='blue'
 							style={{ height: "48px", width: "200px" }}
 						/>
 						<Button
+							py='1.5'
+							fontSize='20'
+							h='auto'
+							leftIcon={<FaDiscord fontSize='28px' />}
+							rounded='md'
+							fontWeight='500'
 							colorScheme='gray'
-							size='lg'
+							size='md'
 							variant='outline'
-							borderColor='blue.200'
+							borderColor='#5865f2'
 							borderWidth='2px'
 							_hover={{
-								bg: "blue.200",
-								color: "black"
+								bg: "#5865f2",
 							}}
 							_active={{
-								bg: "blue.300"
+								bg: "#5865f2"
 							}}
 						>
 							Join Discord
@@ -163,10 +173,10 @@ export default function Home() {
 				<ThemeCard />
 			</Container>
 
-			{/* <Container maxW='container.xl' pb='6'>
+			<Container maxW='container.xl' pb='6'>
 				<Flex align='flex-end' gap='4' mb='12'>
 					<Heading size='2xl'>Speakers & Judges</Heading>
-					<Box as='svg' viewBox='0 0 661.099 359.579' maxW='md' mb='2'>
+					<Box as='svg' viewBox='0 0 661.099 359.579' maxW='lg' mb='2'>
 						<path
 							data-name='Path 14'
 							d='M1929.157,5045.173c21.265,294.752-134.373,288.267-279.152,184.251s-209.538,142.455-364.223,159.051'
@@ -180,9 +190,9 @@ export default function Home() {
 					</Box>
 				</Flex>
 				<Speaker />
-			</Container> */}
+			</Container>
 
-			{/* <Container maxW='container.xl' pb='6'>
+			<Container maxW='container.xl' pb='6'>
 				<Box as='svg' viewBox='0 0 361.402 196.332' my='4' ps='20' maxW='lg'>
 					<path
 						id='Path_13'
@@ -200,7 +210,7 @@ export default function Home() {
 					<Heading size='2xl'>Prizes</Heading>
 				</Flex>
 				<Box h='80' rounded='xl' bg='gray.700' w='full'></Box>
-			</Container> */}
+			</Container>
 
 			<Container maxW='container.xl' pb='6'>
 				<Flex align='flex-end' gap='4' mb='12'>
@@ -225,11 +235,21 @@ export default function Home() {
 			<Container maxW='container.xl' pb='6' my={20}>
 				<Flex align='flex-end' gap='4' mb='12'>
 					<Heading size='2xl'>
+						Presented By
+					</Heading>
+				</Flex>
+				<Organization />
+			</Container>
+
+			<Container maxW='container.xl' pb='6' my={20}>
+				<Flex align='flex-end' gap='4' mb='12'>
+					<Heading fontSize={[24, 36, 48]}>
 						(FAQ) Frequently asked questions
 					</Heading>
 				</Flex>
 				<FAQs />
 			</Container>
+
 
 			<Footer />
 		</>
