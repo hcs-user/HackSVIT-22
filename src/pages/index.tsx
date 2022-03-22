@@ -175,7 +175,7 @@ export default function Home() {
 				<ThemeCard />
 			</Container>
 
-			<Container maxW='container.xl' pb='6'>
+			{/* <Container maxW='container.xl' pb='6'>
 				<Flex align='flex-end' gap='4' mb='12'>
 					<Heading size='2xl'>Speakers & Judges</Heading>
 					<Box as='svg' viewBox='0 0 661.099 359.579' maxW='lg' mb='2'>
@@ -192,9 +192,9 @@ export default function Home() {
 					</Box>
 				</Flex>
 				<Speaker />
-			</Container>
+			</Container> */}
 
-			<Container maxW='container.xl' pb='6'>
+			{/* <Container maxW='container.xl' pb='6'>
 				<Box as='svg' viewBox='0 0 361.402 196.332' my='4' ps='20' maxW='lg'>
 					<path
 						id='Path_13'
@@ -212,7 +212,7 @@ export default function Home() {
 					<Heading size='2xl'>Prizes</Heading>
 				</Flex>
 				<Box h='80' rounded='xl' bg='gray.700' w='full'></Box>
-			</Container>
+			</Container> */}
 
 			<Container maxW='container.xl' pb='6'>
 				<Flex align='flex-end' gap='4' mb='12'>
