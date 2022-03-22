@@ -35,11 +35,11 @@ const FAQItem = ({ question, answer }: { question: string; answer: ReactNode }) 
                             w="4"
                         />
                     )}
-                    <Text flex="1" textAlign="left" fontSize="2xl" fontWeight="600">
+                    <Text flex="1" textAlign="left" fontSize={["md", "xl", "2xl"]} fontWeight="600">
                         {question}
                     </Text>
                 </AccordionButton>
-                <AccordionPanel ps="16" pb="4" fontSize="lg">
+                <AccordionPanel ps="16" pb="4" fontSize={["sm", "lg", "xl"]}>
                     {answer}
                 </AccordionPanel>
             </>
@@ -49,15 +49,10 @@ const FAQItem = ({ question, answer }: { question: string; answer: ReactNode }) 
 
 export default function FAQs() {
     return (
-        <Container py="20" maxW="container.lg" zIndex="100">
-            <Heading fontSize={["3xl", null, null, "4xl"]} mb="8">
-                Frequently asked questions
-            </Heading>
-            <Accordion allowToggle allowMultiple>
-                {FAQ_DATA.map(({ question, answer }) => (
-                    <FAQItem question={question} answer={answer} />
-                ))}
-            </Accordion>
-        </Container>
+        <Accordion allowToggle allowMultiple>
+            {FAQ_DATA.map(({ question, answer }) => (
+                <FAQItem question={question} answer={answer} />
+            ))}
+        </Accordion>
     );
 }

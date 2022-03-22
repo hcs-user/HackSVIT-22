@@ -7,32 +7,30 @@ const MotionBox = motion(Box);
 
 export default function Sponsors() {
     return (
-        <Container maxW="container.xl" py="12" borderY='4px' borderColor='purple.300' my='4'>
-            <Marquee gradient={false} speed={100}>
-                <HStack>
-                    {SPONSORS.map((s) => (
-                        <MotionBox>
-                            <Link
-                                target="_blank"
-                                href={s.siteUrl}
-                                as={Flex}
-                                m="3"
-                                p="2"
-                                bg={s.bg}
+        <Marquee gradient={false} speed={100}>
+            <HStack>
+                {SPONSORS.map((s) => (
+                    <MotionBox>
+                        <Link
+                            target="_blank"
+                            href={s.siteUrl}
+                            as={Flex}
+                            m="3"
+                            p="2"
+                            bg={s.bg}
+                            rounded="lg"
+                            userSelect="none"
+                            _hover={{ transform: "scale(1.1)" }}
+                        >
+                            <Image
+                                h="16"
                                 rounded="lg"
-                                userSelect="none"
-                                _hover={{ transform: "scale(1.1)" }}
-                            >
-                                <Image
-                                    h="16"
-                                    rounded="lg"
-                                    src={s.iconPath}
-                                />
-                            </Link>
-                        </MotionBox>
-                    ))}
-                </HStack>
-            </Marquee>
-        </Container>
+                                src={s.iconPath}
+                            />
+                        </Link>
+                    </MotionBox>
+                ))}
+            </HStack>
+        </Marquee>
     )
 }

@@ -71,13 +71,13 @@ export default function Home() {
 							variant='outline'
 							borderColor='blue.200'
 							borderWidth='2px'
-						// _hover={{
-						// 	bg: "blue.200",
-						// 	color: "black"
-						// }}
-						// _active={{
-						// 	bg: "blue.300"
-						// }}
+							_hover={{
+								bg: "blue.200",
+								color: "black"
+							}}
+							_active={{
+								bg: "blue.300"
+							}}
 						>
 							Join Discord
 						</Button>
@@ -108,9 +108,7 @@ export default function Home() {
 				</Heading>
 				<Flex flexDir={["column", null, "row"]} align='center'>
 					<Text fontSize='xl'>
-						imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper
-						malesuada proin libero nunc consequat interdum varius sit amet mattis
-						vulputateimperdiet massa tincidunt nunc pulvinar sapien
+						HackSVIT is going to be an in-person hackathon at Sardar Vallabhbhai Patel Institute of Technology (Vasad). It will be a 36-hour long joy ride where students will go build awesome projects, attend workshops, mentoring sessions, networking sessions & fun mini-events.
 					</Text>
 					<Box h='full' rounded='xl' bg='gray.700' w='full'></Box>
 				</Flex>
@@ -136,7 +134,7 @@ export default function Home() {
 				<ThemeCard />
 			</Container>
 
-			<Container maxW='container.xl' pb='6'>
+			{/* <Container maxW='container.xl' pb='6'>
 				<Flex align='flex-end' gap='4' mb='12'>
 					<Heading size='2xl'>Speakers & Judges</Heading>
 					<Box as='svg' viewBox='0 0 661.099 359.579' maxW='md' mb='2'>
@@ -153,9 +151,9 @@ export default function Home() {
 					</Box>
 				</Flex>
 				<Speaker />
-			</Container>
+			</Container> */}
 
-			<Container maxW='container.xl' pb='6'>
+			{/* <Container maxW='container.xl' pb='6'>
 				<Box as='svg' viewBox='0 0 361.402 196.332' my='4' ps='20' maxW='lg'>
 					<path
 						id='Path_13'
@@ -173,10 +171,37 @@ export default function Home() {
 					<Heading size='2xl'>Prizes</Heading>
 				</Flex>
 				<Box h='80' rounded='xl' bg='gray.700' w='full'></Box>
+			</Container> */}
+
+			<Container maxW='container.xl' pb='6'>
+				<Flex align='flex-end' gap='4' mb='12'>
+					<Heading size='2xl'>Sponsors</Heading>
+					<Box as='svg' viewBox='0 0 370.202 403.333' maxW='sm' mb='2'>
+						<path
+							id='Path_15'
+							data-name='Path 15'
+							d='M2453.5,364.489c-5.933,366.581-395.6,242.217-351.524,136.694s256.881,149.144,0,249.306'
+							transform='translate(-2090.921 -356.868)'
+							fill='none'
+							stroke='#ffca39'
+							strokeLinecap='round'
+							strokeLinejoin='round'
+							strokeWidth='15'
+						/>
+					</Box>
+				</Flex>
+				<Sponsors />
 			</Container>
 
-			<Sponsors />
-			<FAQs/>
+			<Container maxW='container.xl' pb='6' my={20}>
+				<Flex align='flex-end' gap='4' mb='12'>
+					<Heading size='2xl'>
+						(FAQ) Frequently asked questions
+					</Heading>
+				</Flex>
+				<FAQs />
+			</Container>
+
 			<Footer />
 		</>
 	);
