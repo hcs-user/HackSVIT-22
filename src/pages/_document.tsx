@@ -24,8 +24,8 @@ export default class Document extends NextDocument {
 					key='ogsitename'
 				/>
 				<meta name='viewport' content='initial-scale=1.0, width=device-width' />
-				<link rel='shortcut icon' href='/monogram.ico' type='image/x-icon' />
-				<link href='' rel='shortcut icon' />
+				<link rel='shortcut icon' href='/bluemono.svg' type='image/x-icon' />
+				<link href='' rel='shortcut icon'/>
 				<Head />
 				<body>
 					{/* Make Color mode to persists when you refresh the page. */}
