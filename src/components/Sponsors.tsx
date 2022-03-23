@@ -5,6 +5,7 @@ import {
 	HStack,
 	Image,
 	Link,
+	Text,
 	VStack,
 } from "@chakra-ui/react";
 import { motion } from "framer-motion";
@@ -15,11 +16,10 @@ const MotionBox = motion(Box);
 
 export default function Sponsors() {
 	return (
-		<VStack alignSelf='flex-start'>
+		<VStack>
 			{SPONSORS.map((type) => (
-				<VStack alignSelf='flex-start' flexWrap='wrap'>
-					<Heading>{type.category}</Heading>
-
+				<VStack flexWrap='wrap' alignSelf='start' my='16'>
+					<Text fontSize='2xl' alignSelf='start'>{type.category}</Text>
 					<HStack flexWrap='wrap'>
 						{type.company.map((el) => (
 							<MotionBox>
@@ -32,7 +32,6 @@ export default function Sponsors() {
 									bg={el.bg}
 									rounded='lg'
 									userSelect='none'
-									_hover={{ transform: "scale(1.1)" }}
 								>
 									<Image h='16' rounded='lg' src={el.iconPath} />
 								</Link>

@@ -13,7 +13,7 @@ export default function Navbar() {
 				{/* <Button size='lg' variant='ghost' onClick={isOpen ? onClose : onOpen}>
 					Menu
 				</Button> */}
-				<Menu size='sm'>
+				{/* <Menu size='sm'>
 					<MenuButton>Menu</MenuButton>
 					<Portal>
 						<MenuList zIndex='20'>
@@ -24,7 +24,7 @@ export default function Navbar() {
 							})}
 						</MenuList>
 					</Portal>
-				</Menu>
+				</Menu> */}
 			</Container>
 			<NavMenu isOpen={isOpen} onClose={onClose} />
 		</Box>

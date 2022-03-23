@@ -92,16 +92,39 @@ export default function Home() {
 						flexDir='column'
 						justifyContent='center'
 					>
-						<Box
+						{/* <Box
 							className='apply-button'
 							data-hackathon-slug='hack-svit-22'
 							data-button-theme='blue'
 							style={{ height: "48px", width: "200px" }}
-						/>
+						/> */}
+						<a href="https://form.typeform.com/to/n1g8GYnj" target="_blank">
+							<Button
+								py='2'
+								px='52px'
+								fontSize='20'
+								h='auto'
+								rounded='md'
+								fontWeight='500'
+								colorScheme='gray'
+								size='md'
+								variant='outline'
+								borderColor='blue.300'
+								borderWidth='2px'
+								_hover={{
+									bg: "blue.300",
+								}}
+								_active={{
+									bg: "blue.400",
+								}}
+							>
+								Pre-register now!
+							</Button>
+						</a>
 						<a href="https://discord.gg/KZZzD8a7PY" target="_blank">
 							<Button
 								py='1.5'
-								px='74px'
+								px='58px'
 								fontSize='20'
 								h='auto'
 								leftIcon={<FaDiscord fontSize='28px' />}
@@ -122,7 +145,6 @@ export default function Home() {
 								Join Discord
 							</Button>
 						</a>
-
 					</Flex>
 				</VStack>
 			</Container>
@@ -238,7 +260,7 @@ export default function Home() {
 				<Sponsors />
 			</Container>
 
-			<Container maxW='container.xl' pb='6' my={20}>
+			<Container maxW='container.xl' pb='6'>
 				<Flex align='flex-end' gap='4' mb='12'>
 					<Heading size='2xl'>Presented By</Heading>
 				</Flex>
