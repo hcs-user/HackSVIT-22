@@ -15,14 +15,14 @@ const MotionBox = motion(Box);
 
 export default function Sponsors() {
 	return (
-		<VStack alignSelf='flex-start'>
+		<VStack alignItems='flex-start'>
 			{SPONSORS.map((type) => (
-				<VStack alignSelf='flex-start' flexWrap='flex'>
-					<Heading>{type.category}</Heading>
+				<VStack alignItems='flex-start' py='4'>
+					<Heading mb='6'>{type.category}</Heading>
 
-					<HStack flexWrap='wrap'>
+					<HStack flexWrap='wrap' alignItems='flex-start'>
 						{type.company.map((el) => (
-							<MotionBox>
+							<MotionBox alignItems='flex-start'>
 								<Link
 									target='_blank'
 									href={el.siteUrl}
@@ -34,7 +34,11 @@ export default function Sponsors() {
 									userSelect='none'
 									_hover={{ transform: "scale(1.1)" }}
 								>
-									<Image h='16' rounded='lg' src={el.iconPath} />
+									{el.name == "SVIT" ? (
+										<Image h='150px' rounded='lg' src={el.iconPath} />
+									) : (
+										<Image h='16' rounded='lg' src={el.iconPath} />
+									)}
 								</Link>
 							</MotionBox>
 						))}

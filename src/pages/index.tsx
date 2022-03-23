@@ -98,7 +98,7 @@ export default function Home() {
 							data-button-theme='blue'
 							style={{ height: "48px", width: "200px" }}
 						/>
-						<a href="https://discord.gg/KZZzD8a7PY" target="_blank">
+						<a href='https://discord.gg/KZZzD8a7PY' target='_blank'>
 							<Button
 								py='1.5'
 								px='74px'
@@ -122,7 +122,6 @@ export default function Home() {
 								Join Discord
 							</Button>
 						</a>
-
 					</Flex>
 				</VStack>
 			</Container>
