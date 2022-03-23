@@ -16,24 +16,28 @@ const MotionBox = motion(Box);
 
 export default function Sponsors() {
 	return (
-		<VStack>
+		<VStack alignItems='flex-start'>
 			{SPONSORS.map((type) => (
-				<VStack flexWrap='wrap' alignSelf='start' my='16'>
-					<Text fontSize='2xl' alignSelf='start'>{type.category}</Text>
-					<HStack flexWrap='wrap'>
+				<VStack alignItems='flex-start' py='4'>
+					<Heading mb='6'>{type.category}</Heading>
+					<HStack flexWrap='wrap' alignItems='flex-start'>
 						{type.company.map((el) => (
-							<MotionBox>
+							<MotionBox alignItems='flex-start'>
 								<Link
 									target='_blank'
 									href={el.siteUrl}
 									as={Flex}
 									m='3'
 									p='2'
-									bg={el.bg}
+									//bg={el.bg}
 									rounded='lg'
 									userSelect='none'
 								>
-									<Image h='16' rounded='lg' src={el.iconPath} />
+									{el.name == "SVIT" ? (
+										<Image h='150px' rounded='lg' src={el.iconPath} />
+									) : (
+										<Image h='16' rounded='lg' src={el.iconPath} />
+									)}
 								</Link>
 							</MotionBox>
 						))}
