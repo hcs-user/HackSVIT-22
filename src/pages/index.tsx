@@ -237,18 +237,19 @@ export default function Home() {
 				<Sponsors />
 			</Container>
 
-			<Container maxW='container.xl' pb='6' my={20}>
-				<Flex align='flex-end' gap='4' mb='12'>
-					<Heading size='xl'>Presented By</Heading>
-				</Flex>
-				<Organization />
-			</Container>
+			
 
 			<Container maxW='container.xl' pb='6' my={20}>
 				<Flex align='flex-end' gap='4' mb='12'>
 					<Heading fontSize={[24, 36, 48]}>(FAQ) Frequently asked questions</Heading>
 				</Flex>
 				<FAQs />
+			</Container>
+			<Container maxW='container.xl' pb='6' my={20}>
+				<Flex align='flex-end' gap='4' mb='12'>
+					<Heading size='xl'>Presented By</Heading>
+				</Flex>
+				<Organization />
 			</Container>
 
 			<Footer />
