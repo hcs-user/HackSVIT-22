@@ -8,7 +8,6 @@ import {
 	VStack,
 } from "@chakra-ui/react";
 import { motion } from "framer-motion";
-import Marquee from "react-fast-marquee";
 import SPONSORS from "../data/sponsor.json";
 
 const MotionBox = motion(Box);
@@ -28,7 +27,6 @@ export default function Sponsors() {
 									as={Flex}
 									m='3'
 									p='2'
-									//bg={el.bg}
 									rounded='lg'
 									userSelect='none'
 								>

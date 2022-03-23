@@ -14,6 +14,7 @@ import Navbar from "@components/Navbar";
 import Organization from "@components/Organization";
 import Speaker from "@components/Speaker";
 import Sponsors from "@components/Sponsors";
+import Team from "@components/Team";
 import ThemeCard from "@components/ThemeCard";
 import { useEffect } from "react";
 import { FaDiscord } from "react-icons/fa";
@@ -258,6 +259,13 @@ export default function Home() {
 					</Box>
 				</Flex>
 				<Sponsors />
+			</Container>
+
+			<Container maxW='container.xl' pb='6' my='12'>
+				<Flex align='flex-end' gap='4' mb='12'>
+					<Heading size='2xl'>Team</Heading>
+				</Flex>
+				<Team/>
 			</Container>
 
 			<Container maxW='container.xl' pb='6' my='12'>
