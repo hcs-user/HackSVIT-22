@@ -98,27 +98,31 @@ export default function Home() {
 							data-button-theme='blue'
 							style={{ height: "48px", width: "200px" }}
 						/>
-						<Button
-							py='1.5'
-							fontSize='20'
-							h='auto'
-							leftIcon={<FaDiscord fontSize='28px' />}
-							rounded='md'
-							fontWeight='500'
-							colorScheme='gray'
-							size='md'
-							variant='outline'
-							borderColor='#5865f2'
-							borderWidth='2px'
-							_hover={{
-								bg: "#5865f2",
-							}}
-							_active={{
-								bg: "#5865f2",
-							}}
-						>
-							Join Discord
-						</Button>
+						<a href="https://discord.gg/KZZzD8a7PY" target="_blank">
+							<Button
+								py='1.5'
+								px='74px'
+								fontSize='20'
+								h='auto'
+								leftIcon={<FaDiscord fontSize='28px' />}
+								rounded='md'
+								fontWeight='500'
+								colorScheme='gray'
+								size='md'
+								variant='outline'
+								borderColor='#5865f2'
+								borderWidth='2px'
+								_hover={{
+									bg: "#5865f2",
+								}}
+								_active={{
+									bg: "#5865f2",
+								}}
+							>
+								Join Discord
+							</Button>
+						</a>
+
 					</Flex>
 				</VStack>
 			</Container>

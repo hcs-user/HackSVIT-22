@@ -11,7 +11,7 @@ import {
 	Divider,
 } from "@chakra-ui/react";
 import { ReactNode } from "react";
-import { FaDiscord, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaDiscord, FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 import { FullLogo } from "./Branding";
 
 const List = ["Sponsors", "About", "Contact"];
@@ -60,17 +60,34 @@ export default function Footer() {
 					<Stack alignItems='center'>
 						<ListHeader>Find us online</ListHeader>
 						<HStack>
-							<IconButton aria-label='Instagram' icon={<FaInstagram />} />
-							<IconButton aria-label='Twitter' icon={<FaTwitter />} />
-							<IconButton aria-label='Discord' icon={<FaDiscord />} />
+							<Link href="https://www.instagram.com/hackclubsvit/" target="_blank">
+								<IconButton aria-label='Instagram' icon={<FaInstagram />} />
+							</Link>
+							<Link href="https://twitter.com/HackClubSVIT" target="_blank">
+								<IconButton aria-label='Twitter' icon={<FaTwitter />} />
+							</Link>
+							<Link href="https://discord.gg/KZZzD8a7PY" target="_blank">
+								<IconButton aria-label='Discord' icon={<FaDiscord />} />
+							</Link>
 						</HStack>
+						<HStack>
+							<Link href="https://www.youtube.com/channel/UC8XHRJT9TewOS0ET6tZjszg" target="_blank">
+								<IconButton aria-label='YouTube' icon={<FaYoutube />} />
+							</Link>
+							<Link href="https://www.facebook.com/HackClubSVIT/" target="_blank">
+								<IconButton aria-label='Facebook' icon={<FaFacebook />} />
+							</Link>
+							<Link href="https://www.linkedin.com/company/hackclubsvit/" target="_blank">
+								<IconButton aria-label='Linkedin' icon={<FaLinkedin />} />
+							</Link>
+						</HStack>	
 					</Stack>
 				</SimpleGrid>
 				<Box pt={10}>
 					<Divider />
 				</Box>
 				<Text p={5} textAlign='center'>
-					© 2021, Hack SVIT. All rights reserved.
+					© 2022, Hack SVIT. All rights reserved.
 				</Text>
 			</Container>
 		</Box>
