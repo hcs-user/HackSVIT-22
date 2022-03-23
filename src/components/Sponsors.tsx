@@ -29,7 +29,7 @@ export default function Sponsors() {
 									as={Flex}
 									m='3'
 									p='2'
-									bg={el.bg}
+									//bg={el.bg}
 									rounded='lg'
 									userSelect='none'
 									_hover={{ transform: "scale(1.1)" }}
