@@ -261,12 +261,12 @@ export default function Home() {
 				<Sponsors />
 			</Container>
 
-			<Container maxW='container.xl' pb='6' my='12'>
+			{/* <Container maxW='container.xl' pb='6' my='12'>
 				<Flex align='flex-end' gap='4' mb='12'>
 					<Heading size='2xl'>Team</Heading>
 				</Flex>
 				<Team/>
-			</Container>
+			</Container> */}
 
 			<Container maxW='container.xl' pb='6' my='12'>
 				<Flex align='flex-end' gap='4' mb='12'>
