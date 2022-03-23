@@ -17,7 +17,7 @@ export default function Sponsors() {
 	return (
 		<VStack alignSelf='flex-start'>
 			{SPONSORS.map((type) => (
-				<VStack alignSelf='flex-start' flexWrap='wrap'>
+				<VStack alignSelf='flex-start' flexWrap='flex'>
 					<Heading>{type.category}</Heading>
 
 					<HStack flexWrap='wrap'>
