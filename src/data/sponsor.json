@@ -66,21 +66,6 @@
 		]
 	},
 	{
-		"id": 4,
-		"category": "Platinium",
-		"company": []
-	},
-	{
-		"id": 5,
-		"category": "Gold",
-		"company": []
-	},
-	{
-		"id": 6,
-		"category": "Silver",
-		"company": []
-	},
-	{
 		"id": 7,
 		"category": "Bronze",
 		"company": [
