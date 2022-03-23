@@ -101,7 +101,7 @@ export default function Home() {
 						<a href="https://form.typeform.com/to/n1g8GYnj" target="_blank">
 							<Button
 								py='2'
-								px='52px'
+								px='26px'
 								fontSize='20'
 								h='auto'
 								rounded='md'
@@ -124,7 +124,7 @@ export default function Home() {
 						<a href="https://discord.gg/KZZzD8a7PY" target="_blank">
 							<Button
 								py='1.5'
-								px='58px'
+								px='32px'
 								fontSize='20'
 								h='auto'
 								leftIcon={<FaDiscord fontSize='28px' />}
@@ -260,7 +260,7 @@ export default function Home() {
 				<Sponsors />
 			</Container>
 
-			<Container maxW='container.xl' pb='6'>
+			<Container maxW='container.xl' pb='6' my='12'>
 				<Flex align='flex-end' gap='4' mb='12'>
 					<Heading size='2xl'>Presented By</Heading>
 				</Flex>

@@ -1,9 +1,8 @@
 import {
 	Box,
 	Flex,
-	Heading,
 	HStack,
-	Image,
+	Img,
 	Link,
 	Text,
 	VStack,
@@ -18,8 +17,8 @@ export default function Sponsors() {
 	return (
 		<VStack alignItems='flex-start'>
 			{SPONSORS.map((type) => (
-				<VStack alignItems='flex-start' py='4'>
-					<Heading mb='6'>{type.category}</Heading>
+				<VStack alignItems='flex-start' py='1'>
+					<Text my='2' fontSize='2xl'>{type.category}</Text>
 					<HStack flexWrap='wrap' alignItems='flex-start'>
 						{type.company.map((el) => (
 							<MotionBox alignItems='flex-start'>
@@ -33,17 +32,14 @@ export default function Sponsors() {
 									rounded='lg'
 									userSelect='none'
 								>
-									{el.name == "SVIT" ? (
-										<Image h='150px' rounded='lg' src={el.iconPath} />
-									) : (
-										<Image h='16' rounded='lg' src={el.iconPath} />
-									)}
+									<Img h={el.name == "SVIT" ? '130px' : '16'} rounded='lg' src={el.iconPath} />
 								</Link>
 							</MotionBox>
 						))}
 					</HStack>
 				</VStack>
-			))}
-		</VStack>
+			))
+			}
+		</VStack >
 	);
 }
