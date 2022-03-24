@@ -1,0 +1,195 @@
+[
+    {
+        "id":1,
+        "team_name":"Core",
+        "member":[
+            {
+                "id":1,
+                "name": "Jay Patel",
+                "link":"",
+                "img":""
+            },
+            {
+                "id":2,
+                "name": "Vraj Shah",
+                "link":"",
+                "img":""
+            },
+            {
+                "id":3,
+                "name": "Ayaan Retiwala",
+                "link":"",
+                "img":""
+            }
+
+        ]
+    },
+    {
+        "id":2,
+        "team_name":"Club Management",
+        "member":[
+            {
+                "id":1,
+                "name": "Krima Patel",
+                "link":"",
+                "img":""
+            },
+            {
+                "id":2,
+                "name": "Karvy Lalchandani",
+                "link":"",
+                "img":""
+            }
+        ]
+    },
+    {
+        "id":3,
+        "team_name":"Developer",
+        "member":[
+            {
+                "id":1,
+                "name": "Darshil Rathod",
+                "link":"",
+                "img":""
+            },
+            {
+                "id":2,
+                "name": "Vivek Suthar",
+                "link":"",
+                "img":""
+            }
+        ]
+    },
+    {
+        "id":4,
+        "team_name":"Graphics",
+        "member":[
+            {
+                "id":1,
+                "name": "Dvija Patel",
+                "link":"",
+                "img":""
+            },
+            {
+                "id":2,
+                "name": "Manan Nayak",
+                "link":"",
+                "img":""
+            },
+            {
+                "id":3,
+                "name": "Rythm Mangnani",
+                "link":"",
+                "img":""
+            }
+        ]
+    },
+    {
+        "id":5,
+        "team_name":"Content",
+        "member":[
+            {
+                "id":1,
+                "name": "Heta Chokshi",
+                "link":"",
+                "img":""
+            },
+            {
+                "id":2,
+                "name": "Arya Pradeep",
+                "link":"",
+                "img":""
+            },
+            {
+                "id":3,
+                "name": "Jai Gadhavi",
+                "link":"",
+                "img":""
+            }
+        ]
+    },
+    {
+        "id":6,
+        "team_name":"Social",
+        "member":[
+            {
+                "id":1,
+                "name": "Gautami Parikh",
+                "link":"",
+                "img":""
+            },
+            {
+                "id":2,
+                "name": "Hari Patel",
+                "link":"",
+                "img":""
+            }
+        ]
+    },
+    {
+        "id":7,
+        "team_name":"Technical",
+        "member":[
+            {
+                "id":1,
+                "name": "Aum Sathwara",
+                "link":"",
+                "img":""
+            },
+            {
+                "id":2,
+                "name": "Sarthak Bhave",
+                "link":"",
+                "img":""
+            }
+        ]
+    },
+    {
+        "id":8,
+        "team_name":"Event Management",
+        "member":[
+            {
+                "id":1,
+                "name": "Akshar Vandara",
+                "link":"",
+                "img":""
+            },
+            {
+                "id":2,
+                "name": "Harsh Upadhyay",
+                "link":"",
+                "img":""
+            },
+            {
+                "id":3,
+                "name": "Rushi Shah",
+                "link":"",
+                "img":""
+            }
+        ]
+    },
+    {
+        "id":9,
+        "team_name":"Logistics",
+        "member":[
+            {
+                "id":1,
+                "name": "Smit Patel",
+                "link":"",
+                "img":""
+            },
+            {
+                "id":2,
+                "name": "Harsh Sachaniya",
+                "link":"",
+                "img":""
+            },
+            {
+                "id":3,
+                "name": "Mitesh Agrawal",
+                "link":"",
+                "img":""
+            }
+        ]
+    }
+]
