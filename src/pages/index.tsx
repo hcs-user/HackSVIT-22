@@ -96,7 +96,7 @@ export default function Home() {
 						<Box
 							className='apply-button'
 							data-hackathon-slug='hacksvit2022'
-							data-button-theme='blue'
+							data-button-theme='light'
 							style={{ height: "48px", width: "200px" }}
 						/>
 						<Button
