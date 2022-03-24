@@ -4,39 +4,40 @@ import React from 'react'
 export default function Team() {
     return (
         <>
-            <HStack gap='12' flexWrap='wrap'>
-                <Tooltip label='Harsh Sachaniya' hasArrow arrowSize={10} bg='white'>
-                    <Avatar size='xl' name='Christian Nwamba' src='https://bit.ly/dan-abramov' />
+            <HStack gap='12' flexWrap='wrap' justifyContent='center'>
+                <Tooltip label='Harsh Sachaniya' hasArrow arrowSize={10} bg='white' fontSize='lg'>
+                    <Avatar size='2xl' name='Harsh Sachaniya' src='https://bit.ly/dan-abramov' />
                 </Tooltip>
                 <Tooltip label='Harsh Sachaniya' hasArrow arrowSize={10} bg='white'>
-                    <Avatar size='xl' name='Christian Nwamba' src='https://bit.ly/dan-abramov' />
+                    <Avatar size='2xl' name='Harsh Sachaniya' src='https://bit.ly/dan-abramov' />
                 </Tooltip>
                 <Tooltip label='Harsh Sachaniya' hasArrow arrowSize={10} bg='white'>
-                    <Avatar size='xl' name='Christian Nwamba' src='https://bit.ly/dan-abramov' />
+                    <Avatar size='xl' name='Harsh Sachaniya' src='https://bit.ly/dan-abramov' />
                 </Tooltip>
                 <Tooltip label='Harsh Sachaniya' hasArrow arrowSize={10} bg='white'>
-                    <Avatar size='xl' name='Christian Nwamba' src='https://bit.ly/dan-abramov' />
+                    <Avatar size='xl' name='Harsh Sachaniya' src='https://bit.ly/dan-abramov' />
                 </Tooltip>
                 <Tooltip label='Harsh Sachaniya' hasArrow arrowSize={10} bg='white'>
-                    <Avatar size='xl' name='Christian Nwamba' src='https://bit.ly/dan-abramov' />
+                    <Avatar size='xl' name='Harsh Sachaniya' src='https://bit.ly/dan-abramov' />
                 </Tooltip>
                 <Tooltip label='Harsh Sachaniya' hasArrow arrowSize={10} bg='white'>
-                    <Avatar size='xl' name='Christian Nwamba' src='https://bit.ly/dan-abramov' />
+                    <Avatar size='xl' name='Harsh Sachaniya' src='https://bit.ly/dan-abramov' />
                 </Tooltip>
                 <Tooltip label='Harsh Sachaniya' hasArrow arrowSize={10} bg='white'>
-                    <Avatar size='xl' name='Christian Nwamba' src='https://bit.ly/dan-abramov' />
+                    <Avatar size='xl' name='Harsh Sachaniya' src='https://bit.ly/dan-abramov' />
                 </Tooltip>
                 <Tooltip label='Harsh Sachaniya' hasArrow arrowSize={10} bg='white'>
-                    <Avatar size='xl' name='Christian Nwamba' src='https://bit.ly/dan-abramov' />
+                    <Avatar size='xl' name='Harsh Sachaniya' src='https://bit.ly/dan-abramov' />
                 </Tooltip>
             </HStack>
-            <HStack gap='12' my='8' pl={[null, '10']} flexWrap='wrap'>
-                <Avatar size='xl' name='Christian Nwamba' src='https://bit.ly/dan-abramov' />
-                <Avatar size='xl' name='Christian Nwamba' src='https://bit.ly/dan-abramov' />
-                <Avatar size='xl' name='Christian Nwamba' src='https://bit.ly/dan-abramov' />
-                <Avatar size='xl' name='Christian Nwamba' src='https://bit.ly/dan-abramov' />
-                <Avatar size='xl' name='Christian Nwamba' src='https://bit.ly/dan-abramov' />
-                <Avatar size='xl' name='Christian Nwamba' src='https://bit.ly/dan-abramov' />
+            <HStack gap='12' my='8' pl={[null, '16']} flexWrap='wrap' justifyContent='center'>
+                <Avatar size='xl' name='Harsh Sachaniya' src='https://bit.ly/dan-abramov' />
+                <Avatar size='xl' name='Harsh Sachaniya' src='https://bit.ly/dan-abramov' />
+                <Avatar size='xl' name='Harsh Sachaniya' src='https://bit.ly/dan-abramov' />
+                <Avatar size='xl' name='Harsh Sachaniya' src='https://bit.ly/dan-abramov' />
+                <Avatar size='xl' name='Harsh Sachaniya' src='https://bit.ly/dan-abramov' />
+                <Avatar size='xl' name='Harsh Sachaniya' src='https://bit.ly/dan-abramov' />
+                <Avatar size='xl' name='Harsh Sachaniya' src='https://bit.ly/dan-abramov' />
             </HStack>
         </>
     )

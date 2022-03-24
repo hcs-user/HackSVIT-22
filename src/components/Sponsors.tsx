@@ -4,6 +4,8 @@ import {
 	HStack,
 	Img,
 	Link,
+	LinkBox,
+	LinkOverlay,
 	Text,
 	VStack,
 } from "@chakra-ui/react";
@@ -18,23 +20,23 @@ export default function Sponsors() {
 			{SPONSORS.map((type) => (
 				<VStack alignItems='flex-start' py='1'>
 					<Text my='2' fontSize='2xl'>{type.category}</Text>
-					<HStack flexWrap='wrap' alignItems='flex-start'>
+					<Flex rowGap='6' columnGap='3' flexWrap='wrap' alignItems='flex-start'>
 						{type.company.map((el) => (
 							<MotionBox alignItems='flex-start'>
-								<Link
-									target='_blank'
-									href={el.siteUrl}
+								<LinkBox
 									as={Flex}
 									m='3'
 									p='2'
 									rounded='lg'
 									userSelect='none'
 								>
-									<Img h={el.name == "SVIT" ? '130px' : '16'} rounded='lg' src={el.iconPath} />
-								</Link>
+									<LinkOverlay target='_blank' href={el.siteUrl}>
+										<Img h={el.name == "SVIT" ? '130px' : '16'} rounded='lg' src={el.iconPath} />
+									</LinkOverlay>
+								</LinkBox>
 							</MotionBox>
 						))}
-					</HStack>
+					</Flex>
 				</VStack>
 			))
 			}
