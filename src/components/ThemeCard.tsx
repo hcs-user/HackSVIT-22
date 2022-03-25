@@ -2,6 +2,7 @@ import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
 	BlockchainDoodle,
+	ClimateDoodle,
 	EducationDoodle,
 	FinanceDoodle,
 	OpenDoodle,
@@ -9,11 +10,12 @@ import {
 } from "./svgs";
 
 const doodle = [
-	{ doodle: <BlockchainDoodle h={[40, null, 60]} w={[40, null, 60]} />, name: "BlockChain" },
-	{ doodle: <EducationDoodle h={[40, null, 60]} w={[40, null, 60]} />, name: "Education" },
-	{ doodle: <FinanceDoodle h={[40, null, 60]} w={[40, null, 60]} />, name: "FinTech" },
-	{ doodle: <SocialWelfareDoodle h={[40, null, 60]} w={[40, null, 60]}/>, name: "Social Welfare" },
-	{ doodle: <OpenDoodle h={[40, null, 60]} w={[40, null, 60]} />, name: "Open Innovation" },
+	{ doodle: <BlockchainDoodle h={[40, null, 48]} w={[40, null, 48]} />, name: "BlockChain" },
+	{ doodle: <EducationDoodle h={[40, null, 48]} w={[40, null, 48]} />, name: "Education" },
+	{ doodle: <FinanceDoodle h={[40, null, 48]} w={[40, null, 48]} />, name: "FinTech" },
+	{ doodle: <SocialWelfareDoodle h={[40, null, 48]} w={[40, null, 48]} />, name: "Social Welfare" },
+	{ doodle: <OpenDoodle h={[40, null, 48]} w={[40, null, 48]} />, name: "Open Innovation" },
+	{ doodle: <ClimateDoodle h={[40, null, 48]} w={[40, null, 48]} />, name: "Climate Chage" },
 ]
 
 export default function ThemeCard() {
@@ -32,7 +34,7 @@ export default function ThemeCard() {
 							py='6'
 						>
 							{el.doodle}
-							<Text mt='10' fontSize='2xl'>{el.name}</Text>
+							<Text mt='6' fontSize={['lg', null, '2xl']}>{el.name}</Text>
 						</Flex>
 					)
 				})}
