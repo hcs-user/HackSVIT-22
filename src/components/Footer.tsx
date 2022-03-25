@@ -86,7 +86,7 @@ export default function Footer() {
 				</SimpleGrid>
 				<Box pt={10}>
 					<a href="https://mail.google.com/mail/?view=cm&fs=1&to=hello@hackclubsvit.co" target="_blank">
-					<Heading textAlign='center' my='5' fontSize='4xl'>hello@hackclubsvit.co</Heading>
+						<Heading textAlign='center' my='5' fontSize={['xl', '2xl', '4xl']}>hello@hackclubsvit.co</Heading>
 					</a>
 					<Divider />
 				</Box>
