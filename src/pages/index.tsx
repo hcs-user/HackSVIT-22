@@ -86,7 +86,7 @@ export default function Home() {
 					<Text fontSize='2xl' color='red.400' fontWeight='700'>
 						29 Apr - 1 May
 					</Text>
-					<Text fontSize='2xl' color='yellow.400' fontWeight='700'>
+					<Text fontSize='l' color='yellow.400' fontWeight='700'>
 						Sardar Vallabhbhai Patel Institute of Technology, Vasad
 					</Text>
 					<Flex
