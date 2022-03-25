@@ -11,9 +11,9 @@ import {
 const doodle = [
 	{ doodle: <BlockchainDoodle h={[40, null, 60]} w={[40, null, 60]} />, name: "BlockChain" },
 	{ doodle: <EducationDoodle h={[40, null, 60]} w={[40, null, 60]} />, name: "Education" },
-	{ doodle: <FinanceDoodle h={[40, null, 60]} w={[40, null, 60]} />, name: "Finance" },
+	{ doodle: <FinanceDoodle h={[40, null, 60]} w={[40, null, 60]} />, name: "FinTech" },
+	{ doodle: <SocialWelfareDoodle h={[40, null, 60]} w={[40, null, 60]}/>, name: "Social Welfare" },
 	{ doodle: <OpenDoodle h={[40, null, 60]} w={[40, null, 60]} />, name: "Open Innovation" },
-	{ doodle: <SocialWelfareDoodle h={[40, null, 60]} w={[40, null, 60]} />, name: "Social Welfare" },
 ]
 
 export default function ThemeCard() {

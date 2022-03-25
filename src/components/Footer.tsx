@@ -9,12 +9,13 @@ import {
 	IconButton,
 	HStack,
 	Divider,
+	Heading,
 } from "@chakra-ui/react";
 import { ReactNode } from "react";
 import { FaDiscord, FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 import { FullLogo } from "./Branding";
 
-const List = ["Sponsors", "About", "Contact"];
+const List = ["Sponsors", "About"];
 
 const FooterLink = ({ children }: { children: ReactNode }) => {
 	return (
@@ -80,10 +81,11 @@ export default function Footer() {
 							<Link href="https://www.linkedin.com/company/hackclubsvit/" target="_blank">
 								<IconButton aria-label='Linkedin' icon={<FaLinkedin />} />
 							</Link>
-						</HStack>	
+						</HStack>
 					</Stack>
 				</SimpleGrid>
 				<Box pt={10}>
+					<Heading textAlign='center' my='5' fontSize='4xl'>hello@hackclubsvit.co</Heading>
 					<Divider />
 				</Box>
 				<Text p={5} textAlign='center'>

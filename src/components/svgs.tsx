@@ -2033,7 +2033,7 @@ export const SocialWelfareDoodle = createIcon({
 
 export const FinanceDoodle = createIcon({
 	displayName: "FinanceDoodle",
-	viewBox: "0 0 478.487 207.281",
+	viewBox: "0 0 524.487 207.281",
 	path: (
 		<>
 			<g
