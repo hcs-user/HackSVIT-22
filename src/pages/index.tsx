@@ -73,18 +73,21 @@ export default function Home() {
 									strokeWidth='5'
 								/>
 							</Box>
-							<Heading
+							{/* <Heading
 								color='yellow.300'
 								fontSize={["md", "xl", "3xl"]}
 								transform={["rotate(-7deg)", null, "rotate(-15deg)"]}
 							>
 								Coming soon
-							</Heading>
+							</Heading> */}
 						</Box>
 						<FullLogo w={["100%", 480, 680]} h='auto' mt={[2, null, 6]} />
 					</Box>
 					<Text fontSize='2xl' color='red.400' fontWeight='700'>
 						29 Apr - 1 May
+					</Text>
+					<Text fontSize='2xl' color='yellow.400' fontWeight='700'>
+						Sardar Vallabhbhai Patel Institute of Technology, Vasad
 					</Text>
 					<Flex
 						gap='8'
