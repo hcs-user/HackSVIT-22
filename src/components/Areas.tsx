@@ -21,7 +21,7 @@ const AREAS = [
 	},
 	{
 		graphic: "/areas/social_welfare.png",
-		title: "Social Welfare",
+		title: "Climate Change",
 		description: "asdfadsf asdfjklakdsf asdfkjasdlkf sdf",
 		color: "blue",
 	},
@@ -33,7 +33,7 @@ const AREAS = [
 	},
 	{
 		graphic: "/areas/climate_change.png",
-		title: "Climate Change",
+		title: "Social Welfare",
 		description: "asdfadsf asdfjklakdsf asdfkjasdlkf sdf",
 		color: "red",
 	},
