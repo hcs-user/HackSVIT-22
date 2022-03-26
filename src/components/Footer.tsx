@@ -13,7 +13,7 @@ import {
 } from "@chakra-ui/react";
 import { ReactNode } from "react";
 import { FaDiscord, FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
-import { FullLogo } from "./Branding";
+import { FullLogo, NewLogo } from "./Branding";
 
 const List = ["Sponsors", "About"];
 
