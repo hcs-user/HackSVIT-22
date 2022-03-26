@@ -46,7 +46,7 @@ export default function Home() {
 			>
 				<VStack pos='relative' spacing='6'>
 					<Box>
-						<Box
+						{/* <Box
 							pos='absolute'
 							top='-1rem'
 							left={["0rem", "-4rem", "-7rem"]}
@@ -73,14 +73,14 @@ export default function Home() {
 									strokeWidth='5'
 								/>
 							</Box>
-							{/* <Heading
+							<Heading
 								color='yellow.300'
 								fontSize={["md", "xl", "3xl"]}
 								transform={["rotate(-7deg)", null, "rotate(-15deg)"]}
 							>
 								Coming soon
-							</Heading> */}
-						</Box>
+							</Heading>
+						</Box> */}
 						<FullLogo w={["100%", 480, 680]} h='auto' mt={[2, null, 6]} />
 					</Box>
 					<Text fontSize='2xl' color='red.400' fontWeight='700'>
