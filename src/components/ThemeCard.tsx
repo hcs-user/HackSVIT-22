@@ -13,9 +13,9 @@ const doodle = [
 	{ doodle: <BlockchainDoodle h={[40, null, 48]} w={[40, null, 48]} />, name: "BlockChain" },
 	{ doodle: <EducationDoodle h={[40, null, 48]} w={[40, null, 48]} />, name: "Education" },
 	{ doodle: <FinanceDoodle h={[40, null, 48]} w={[40, null, 48]} />, name: "FinTech" },
+	{ doodle: <ClimateDoodle h={[40, null, 48]} w={[40, null, 48]} />, name: "Climate Change" },
 	{ doodle: <SocialWelfareDoodle h={[40, null, 48]} w={[40, null, 48]} />, name: "Social Welfare" },
 	{ doodle: <OpenDoodle h={[40, null, 48]} w={[40, null, 48]} />, name: "Open Innovation" },
-	{ doodle: <ClimateDoodle h={[40, null, 48]} w={[40, null, 48]} />, name: "Climate Change" },
 ]
 
 export default function ThemeCard() {

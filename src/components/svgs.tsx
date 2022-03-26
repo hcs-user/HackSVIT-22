@@ -1821,7 +1821,7 @@ export const BlockchainDoodle = createIcon({
 	),
 });
 
-export const SocialWelfareDoodle = createIcon({
+export const ClimateDoodle = createIcon({
 	displayName: "SocialWelfareDoodle",
 	viewBox: "0 0 330.19 233.943",
 	path: (
@@ -2822,7 +2822,7 @@ export const OpenDoodle = createIcon({
 	),
 });
 
-export const ClimateDoodle = createIcon({
+export const SocialWelfareDoodle = createIcon({
 	displayName: "OpenDoodle",
 	viewBox: "0 0 1770.57 315",
 	path: (
