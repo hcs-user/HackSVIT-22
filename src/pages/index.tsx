@@ -86,12 +86,18 @@ export default function Home() {
 					<Text fontSize='2xl' color='red.400' fontWeight='700'>
 						29 Apr - 1 May
 					</Text>
-					<Text fontSize={["sm", "md", "lg"]} color='yellow.400' fontWeight='600' align='center' px={10}>
+					<Text
+						fontSize={["sm", "md", "lg"]}
+						color='yellow.400'
+						fontWeight='600'
+						align='center'
+						px={10}
+					>
 						Sardar Vallabhbhai Patel Institute of Technology, Vasad
 					</Text>
 					<Flex
 						gap='8'
-						p='10'
+						// p='10'
 						flexWrap='wrap'
 						flexDir='column'
 						justifyContent='center'
@@ -102,7 +108,7 @@ export default function Home() {
 							data-button-theme='blue'
 							style={{ height: "48px", width: "200px" }}
 						/>
-						<a href="https://discord.gg/KZZzD8a7PY" target="_blank">
+						<a href='https://discord.gg/KZZzD8a7PY' target='_blank'>
 							<Button
 								py='1.5'
 								w='full'
