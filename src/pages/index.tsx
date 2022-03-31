@@ -141,9 +141,6 @@ export default function Home() {
 			</Container>
 
 			<Container maxW='container.xl' my='4'>
-				<Timeline />
-			</Container>
-			<Container maxW='container.xl' my='4'>
 				<Box maxW='container.sm'>
 					<Box as='svg' viewBox='0 0 645.453 446.241' px='6'>
 						<path
@@ -174,7 +171,9 @@ export default function Home() {
 					<Box h='full' rounded='xl' bg='gray.700' w='full'></Box>
 				</Flex>
 			</Container>
-
+			{/* <Container maxW='container.xl' my='4'> */}
+			<Timeline />
+			{/* </Container> */}
 			<Container maxW='container.xl' pb='6'>
 				<Flex align='flex-end' gap='4' mb='12'>
 					<Heading size='2xl'>Theme</Heading>

@@ -65,7 +65,7 @@ export default function Timeline() {
 						pos='absolute'
 						top={["-78%", null, 8]}
 						right={[8, null, "57%"]}
-						stroke={active ? `${color}.300` : "gray.300"}
+						stroke={active ? `${color}.300` : "gray.200"}
 						strokeWidth='20'
 						borderRadius='full'
 						overflow='hidden'
@@ -89,7 +89,7 @@ export default function Timeline() {
 							pos='absolute'
 							top={["78%", null, 8]}
 							right={[8, null, "-57%"]}
-							stroke={active ? `${color}.300` : "gray.300"}
+							stroke={active ? `${color}.300` : "gray.200"}
 							strokeWidth='20'
 							borderRadius='full'
 							overflow='hidden'
@@ -108,7 +108,7 @@ export default function Timeline() {
 						w='12'
 						minW='12'
 						rounded='full'
-						bg={active ? `${color}.300` : "gray.300"}
+						bg={active ? `${color}.300` : "gray.200"}
 						m='3'
 					/>
 					<VStack

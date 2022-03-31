@@ -27,8 +27,8 @@ export default function Navbar() {
 			bg={isOpen ? "blue.300" : "transparent"}
 			backdropFilter='blur(5px)'
 		>
-			<Container as={Flex} maxW='container.xl' justify='space-between' py='5'>
-				<MonogramLogo h='10' w='auto' />
+			<Container as={Flex} maxW='container.xl' justify='space-between' py='4'>
+				<MonogramLogo h='8' w='auto' />
 				{/* <Button size='lg' variant='ghost' onClick={isOpen ? onClose : onOpen}>
 					Menu
 				</Button> */}
