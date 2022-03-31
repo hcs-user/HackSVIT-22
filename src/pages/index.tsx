@@ -24,6 +24,11 @@ import { FaDiscord } from "react-icons/fa";
 import Footer from "../components/Footer";
 import { GrLocation } from "react-icons/gr";
 import PrizeCard from "@components/PrizeCard";
+import {
+	FirstPrizeIcon,
+	SecondPrizeIcon,
+	ThirdPrizeIcon,
+} from "@components/svgs";
 
 export default function Home() {
 	useEffect(() => {
@@ -88,7 +93,7 @@ export default function Home() {
 						</Box> */}
 						<FullLogo w={["100%", 480, 680]} h='auto' mt={[2, null, 6]} />
 					</Box>
-					<Text fontSize='2xl' color='red.400' fontWeight='700'>
+					<Text fontSize='2xl' color='red.300' fontWeight='700'>
 						29 Apr - 1 May
 					</Text>
 
@@ -175,9 +180,9 @@ export default function Home() {
 			{/* <Container maxW='container.xl' my='4'> */}
 			<Timeline />
 			{/* </Container> */}
-			<Container maxW='container.xl' pb='6'>
+			<Container id='themes' maxW='container.xl' pb='6'>
 				<Flex align='flex-end' gap='4' mb='12'>
-					<Heading size='2xl'>Theme</Heading>
+					<Heading size='2xl'>Themes</Heading>
 					<Box as='svg' viewBox='0 0 370.202 403.333' maxW='244' mb='2'>
 						<path
 							id='Path_11'
@@ -214,7 +219,7 @@ export default function Home() {
 				<Speaker />
 			</Container> */}
 
-			<Container maxW='container.xl' pb='6'>
+			<Container id='prizes' maxW='container.xl' pb='6'>
 				<Box as='svg' viewBox='0 0 361.402 196.332' my='4' ps='20' maxW='sm'>
 					<path
 						id='Path_13'
@@ -237,6 +242,21 @@ export default function Home() {
 					flexWrap='wrap'
 					justifyContent={["center", null, "center"]}
 				>
+					<PrizeCard
+						icon={FirstPrizeIcon}
+						amount='₹50,000'
+						description='First Prize'
+					/>
+					<PrizeCard
+						icon={SecondPrizeIcon}
+						amount='₹30,000'
+						description='Second Prize'
+					/>
+					<PrizeCard
+						icon={ThirdPrizeIcon}
+						amount='₹20,000'
+						description='Third Prize'
+					/>
 					<PrizeCard
 						logo='/sponsors/polygon.svg'
 						amount='$10,000'
@@ -270,7 +290,7 @@ export default function Home() {
 				</Flex>
 			</Container>
 
-			<Container maxW='container.xl' pb='6'>
+			<Container id='sponsors' maxW='container.xl' pb='6'>
 				<Flex align='flex-end' gap='4' mb='12'>
 					<Heading size='2xl'>Sponsors</Heading>
 					<Box as='svg' viewBox='0 0 661.099 359.579' maxW='lg' mb='2' me='8'>
@@ -303,9 +323,11 @@ export default function Home() {
 				<Organization />
 			</Container>
 
-			<Container maxW='container.xl' pb='6' my={20}>
+			<Container id='faqs' maxW='container.xl' pb='6' my={20}>
 				<Flex align='flex-end' gap='4' mb='12'>
-					<Heading fontSize={[24, 36, 48]}>(FAQ) Frequently asked questions</Heading>
+					<Heading fontSize={[24, null, 36]}>
+						(FAQ) Frequently asked questions
+					</Heading>
 				</Flex>
 				<FAQs />
 			</Container>

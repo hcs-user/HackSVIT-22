@@ -7,6 +7,7 @@ import {
 	chakra,
 	Text,
 	VStack,
+	Icon,
 } from "@chakra-ui/react";
 
 export default function PrizeCard({
@@ -14,9 +15,10 @@ export default function PrizeCard({
 	description,
 	companyName,
 	logo,
+	icon,
 	url,
 }: {
-	[key: string]: string;
+	[key: string]: any;
 }) {
 	return (
 		<Flex
@@ -24,26 +26,33 @@ export default function PrizeCard({
 			p='6'
 			bg='gray.700'
 			rounded='3xl'
+			minW='300'
 			maxW='300'
 			cursor='pointer'
 		>
 			<Flex align='center' p='8' bg='gray.600' rounded='3xl' minH='120'>
-				<Img src={logo} alt={companyName} w='full' maxH='100px' />
+				{icon ? (
+					<Icon as={icon} h='100px' w='auto' mx='auto' />
+				) : (
+					<Img src={logo} alt={companyName} w='full' maxH='100px' />
+				)}
 			</Flex>
 			<VStack spacing='6' p='8' textAlign='center' flex='1'>
 				<Heading size='2xl'>{amount}</Heading>
 				<Text noOfLines={2}>{description}</Text>
 			</VStack>
 
-			<chakra.a
-				w='full'
-				alignSelf='flex-end'
-				href={url}
-				target='_blank'
-				rel='noopener noreferrer'
-			>
-				<Button rounded='xl' w='full' children='Learn more' size='sm' />
-			</chakra.a>
+			{url && (
+				<chakra.a
+					w='full'
+					alignSelf='flex-end'
+					href={url}
+					target='_blank'
+					rel='noopener noreferrer'
+				>
+					<Button rounded='xl' w='full' children='Learn more' size='sm' />
+				</chakra.a>
+			)}
 		</Flex>
 	);
 }

@@ -60,7 +60,7 @@ export default function ThemeCard() {
 								minW='300'
 							>
 								{el.doodle}
-								<Text mt='6' fontSize={["lg", null, "2xl"]}>
+								<Text mt='6' fontWeight='600' fontSize={["md", null, "xl"]}>
 									{el.name}
 								</Text>
 							</Flex>

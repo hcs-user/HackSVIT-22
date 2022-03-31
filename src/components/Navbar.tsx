@@ -25,15 +25,16 @@ export default function Navbar() {
 			w='full'
 			zIndex='10'
 			background='linear-gradient(to bottom, #0D0F0F, rgba(8, 8, 8, 0))'
-			backdropFilter='saturate(180%) blur(4px)'
+			backdropFilter='blur(4px)'
 			// background='linear(to-b, gray.800, rgba(8, 8, 8, 0.6))'
 		>
 			<Container as={Flex} maxW='container.xl' justify='space-between' py='4'>
 				<MonogramLogo h='8' w='auto' shadow='base' />
-				{/* <Button size='lg' variant='ghost' onClick={isOpen ? onClose : onOpen}>
+			</Container>
+			{/* <Button size='lg' variant='ghost' onClick={isOpen ? onClose : onOpen}>
 					Menu
-				</Button> */}
-				{/* <Menu size='sm'>
+				</Button> 
+				<Menu size='sm'>
 					<MenuButton>Menu</MenuButton>
 					<Portal>
 						<MenuList zIndex='20'>
@@ -45,7 +46,6 @@ export default function Navbar() {
 						</MenuList>
 					</Portal>
 				</Menu> */}
-			</Container>
 			{/* <NavMenu isOpen={isOpen} onClose={onClose} /> */}
 		</Box>
 	);
