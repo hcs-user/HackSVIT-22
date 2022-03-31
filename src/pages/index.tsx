@@ -139,7 +139,6 @@ export default function Home() {
 					</Flex>
 				</VStack>
 			</Container>
-
 			<Container maxW='container.xl' my='4'>
 				<Box maxW='container.sm'>
 					<Box as='svg' viewBox='0 0 645.453 446.241' px='6'>
@@ -177,7 +176,7 @@ export default function Home() {
 			<Container maxW='container.xl' pb='6'>
 				<Flex align='flex-end' gap='4' mb='12'>
 					<Heading size='2xl'>Theme</Heading>
-					<Box as='svg' viewBox='0 0 370.202 403.333' maxW='sm' mb='2'>
+					<Box as='svg' viewBox='0 0 370.202 403.333' maxW='244' mb='2'>
 						<path
 							id='Path_11'
 							data-name='Path 11'
@@ -236,14 +235,13 @@ export default function Home() {
 			<Container maxW='container.xl' pb='6'>
 				<Flex align='flex-end' gap='4' mb='12'>
 					<Heading size='2xl'>Sponsors</Heading>
-					<Box as='svg' viewBox='0 0 370.202 403.333' maxW='sm' mb='2'>
+					<Box as='svg' viewBox='0 0 661.099 359.579' maxW='lg' mb='2'>
 						<path
-							id='Path_15'
-							data-name='Path 15'
-							d='M2453.5,364.489c-5.933,366.581-395.6,242.217-351.524,136.694s256.881,149.144,0,249.306'
-							transform='translate(-2090.921 -356.868)'
+							data-name='Path 14'
+							d='M1929.157,5045.173c21.265,294.752-134.373,288.267-279.152,184.251s-209.538,142.455-364.223,159.051'
+							transform='translate(-1277.525 -5037.153)'
 							fill='none'
-							stroke='#ffca39'
+							stroke='#fe0169'
 							strokeLinecap='round'
 							strokeLinejoin='round'
 							strokeWidth='15'
