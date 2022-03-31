@@ -16,6 +16,7 @@ import Speaker from "@components/Speaker";
 import Sponsors from "@components/Sponsors";
 import Team from "@components/Team";
 import ThemeCard from "@components/ThemeCard";
+import Timeline from "@components/Timeline";
 import { useEffect } from "react";
 import { FaDiscord } from "react-icons/fa";
 import Footer from "../components/Footer";
@@ -137,8 +138,11 @@ export default function Home() {
 			</Container>
 
 			<Container maxW='container.xl' my='4'>
+				<Timeline />
+			</Container>
+			<Container maxW='container.xl' my='4'>
 				<Box maxW='container.sm'>
-					<Box as='svg' viewBox='0 0 645.453 446.241' ps='6'>
+					<Box as='svg' viewBox='0 0 645.453 446.241' px='6'>
 						<path
 							data-name='Path 12'
 							d='M2163.49,336.606c-7.021,117-316.819,129.643-491.8,208.817s-134.042,220.194-134.042,220.194'
