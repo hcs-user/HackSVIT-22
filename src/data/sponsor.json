@@ -33,32 +33,27 @@
 		"id": 3,
 		"category": "Diamond",
 		"company": [
+			
 			{
 				"id": 1,
-				"name": "Courier",
-				"siteUrl": "https://www.courier.com/",
-				"iconPath": "/sponsors/courier.svg"
-			},
-			{
-				"id": 2,
 				"name": "Celo",
 				"siteUrl": "https://celo.org/",
 				"iconPath": "/sponsors/celo.svg"
 			},
 			{
-				"id": 3,
+				"id": 2,
 				"name": "Symbl.ai",
 				"siteUrl": "https://symbl.ai/",
 				"iconPath": "/sponsors/Symbl.svg"
 			},
 			{
-				"id": 4,
+				"id": 3,
 				"name": "Tezos",
 				"siteUrl": "https://tezos.com/",
 				"iconPath": "/sponsors/tezos.svg"
 			},
 			{
-				"id": 5,
+				"id": 4,
 				"name": "Filecoin",
 				"siteUrl": "https://filecoin.io/",
 				"iconPath": "/sponsors/filecoin.svg"
@@ -194,6 +189,12 @@
 				"name": "O'Reilly",
 				"iconPath": "/sponsors/oreilly.svg",
 				"siteUrl": "https://www.oreilly.com/"
+			},
+			{
+				"id": 20,
+				"name": "Courier",
+				"siteUrl": "https://www.courier.com/",
+				"iconPath": "/sponsors/courier.svg"
 			}
 		]
 	},
