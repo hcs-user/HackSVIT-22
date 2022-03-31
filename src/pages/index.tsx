@@ -5,6 +5,7 @@ import {
 	Flex,
 	Heading,
 	HStack,
+	Icon,
 	Text,
 	VStack,
 } from "@chakra-ui/react";
@@ -20,6 +21,7 @@ import Timeline from "@components/Timeline";
 import { useEffect } from "react";
 import { FaDiscord } from "react-icons/fa";
 import Footer from "../components/Footer";
+import { GrLocation } from "react-icons/gr";
 
 export default function Home() {
 	useEffect(() => {
@@ -87,9 +89,10 @@ export default function Home() {
 					<Text fontSize='2xl' color='red.400' fontWeight='700'>
 						29 Apr - 1 May
 					</Text>
+
 					<Text
 						fontSize={["sm", "md", "lg"]}
-						color='yellow.400'
+						color='yellow.300'
 						fontWeight='600'
 						align='center'
 						px={10}

@@ -42,6 +42,7 @@ export default function Timeline() {
 			// align={["start", null, "center"]}
 			pt='16'
 			pb='4'
+			overflow='hidden'
 		>
 			{STAGES.map(({ title, description, active, color }, i) => (
 				<Flex
@@ -53,8 +54,34 @@ export default function Timeline() {
 					mx={[0, null, 4]}
 					my={[4, null, 0]}
 				>
-					{i < STAGES.length - 1 && (
+					{/* {i < STAGES.length - 1 && ( */}
+					<Box
+						zIndex='2'
+						display={i == 0 ? ["none", null, "initial"] : "initial"}
+						as='svg'
+						h={["full", null, 2]}
+						w={[2, null, "full"]}
+						fill='none'
+						pos='absolute'
+						top={["-78%", null, 8]}
+						right={[8, null, "57%"]}
+						stroke={active ? `${color}.300` : "gray.300"}
+						strokeWidth='20'
+						borderRadius='full'
+						overflow='hidden'
+						viewBox={useBreakpointValue(["0 0 1 346", "0 0 1 346", "0 0 921 2"])}
+					>
+						<line
+							x1='0'
+							x2={useBreakpointValue([0, 0, "100%"])}
+							y1={useBreakpointValue(["100%", "100%", 0])}
+						/>
+					</Box>
+					{/* )} */}
+					{i == STAGES.length - 1 && (
 						<Box
+							display={["none", null, "initial"]}
+							zIndex='2'
 							as='svg'
 							h={["full", null, 2]}
 							w={[2, null, "full"]}
@@ -75,8 +102,8 @@ export default function Timeline() {
 							/>
 						</Box>
 					)}
-
 					<Box
+						zIndex='5'
 						h='12'
 						w='12'
 						minW='12'
