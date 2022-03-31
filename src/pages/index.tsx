@@ -6,6 +6,7 @@ import {
 	Heading,
 	HStack,
 	Icon,
+	Img,
 	Text,
 	VStack,
 } from "@chakra-ui/react";
@@ -22,6 +23,7 @@ import { useEffect } from "react";
 import { FaDiscord } from "react-icons/fa";
 import Footer from "../components/Footer";
 import { GrLocation } from "react-icons/gr";
+import PrizeCard from "@components/PrizeCard";
 
 export default function Home() {
 	useEffect(() => {
@@ -212,8 +214,8 @@ export default function Home() {
 				<Speaker />
 			</Container> */}
 
-			{/* <Container maxW='container.xl' pb='6'>
-				<Box as='svg' viewBox='0 0 361.402 196.332' my='4' ps='20' maxW='lg'>
+			<Container maxW='container.xl' pb='6'>
+				<Box as='svg' viewBox='0 0 361.402 196.332' my='4' ps='20' maxW='sm'>
 					<path
 						id='Path_13'
 						data-name='Path 13'
@@ -229,13 +231,49 @@ export default function Home() {
 				<Flex align='flex-end' gap='4' mb='4'>
 					<Heading size='2xl'>Prizes</Heading>
 				</Flex>
-				<Box h='80' rounded='xl' bg='gray.700' w='full'></Box>
-			</Container> */}
+				<Flex
+					gap='12'
+					py='10'
+					flexWrap='wrap'
+					justifyContent={["center", null, "center"]}
+				>
+					<PrizeCard
+						logo='/sponsors/polygon.svg'
+						amount='$10,000'
+						description='for the best hack built on Ethereum'
+						url='https://www.notion.so/devfolio/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c'
+					/>
+					<PrizeCard
+						logo='/sponsors/polygon.svg'
+						amount='$15,000'
+						description='for the best hack built on Ethereum + Polygon'
+						url='https://www.notion.so/devfolio/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c'
+					/>
+					<PrizeCard
+						logo='/sponsors/tezos.svg'
+						amount='₹20,000'
+						description='for best Dapp built on Tezos'
+						url='https://www.notion.so/devfolio/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff'
+					/>
+					<PrizeCard
+						logo='/sponsors/filecoin.svg'
+						amount='₹20,000'
+						description='for best use of IPFS and/or Filecoin'
+						url='https://devfolio.notion.site/Filecoin-Devfolio-Hackathon-Season-Prize-998fc3fe477e474086ae1d5ed1685203'
+					/>
+					<PrizeCard
+						logo='/sponsors/celo.svg'
+						amount='₹20,000'
+						description='for best Dapp built on Celo'
+						url='https://www.notion.so/devfolio/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0'
+					/>
+				</Flex>
+			</Container>
 
 			<Container maxW='container.xl' pb='6'>
 				<Flex align='flex-end' gap='4' mb='12'>
 					<Heading size='2xl'>Sponsors</Heading>
-					<Box as='svg' viewBox='0 0 661.099 359.579' maxW='lg' mb='2'>
+					<Box as='svg' viewBox='0 0 661.099 359.579' maxW='lg' mb='2' me='8'>
 						<path
 							data-name='Path 14'
 							d='M1929.157,5045.173c21.265,294.752-134.373,288.267-279.152,184.251s-209.538,142.455-364.223,159.051'

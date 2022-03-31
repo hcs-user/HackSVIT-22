@@ -24,11 +24,12 @@ export default function Navbar() {
 			left='0'
 			w='full'
 			zIndex='10'
-			bg={isOpen ? "blue.300" : "transparent"}
-			backdropFilter='blur(5px)'
+			background='linear-gradient(to bottom, #0D0F0F, rgba(8, 8, 8, 0))'
+			// background='linear(to-b, gray.800, rgba(8, 8, 8, 0.6))'
+			backdropFilter='saturate(180%) blur(4px)'
 		>
 			<Container as={Flex} maxW='container.xl' justify='space-between' py='4'>
-				<MonogramLogo h='8' w='auto' />
+				<MonogramLogo h='8' w='auto' shadow='base' />
 				{/* <Button size='lg' variant='ghost' onClick={isOpen ? onClose : onOpen}>
 					Menu
 				</Button> */}

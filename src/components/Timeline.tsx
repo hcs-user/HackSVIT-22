@@ -51,8 +51,9 @@ export default function Timeline() {
 					flexDir={["row-reverse", null, "column"]}
 					align='center'
 					pos='relative'
-					mx={[0, null, 4]}
+					// mx={[0, null, 4]}
 					my={[4, null, 0]}
+					maxW={["420px", null, "100%"]}
 				>
 					{/* {i < STAGES.length - 1 && ( */}
 					<Box
@@ -64,9 +65,9 @@ export default function Timeline() {
 						fill='none'
 						pos='absolute'
 						top={["-78%", null, 8]}
-						right={[8, null, "57%"]}
+						right={[8, null, "54%"]}
 						stroke={active ? `${color}.300` : "gray.200"}
-						strokeWidth='20'
+						strokeWidth={useBreakpointValue([30, null, 20])}
 						borderRadius='full'
 						overflow='hidden'
 						viewBox={useBreakpointValue(["0 0 1 346", "0 0 1 346", "0 0 921 2"])}
@@ -88,7 +89,7 @@ export default function Timeline() {
 							fill='none'
 							pos='absolute'
 							top={["78%", null, 8]}
-							right={[8, null, "-57%"]}
+							right={[8, null, "-54%"]}
 							stroke={active ? `${color}.300` : "gray.200"}
 							strokeWidth='20'
 							borderRadius='full'
