@@ -1,12 +1,13 @@
 import { Box, Button, Container, Flex, Text, VStack } from "@chakra-ui/react";
 import About from "@components/About";
-import { FullLogo } from "@components/branding";
+import { FullLogo, FullLogoNew, NewLogo } from "@components/branding";
 import FAQs from "@components/FAQs";
 import Footer from "@components/Footer";
 import Navbar from "@components/Navbar";
 import PresentedBy from "@components/PresentedBy";
 import Prizes from "@components/Prizes";
 import Sponsors from "@components/Sponsors";
+import StatusIndicator from "@components/StatusIndicator";
 import Themes from "@components/Themes";
 import Timeline from "@components/Timeline";
 import { useEffect, useState } from "react";
@@ -38,17 +39,23 @@ export default function Home() {
 				pos='relative'
 				textAlign='center'
 			>
-				<VStack pos='relative' spacing='6'>
-					<Box>
-						<FullLogo w={["100%", 480, 640]} h='auto' mt={[2, null, 6]} />
-					</Box>
-					<Text fontSize='xl' color='red.300' fontWeight='700'>
-						29 Apr - 1 May
-					</Text>
+				<VStack pos='relative' spacing='6' w='full'>
+					<NewLogo w={["100%", 480, 640]} h='auto' />
+					<Flex flexDir={["column", null, "row"]} align='center' gap='1'>
+						<Text fontSize='20' color='red.300' fontWeight='600'>
+							Apr 29 - May 1, 2022
+						</Text>
+						<Flex>
+							<StatusIndicator />{" "}
+							<Text as='span' fontWeight='400' color='white'>
+								SVIT, Vasad
+							</Text>
+						</Flex>
+					</Flex>
 
-					<Text fontSize='xl' color='yellow.300' fontWeight='600'>
+					{/* <Text fontSize='xl' color='yellow.300' fontWeight='600'>
 						Sardar Vallabhbhai Patel Institute of Technology, Vasad
-					</Text>
+					</Text> */}
 					<Flex gap='4' flexWrap='wrap' flexDir='column' justifyContent='center'>
 						<Box
 							className='apply-button'
