@@ -31,7 +31,7 @@ export default function About() {
 					<Heading size='2xl' mb='4'>
 						About
 					</Heading>
-					<Text fontSize='xl' maxW='640'>
+					<Text fontSize='lg' maxW='640'>
 						HackSVIT found its roots in the common aim of providing an agile platform
 						for young hacking enthusiasts. Join us for a 36 hour long action-packed
 						event where like-minded people gather to manifest their ideas into reality
