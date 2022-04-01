@@ -29,9 +29,8 @@ const PrizeCard = ({
 		rounded='3xl'
 		minW='300'
 		maxW='300'
-		cursor='pointer'
 	>
-		<Flex align='center' p='8' bg='gray.600' rounded='3xl' minH='120'>
+		<Flex align='center' p='8' bg='gray.600' rounded='3xl' minH='140'>
 			{icon ? (
 				<Icon as={icon} h='100px' w='auto' mx='auto' />
 			) : (
@@ -51,7 +50,7 @@ const PrizeCard = ({
 				target='_blank'
 				rel='noopener noreferrer'
 			>
-				<Button rounded='xl' w='full' children='Learn more' size='sm' />
+				<Button rounded='xl' w='full' children='Learn more' size='sm' bg='gray.600' _hover={{ bg: 'gray.500' }} />
 			</chakra.a>
 		)}
 	</Flex>

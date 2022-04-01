@@ -64,6 +64,7 @@ export const FullLogo = createIcon({
 		</g>
 	),
 });
+
 export const FullLogoNew = createIcon({
 	displayName: "FullLogoNew",
 	viewBox: "0 0 1142 200",
