@@ -7,19 +7,19 @@
                 "id":1,
                 "name": "Jay Patel",
                 "link":"",
-                "img":""
+                "img":"/team/jay.jpg"
             },
             {
                 "id":2,
                 "name": "Vraj Shah",
                 "link":"",
-                "img":""
+                "img":"/team/vraj.jpg"
             },
             {
                 "id":3,
                 "name": "Ayaan Retiwala",
                 "link":"",
-                "img":""
+                "img":"/team/ayaan.png"
             }
 
         ]
@@ -32,7 +32,7 @@
                 "id":1,
                 "name": "Krima Patel",
                 "link":"",
-                "img":""
+                "img":"/team/krima.jpeg"
             },
             {
                 "id":2,
@@ -50,7 +50,7 @@
                 "id":1,
                 "name": "Darshil Rathod",
                 "link":"",
-                "img":""
+                "img":"/team/darshil.jpg"
             },
             {
                 "id":2,
@@ -176,13 +176,13 @@
                 "id":1,
                 "name": "Smit Patel",
                 "link":"",
-                "img":""
+                "img":"/team/smit.jpg"
             },
             {
                 "id":2,
                 "name": "Harsh Sachaniya",
                 "link":"",
-                "img":""
+                "img":"/team/harsh.jpg"
             },
             {
                 "id":3,
