@@ -98,13 +98,13 @@ export default function Prizes() {
 				/>
 				<PrizeCard
 					logo='/sponsors/polygon.svg'
-					amount='$10,000'
+					amount='₹10,000'
 					description='for the best hack built on Ethereum'
 					url='https://www.notion.so/devfolio/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c'
 				/>
 				<PrizeCard
 					logo='/sponsors/polygon.svg'
-					amount='$15,000'
+					amount='₹15,000'
 					description='for the best hack built on Ethereum + Polygon'
 					url='https://www.notion.so/devfolio/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c'
 				/>
