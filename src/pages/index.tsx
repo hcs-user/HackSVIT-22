@@ -36,6 +36,7 @@ export default function Home() {
 				align='center'
 				justify='center'
 				pos='relative'
+				textAlign='center'
 			>
 				<VStack pos='relative' spacing='6'>
 					<Box>

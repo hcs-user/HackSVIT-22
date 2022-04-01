@@ -49,7 +49,7 @@ export default function About() {
 				>
 					<ReactPlayer
 						playing={shouldPlay}
-						volume={0.05}
+						muted={shouldPlay}
 						on
 						controls
 						width='100%'

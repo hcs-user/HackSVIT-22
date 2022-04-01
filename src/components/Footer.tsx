@@ -27,7 +27,7 @@ export default function Footer() {
 				<Container
 					maxW='container.xl'
 					py='6'
-					lineHeight='2.4'
+					lineHeight='2'
 					as={Flex}
 					justifyContent='space-between'
 					alignItems={["start", null, "center"]}
@@ -96,7 +96,7 @@ export default function Footer() {
 							Code of Conduct
 						</Link>
 					</Text>
-					<HStack>
+					<Flex justify='center' flexWrap='wrap'>
 						<Link
 							href='https://www.instagram.com/hackclubsvit/'
 							target='_blank'
@@ -163,7 +163,7 @@ export default function Footer() {
 								icon={<FiLinkedin fontSize='20' />}
 							/>
 						</Link>
-					</HStack>
+					</Flex>
 				</Container>
 			</Box>
 		</>
