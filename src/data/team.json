@@ -74,7 +74,7 @@
                 "id":2,
                 "name": "Manan Nayak",
                 "link":"",
-                "img":""
+                "img":"/team/manan.jpg"
             },
             {
                 "id":3,
@@ -92,13 +92,13 @@
                 "id":1,
                 "name": "Heta Chokshi",
                 "link":"",
-                "img":""
+                "img":"/team/Heta.jpg"
             },
             {
                 "id":2,
                 "name": "Arya Pradeep",
                 "link":"",
-                "img":""
+                "img":"/team/arya.jpg"
             },
             {
                 "id":3,
@@ -134,7 +134,7 @@
                 "id":1,
                 "name": "Aum Sathwara",
                 "link":"",
-                "img":""
+                "img":"/team/aum.jpeg"
             },
             {
                 "id":2,
