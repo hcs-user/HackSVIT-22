@@ -18,28 +18,32 @@ export default function About() {
 			onEnter={() => updatePlayState(true)}
 			onLeave={() => updatePlayState(false)}
 		>
-			<Container maxW='container.xl' my='4' as={Flex}>
+			<Container
+				maxW='container.xl'
+				py='4'
+				gap='6'
+				as={Flex}
+				flexDir={["column", null, null, "row"]}
+				justifyContent={["center", null, null, "space-between"]}
+				alignItems={["center", null, null, "center"]}
+			>
 				<Box>
 					<Heading size='2xl' mb='4'>
 						About
 					</Heading>
-					<Flex flexDir={["column", null, "row"]} align='center'>
-						<Text fontSize='xl'>
-							HackSVIT found its roots in the common aim of providing an agile platform
-							for young hacking enthusiasts. Join us for a 36 hour long action-packed
-							event where like-minded people gather to manifest their ideas into
-							reality in the premises of Sardar Vallabhbhai Institute of Technology,
-							Vasad.
-						</Text>
-						<Box h='full' rounded='xl' bg='gray.700' w='full'></Box>
-					</Flex>
+					<Text fontSize='xl' maxW='640'>
+						HackSVIT found its roots in the common aim of providing an agile platform
+						for young hacking enthusiasts. Join us for a 36 hour long action-packed
+						event where like-minded people gather to manifest their ideas into reality
+						in the premises of Sardar Vallabhbhai Institute of Technology, Vasad.
+					</Text>
 				</Box>
 				<AspectRatio
-					minW='320px'
+					// minH='480px'
 					w='full'
 					maxW='lg'
 					ratio={16 / 9}
-					mx='auto'
+					// mx='auto'
 					rounded='md'
 					overflow='hidden'
 				>
