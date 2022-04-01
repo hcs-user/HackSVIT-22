@@ -1,114 +1,166 @@
 import {
 	Box,
-	chakra,
+	Button,
 	Container,
-	Link,
-	SimpleGrid,
-	Stack,
-	Text,
-	IconButton,
-	HStack,
-	Divider,
+	Flex,
 	Heading,
+	HStack,
+	Icon,
+	IconButton,
+	Link,
+	Text,
 } from "@chakra-ui/react";
-import { ReactNode } from "react";
+import { FaDiscord } from "react-icons/fa";
 import {
-	FaDiscord,
-	FaFacebook,
-	FaInstagram,
-	FaLinkedin,
-	FaTwitter,
-	FaYoutube,
-} from "react-icons/fa";
-import { FullLogo, NewLogo } from "./Branding";
-
-const List = ["Sponsors", "About"];
-
-const FooterLink = ({ children }: { children: ReactNode }) => {
-	return (
-		<Link
-			py={1}
-			_hover={{
-				textDecoration: "none",
-			}}
-			href={"#"}
-		>
-			{children}
-		</Link>
-	);
-};
-
-const ListHeader = ({ children }: { children: ReactNode }) => {
-	return (
-		<Text fontWeight={"500"} fontSize={"lg"} mb={2}>
-			{children}
-		</Text>
-	);
-};
+	FiFacebook,
+	FiInstagram,
+	FiLinkedin,
+	FiTwitter,
+	FiYoutube,
+} from "react-icons/fi";
+import { MonogramLogo } from "./branding";
 
 export default function Footer() {
 	return (
-		<Box bg='gray.900'>
-			<Container as={Stack} maxW='6xl' py={10}>
-				<SimpleGrid
-					templateColumns={{ sm: "1fr 1fr", md: "2fr 2fr 2fr" }}
-					spacing={8}
+		<>
+			<Box borderBottom='1px solid #fafafa22'>
+				<Container
+					maxW='container.xl'
+					py='6'
+					lineHeight='2.4'
+					as={Flex}
+					justifyContent='space-between'
+					alignItems='center'
 				>
-					<Stack alignItems='center' justifyContent='center'>
-						<FullLogo w={["100%", 300, 400]} h='auto' />
-					</Stack>
-					<Stack alignItems='center'>
-						<Stack>
-							<ListHeader>Explore</ListHeader>
-							{List.map((link) => {
-								return <FooterLink key={link}>{link}</FooterLink>;
-							})}
-						</Stack>
-					</Stack>
-					<Stack alignItems='center'>
-						<ListHeader>Find us online</ListHeader>
-						<HStack>
-							<Link href='https://www.instagram.com/hackclubsvit/' target='_blank'>
-								<IconButton aria-label='Instagram' icon={<FaInstagram />} />
-							</Link>
-							<Link href='https://twitter.com/HackClubSVIT' target='_blank'>
-								<IconButton aria-label='Twitter' icon={<FaTwitter />} />
-							</Link>
-							<Link href='https://discord.gg/KZZzD8a7PY' target='_blank'>
-								<IconButton aria-label='Discord' icon={<FaDiscord />} />
-							</Link>
-						</HStack>
-						<HStack>
-							<Link
-								href='https://www.youtube.com/channel/UC8XHRJT9TewOS0ET6tZjszg'
-								target='_blank'
-							>
-								<IconButton aria-label='YouTube' icon={<FaYoutube />} />
-							</Link>
-							<Link href='https://www.facebook.com/HackClubSVIT/' target='_blank'>
-								<IconButton aria-label='Facebook' icon={<FaFacebook />} />
-							</Link>
-							<Link
-								href='https://www.linkedin.com/company/hackclubsvit/'
-								target='_blank'
-							>
-								<IconButton aria-label='Linkedin' icon={<FaLinkedin />} />
-							</Link>
-						</HStack>
-					</Stack>
-				</SimpleGrid>
-				<Box pt={10}>
-					<a href='mailto:hello@hackclubsvit.co'>
-						<Heading textAlign='center' my='5' fontSize={["xl", "2xl", "4xl"]}>
-							hello@hackclubsvit.co
-						</Heading>
+					<Box>
+						<Heading>Still confused?</Heading>
+						<Text>Connect with us & stay updated on discord</Text>
+					</Box>
+					<a href='https://discord.gg/KZZzD8a7PY' target='_blank'>
+						<Button
+							// size='lg'
+							my='4'
+							py='8'
+							height='auto'
+							fontSize={["lg", null, "xl"]}
+							bg='#7289DA'
+							w={["full", null, "auto"]}
+							minW='280px'
+							leftIcon={<Icon as={FaDiscord} h='9' w='9' />}
+							_hover={{
+								bg: "#4967CF",
+							}}
+						>
+							Join Discord
+						</Button>
 					</a>
-					<Divider />
-				</Box>
-				<Text p={5} textAlign='center'>
-					© 2022, Hack SVIT. All rights reserved.
-				</Text>
-			</Container>
-		</Box>
+				</Container>
+			</Box>
+			<Box bg='black' pos='relative'>
+				<Container
+					maxW='container.xl'
+					py='6'
+					as={Flex}
+					justifyContent='space-between'
+				>
+					<MonogramLogo
+						pos='absolute'
+						top='-6'
+						left='50%'
+						fill='blue.300'
+						h='12'
+						w='auto'
+					/>
+					<Text>
+						© 2022,{" "}
+						<Link
+							href='https://hackclubsvit.co'
+							target='_blank'
+							rel='noopener noreferrer'
+							color='blue.100'
+						>
+							Hack Club SVIT
+						</Link>
+						.&nbsp;&nbsp;All rights reserved. &nbsp; &bull; &nbsp;
+						<Link
+							href='https://devfolio.co/code-of-conduct'
+							target='_blank'
+							rel='noopener noreferrer'
+							color='orange.100'
+						>
+							Code of Conduct
+						</Link>
+					</Text>
+					<HStack>
+						<Link
+							href='https://www.instagram.com/hackclubsvit/'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<IconButton
+								variant='ghost'
+								aria-label='Instagram'
+								icon={<FiInstagram fontSize='20' />}
+							/>
+						</Link>
+						<Link
+							href='https://twitter.com/HackClubSVIT'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<IconButton
+								variant='ghost'
+								aria-label='Twitter'
+								icon={<FiTwitter fontSize='20' />}
+							/>
+						</Link>
+						<Link
+							href='https://discord.gg/KZZzD8a7PY'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<IconButton
+								variant='ghost'
+								aria-label='Discord'
+								icon={<FaDiscord fontSize='20' />}
+							/>
+						</Link>
+						<Link
+							href='https://www.youtube.com/channel/UC8XHRJT9TewOS0ET6tZjszg'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<IconButton
+								variant='ghost'
+								aria-label='YouTube'
+								icon={<FiYoutube fontSize='20' />}
+							/>
+						</Link>
+						<Link
+							href='https://www.facebook.com/HackClubSVIT/'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<IconButton
+								variant='ghost'
+								aria-label='Facebook'
+								icon={<FiFacebook fontSize='20' />}
+							/>
+						</Link>
+						<Link
+							href='https://www.linkedin.com/company/hackclubsvit/'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<IconButton
+								variant='ghost'
+								aria-label='Linkedin'
+								icon={<FiLinkedin fontSize='20' />}
+							/>
+						</Link>
+					</HStack>
+				</Container>
+			</Box>
+		</>
 	);
 }

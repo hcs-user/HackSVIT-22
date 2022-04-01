@@ -1,18 +1,19 @@
 import {
 	Accordion,
 	AccordionButton,
-	AccordionIcon,
 	AccordionItem,
 	AccordionPanel,
+	Box,
 	Container,
+	Flex,
 	Heading,
 	Icon,
-	Link,
 	Text,
 } from "@chakra-ui/react";
 import { ReactNode } from "react";
-import FAQ_DATA from "../data/faq.json";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
+import FAQ_DATA from "../data/faq.json";
+
 const FAQItem = ({
 	question,
 	answer,
@@ -48,10 +49,19 @@ const FAQItem = ({
 
 export default function FAQs() {
 	return (
-		<Accordion allowToggle allowMultiple>
-			{FAQ_DATA.map(({ question, answer }) => (
-				<FAQItem question={question} answer={answer} />
-			))}
-		</Accordion>
+		<Box bg='gray.900'>
+			<Container id='faqs' maxW='container.xl' pb='6' py={20}>
+				<Flex align='flex-end' gap='4' mb='12'>
+					<Heading fontSize={[24, null, 36]}>
+						(FAQ) Frequently asked questions
+					</Heading>
+				</Flex>
+				<Accordion allowToggle allowMultiple>
+					{FAQ_DATA.map(({ question, answer }) => (
+						<FAQItem question={question} answer={answer} />
+					))}
+				</Accordion>
+			</Container>
+		</Box>
 	);
 }
