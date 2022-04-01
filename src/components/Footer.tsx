@@ -30,7 +30,8 @@ export default function Footer() {
 					lineHeight='2.4'
 					as={Flex}
 					justifyContent='space-between'
-					alignItems='center'
+					alignItems={["start", null, "center"]}
+					flexDir={["column", null, "row"]}
 				>
 					<Box>
 						<Heading>Still confused?</Heading>
@@ -59,9 +60,12 @@ export default function Footer() {
 			<Box bg='black' pos='relative'>
 				<Container
 					maxW='container.xl'
-					py='6'
+					pt='12'
+					pb='4'
 					as={Flex}
+					gap='4'
 					justifyContent='space-between'
+					flexDir={["column", null, "row"]}
 				>
 					<MonogramLogo
 						pos='absolute'
@@ -70,6 +74,7 @@ export default function Footer() {
 						fill='blue.300'
 						h='12'
 						w='auto'
+						transform='translate(-50%)'
 					/>
 					<Text>
 						© 2022,{" "}

@@ -37,7 +37,7 @@ export default function Navbar() {
 
 	return (
 		<Box
-			pos='fixed'
+			pos={["initial", null, "fixed"]}
 			top='0'
 			left='0'
 			w='full'
@@ -48,13 +48,6 @@ export default function Navbar() {
 		>
 			<Container as={Flex} maxW='container.xl' justify='space-between' py='4'>
 				<MonogramLogo fill='white' h='8' w='auto' shadow='base' />
-				<Fade in={showCTA}>
-					<Box
-						className='apply-button'
-						data-hackathon-slug='hacksvit2022'
-						data-button-theme='dark-inverted'
-					/>
-				</Fade>
 			</Container>
 			{/* <Button size='lg' variant='ghost' onClick={isOpen ? onClose : onOpen}>
 					Menu

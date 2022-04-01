@@ -48,12 +48,7 @@ export default function Home() {
 					<Text fontSize='xl' color='yellow.300' fontWeight='600'>
 						Sardar Vallabhbhai Patel Institute of Technology, Vasad
 					</Text>
-					<Flex
-						gap='4'
-						flexWrap='wrap'
-						flexDir={["column", null, null, "row"]}
-						justifyContent='center'
-					>
+					<Flex gap='4' flexWrap='wrap' flexDir='column' justifyContent='center'>
 						<Box
 							className='apply-button'
 							data-hackathon-slug='hacksvit2022'
