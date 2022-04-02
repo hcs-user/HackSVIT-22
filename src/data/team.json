@@ -68,7 +68,7 @@
                 "id":1,
                 "name": "Dvija Patel",
                 "link":"",
-                "img":""
+                "img":"/team/dvija.jpg"
             },
             {
                 "id":2,
@@ -116,7 +116,7 @@
                 "id":1,
                 "name": "Gautami Parikh",
                 "link":"",
-                "img":""
+                "img":"/team/gautami.jpg"
             },
             {
                 "id":2,
@@ -152,7 +152,7 @@
                 "id":1,
                 "name": "Akshar Vandara",
                 "link":"",
-                "img":""
+                "img":"/team/akshar.jpg"
             },
             {
                 "id":2,
