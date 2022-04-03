@@ -5,7 +5,7 @@ import FAQs from "@components/FAQs";
 import Footer from "@components/Footer";
 import Navbar from "@components/Navbar";
 import PresentedBy from "@components/PresentedBy";
-import Prizes from "@components/Prizes";
+import Prize from "@components/Prize";
 import Sponsors from "@components/Sponsors";
 import StatusIndicator from "@components/StatusIndicator";
 import Themes from "@components/Themes";
@@ -55,7 +55,7 @@ export default function Home() {
 
 					{/* <Text fontSize='xl' color='yellow.300' fontWeight='600'>
 						Sardar Vallabhbhai Patel Institute of Technology, Vasad
-					</Text> */}
+					</Text> */}	
 					<Flex gap='4' flexWrap='wrap' flexDir='column' justifyContent='center'>
 						<Box
 							className='apply-button'
@@ -109,7 +109,7 @@ export default function Home() {
 			<Timeline />
 			<Themes />
 			{/* <Speakers /> */}
-			<Prizes />
+			<Prize />
 			<Sponsors />
 			{/* <Container maxW='container.xl' pb='6' my='12'>
 				<Flex align='flex-end' gap='4' mb='12'>
