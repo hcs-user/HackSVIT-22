@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
 						initial='pageInitial'
 						animate='pageAnimate'
 						exit='pageInitial'
-						transition={{ duration: 0.7 }}
+						transition={{ duration: 0.3 }}
 						variants={{
 							pageInitial: {
 								opacity: 0,
