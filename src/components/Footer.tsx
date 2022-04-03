@@ -15,6 +15,7 @@ import {
 	FiFacebook,
 	FiInstagram,
 	FiLinkedin,
+	FiMail,
 	FiTwitter,
 	FiYoutube,
 } from "react-icons/fi";
@@ -161,6 +162,17 @@ export default function Footer() {
 								variant='ghost'
 								aria-label='Linkedin'
 								icon={<FiLinkedin fontSize='20' />}
+							/>
+						</Link>
+						<Link
+							href='mailto:hello@hackclubsvit.co'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<IconButton
+								variant='ghost'
+								aria-label='Linkedin'
+								icon={<FiMail fontSize='20' />}
 							/>
 						</Link>
 					</Flex>

@@ -5,7 +5,7 @@
 	},
 	{
 		"question": "Are there any fees to participate?",
-		"answer": "Nope. HackSVIT is free of cost and open for all."
+		"answer": "Nope. Hack SVIT is free of cost and open for all."
 	},
 	{
 		"question": "Do I need a team?",
@@ -13,10 +13,14 @@
 	},
 	{
 		"question": "What if I don't have a team?",
-		"answer": "No worries, head on to the Discord channel and meet people in the find-my-team channel."
+		"answer": "No worries, head on to the Discord channel and meet people in the #🤝team-building channel."
 	},
 	{
 		"question": "Can I bring a project that was built earlier?",
 		"answer": "We apologize, but all the hackathon's projects should be developed during the event from scratch. All hackers will be strictly monitored for any kind of plagiarism or cheating."
+	},
+	{
+		"question": "What facilities will be provided to the participants?",
+		"answer": "All the participants will be facilitated with free of cost accommodation and food services between the Opening Ceremony on 29th April and the Closing Ceremony on 1st May."
 	}
 ]

@@ -1,4 +1,4 @@
-import { Box, Button, Container, Flex, Text, VStack } from "@chakra-ui/react";
+import { Box, Button, Container, Flex, Text, VStack, Heading } from "@chakra-ui/react";
 import About from "@components/About";
 import { FullLogo, FullLogoNew, NewLogo } from "@components/branding";
 import FAQs from "@components/FAQs";
@@ -8,6 +8,7 @@ import PresentedBy from "@components/PresentedBy";
 import Prize from "@components/Prize";
 import Sponsors from "@components/Sponsors";
 import StatusIndicator from "@components/StatusIndicator";
+import Team from "@components/Team";
 import Themes from "@components/Themes";
 import Timeline from "@components/Timeline";
 import { useEffect, useState } from "react";
@@ -115,7 +116,7 @@ export default function Home() {
 				<Flex align='flex-end' gap='4' mb='12'>
 					<Heading size='2xl'>Team</Heading>
 				</Flex>
-				<Team />
+				<Team/>
 			</Container> */}
 			<PresentedBy />
 			<FAQs />

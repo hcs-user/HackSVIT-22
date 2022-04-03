@@ -7,19 +7,19 @@
                 "id":1,
                 "name": "Jay Patel",
                 "link":"",
-                "img":""
+                "img":"/team/jay.jpg"
             },
             {
                 "id":2,
                 "name": "Vraj Shah",
                 "link":"",
-                "img":""
+                "img":"/team/vraj.jpg"
             },
             {
                 "id":3,
                 "name": "Ayaan Retiwala",
                 "link":"",
-                "img":""
+                "img":"/team/ayaan.png"
             }
         ]
     },
@@ -31,7 +31,7 @@
                 "id":1,
                 "name": "Krima Patel",
                 "link":"",
-                "img":""
+                "img":"/team/krima.jpeg"
             },
             {
                 "id":2,
@@ -49,7 +49,7 @@
                 "id":1,
                 "name": "Darshil Rathod",
                 "link":"",
-                "img":""
+                "img":"/team/darshil.jpg"
             },
             {
                 "id":2,
@@ -67,13 +67,13 @@
                 "id":1,
                 "name": "Dvija Patel",
                 "link":"",
-                "img":""
+                "img":"/team/dvija.jpg"
             },
             {
                 "id":2,
                 "name": "Manan Nayak",
                 "link":"",
-                "img":""
+                "img":"/team/manan.jpg"
             },
             {
                 "id":3,
@@ -91,12 +91,21 @@
                 "id":1,
                 "name": "Heta Chokshi",
                 "link":"",
-                "img":""
+                "img":"/team/Heta.jpg"
             },
             {
                 "id":2,
                 "name": "Arya Pradeep",
                 "link":"",
+<<<<<<< HEAD
+=======
+                "img":"/team/arya.jpg"
+            },
+            {
+                "id":3,
+                "name": "Jai Gadhavi",
+                "link":"",
+>>>>>>> b446b5793516d73ec72a9c7800923444570cb383
                 "img":""
             }
         ]
@@ -109,7 +118,7 @@
                 "id":1,
                 "name": "Gautami Parikh",
                 "link":"",
-                "img":""
+                "img":"/team/gautami.jpg"
             },
             {
                 "id":2,
@@ -127,7 +136,7 @@
                 "id":1,
                 "name": "Aum Sathwara",
                 "link":"",
-                "img":""
+                "img":"/team/aum.jpeg"
             },
             {
                 "id":2,
@@ -145,7 +154,7 @@
                 "id":1,
                 "name": "Akshar Vandara",
                 "link":"",
-                "img":""
+                "img":"/team/akshar.jpg"
             },
             {
                 "id":2,
@@ -169,13 +178,13 @@
                 "id":1,
                 "name": "Smit Patel",
                 "link":"",
-                "img":""
+                "img":"/team/smit.jpg"
             },
             {
                 "id":2,
                 "name": "Harsh Sachaniya",
                 "link":"",
-                "img":""
+                "img":"/team/harsh.jpg"
             },
             {
                 "id":3,
