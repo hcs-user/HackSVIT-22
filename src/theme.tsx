@@ -147,7 +147,7 @@ const theme = extendTheme({
 					boxShadow: "none",
 				},
 			},
-		},
+		}
 	},
 });
 
