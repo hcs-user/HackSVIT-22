@@ -1,4 +1,12 @@
-import { Box, Button, Container, Flex, Text, VStack, Heading } from "@chakra-ui/react";
+import {
+	Box,
+	Button,
+	Container,
+	Flex,
+	Text,
+	VStack,
+	Heading,
+} from "@chakra-ui/react";
 import About from "@components/About";
 import { FullLogo, FullLogoNew, NewLogo } from "@components/branding";
 import FAQs from "@components/FAQs";
@@ -30,7 +38,6 @@ export default function Home() {
 
 	return (
 		<>
-			<Navbar />
 			<Container
 				as={Flex}
 				pt={[32, null, 60]}
@@ -56,7 +63,7 @@ export default function Home() {
 
 					{/* <Text fontSize='xl' color='yellow.300' fontWeight='600'>
 						Sardar Vallabhbhai Patel Institute of Technology, Vasad
-					</Text> */} 
+					</Text> */}
 					<Flex gap='4' flexWrap='wrap' flexDir='column' justifyContent='center'>
 						<Box
 							className='apply-button'
@@ -112,10 +119,9 @@ export default function Home() {
 			{/* <Speakers /> */}
 			<Prize />
 			<Sponsors />
-				<Team/>
+			<Team />
 			<PresentedBy />
 			<FAQs />
-			<Footer />
 		</>
 	);
 }

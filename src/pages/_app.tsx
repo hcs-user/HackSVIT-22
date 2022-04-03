@@ -12,6 +12,8 @@ import { AnimatePresence, motion } from "framer-motion";
 import { AppProps } from "next/app";
 import theme from "../theme";
 import "swiper/css";
+import Navbar from "@components/Navbar";
+import Footer from "@components/Footer";
 
 function MyApp({ Component, pageProps, router }: AppProps) {
 	return (
@@ -35,7 +37,9 @@ function MyApp({ Component, pageProps, router }: AppProps) {
 							},
 						}}
 					>
+						<Navbar />
 						<Component {...pageProps} />
+						<Footer />
 					</motion.div>
 				</AnimatePresence>
 			</ChakraProvider>
