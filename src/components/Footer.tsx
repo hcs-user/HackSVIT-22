@@ -77,7 +77,7 @@ export default function Footer() {
 						w='auto'
 						transform='translate(-50%)'
 					/>
-					<Text>
+					<Text textAlign={["center", null, "left"]}>
 						© 2022,{" "}
 						<Link
 							href='https://hackclubsvit.co'
