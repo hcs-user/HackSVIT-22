@@ -10,6 +10,7 @@ import {
 	MenuList,
 	Portal,
 	useDisclosure,
+	Link
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import { MonogramLogo } from "./branding";
@@ -30,7 +31,7 @@ export default function Navbar() {
 		script.defer = true;
 		document.body.appendChild(script);
 		return () => {
-			window.removeEventListener("scroll", () => {});
+			window.removeEventListener("scroll", () => { });
 			document.body.removeChild(script);
 		};
 	}, []);
@@ -44,10 +45,12 @@ export default function Navbar() {
 			zIndex='10'
 			background='linear-gradient(to bottom, #0D0F0F, rgba(8, 8, 8, 0))'
 			backdropFilter='blur(4px)'
-			// background='linear(to-b, gray.800, rgba(8, 8, 8, 0.6))'
+		// background='linear(to-b, gray.800, rgba(8, 8, 8, 0.6))'
 		>
 			<Container as={Flex} maxW='container.xl' justify='space-between' py='4'>
-				<MonogramLogo fill='white' h='8' w='auto' shadow='base' />
+				<Link href="#">
+					<MonogramLogo fill='white' h='8' w='auto' shadow='base' />
+				</Link>
 			</Container>
 			{/* <Button size='lg' variant='ghost' onClick={isOpen ? onClose : onOpen}>
 					Menu
