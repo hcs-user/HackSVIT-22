@@ -14,7 +14,7 @@ export default function Team() {
                         {
                             team.member.map((member) => (
                                 <Tooltip key={member.name} label={member.name} hasArrow arrowSize={12} bg='white'>
-                                    <Avatar bg='black' size='xl' name={member.name} src={member.img}/>
+                                    <Avatar bg='transparent' size='xl' name={member.name} src={member.img}/>
                                 </Tooltip>
                             ))
                         }
