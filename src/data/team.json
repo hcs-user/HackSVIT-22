@@ -1,146 +1,140 @@
 [
-    {
-        "id": 1,
-        "team_name": "Core",
-        "member": [
-            {
-                "id": 1,
-                "name": "Jay Patel",
-                "link": "",
-                "img": "/team/jay.webp"
-            },
-            {
-                "id": 2,
-                "name": "Vraj Shah",
-                "link": "",
-                "img": "/team/vraj.webp"
-            },
-            {
-                "id": 3,
-                "name": "Ayaan Retiwala",
-                "link": "",
-                "img": "/team/ayaan.png"
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "team_name": "Club Management",
-        "member": [
-            {
-                "id": 1,
-                "name": "Krima Patel",
-                "link": "",
-                "img": "/team/krima.jpeg"
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "team_name": "Developer",
-        "member": [
-            {
-                "id": 1,
-                "name": "Darshil Rathod",
-                "link": "",
-                "img": "/team/darshil.webp"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "team_name": "Graphics",
-        "member": [
-            {
-                "id": 1,
-                "name": "Dvija Patel",
-                "link": "",
-                "img": "/team/dvija.webp"
-            },
-            {
-                "id": 2,
-                "name": "Manan Nayak",
-                "link": "",
-                "img": "/team/manan.webp"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "team_name": "Content",
-        "member": [
-            {
-                "id": 1,
-                "name": "Heta Chokshi",
-                "link": "",
-                "img": "/team/Heta.webp"
-            },
-            {
-                "id": 2,
-                "name": "Arya Pradeep",
-                "link": "",
-                "img": "/team/arya.webp"
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "team_name": "Social",
-        "member": [
-            {
-                "id": 1,
-                "name": "Gautami Parikh",
-                "link": "",
-                "img": "/team/gautami.webp"
-            }
-        ]
-    },
-    {
-        "id": 7,
-        "team_name": "Technical",
-        "member": [
-            {
-                "id": 1,
-                "name": "Aum Sathwara",
-                "link": "",
-                "img": "/team/aum.jpeg"
-            }
-        ]
-    },
-    {
-        "id": 8,
-        "team_name": "Event Management",
-        "member": [
-            {
-                "id": 1,
-                "name": "Akshar Vandara",
-                "link": "",
-                "img": "/team/akshar.webp"
-            },
-            {
-                "id": 2,
-                "name": "Harsh Upadhyay",
-                "link": "",
-                "img": "/team/haru.webp"
-            }
-        ]
-    },
-    {
-        "id": 9,
-        "team_name": "Logistics",
-        "member": [
-            {
-                "id": 1,
-                "name": "Smit Patel",
-                "link": "",
-                "img": "/team/smit.webp"
-            },
-            {
-                "id": 2,
-                "name": "Harsh Sachaniya",
-                "link": "",
-                "img": "/team/Harsh.webp"
-            }
-        ]
-    }
+	{
+		"id": 1,
+		"team_name": "Core",
+		"member": [
+			{
+				"id": 1,
+				"name": "Jay Patel",
+				"link": "",
+				"img": "/team/jay.webp"
+			},
+			{
+				"id": 2,
+				"name": "Vraj Shah",
+				"link": "",
+				"img": "/team/vraj.webp"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"team_name": "Club Management",
+		"member": [
+			{
+				"id": 1,
+				"name": "Krima Patel",
+				"link": "",
+				"img": "/team/krima.jpeg"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"team_name": "Developer",
+		"member": [
+			{
+				"id": 1,
+				"name": "Darshil Rathod",
+				"link": "",
+				"img": "/team/darshil.webp"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"team_name": "Graphics",
+		"member": [
+			{
+				"id": 1,
+				"name": "Dvija Patel",
+				"link": "",
+				"img": "/team/dvija.webp"
+			},
+			{
+				"id": 2,
+				"name": "Manan Nayak",
+				"link": "",
+				"img": "/team/manan.webp"
+			}
+		]
+	},
+	{
+		"id": 5,
+		"team_name": "Content",
+		"member": [
+			{
+				"id": 1,
+				"name": "Heta Chokshi",
+				"link": "",
+				"img": "/team/Heta.webp"
+			},
+			{
+				"id": 2,
+				"name": "Arya Pradeep",
+				"link": "",
+				"img": "/team/arya.webp"
+			}
+		]
+	},
+	{
+		"id": 6,
+		"team_name": "Social",
+		"member": [
+			{
+				"id": 1,
+				"name": "Gautami Parikh",
+				"link": "",
+				"img": "/team/gautami.webp"
+			}
+		]
+	},
+	{
+		"id": 7,
+		"team_name": "Technical",
+		"member": [
+			{
+				"id": 1,
+				"name": "Aum Sathwara",
+				"link": "",
+				"img": "/team/aum.jpeg"
+			}
+		]
+	},
+	{
+		"id": 8,
+		"team_name": "Event Management",
+		"member": [
+			{
+				"id": 1,
+				"name": "Akshar Vandara",
+				"link": "",
+				"img": "/team/akshar.webp"
+			},
+			{
+				"id": 2,
+				"name": "Harsh Upadhyay",
+				"link": "",
+				"img": "/team/haru.webp"
+			}
+		]
+	},
+	{
+		"id": 9,
+		"team_name": "Logistics",
+		"member": [
+			{
+				"id": 1,
+				"name": "Smit Patel",
+				"link": "",
+				"img": "/team/smit.webp"
+			},
+			{
+				"id": 2,
+				"name": "Harsh Sachaniya",
+				"link": "",
+				"img": "/team/Harsh.webp"
+			}
+		]
+	}
 ]

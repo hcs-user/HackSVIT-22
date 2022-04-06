@@ -26,8 +26,10 @@ export default function Team() {
 									label={member.name}
 									hasArrow
 									arrowSize={12}
-									bg='gray.300'
+									// bg='gray.300'
 									rounded='base'
+									bg='white'
+									color='black'
 								>
 									<Avatar
 										bg='transparent'
