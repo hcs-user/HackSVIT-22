@@ -25,7 +25,7 @@ const STAGES = [
 		description: "Registration phase II",
 		color: "pink",
 
-		active: false,
+		active: true,
 	},
 	{
 		title: "April 20th",
