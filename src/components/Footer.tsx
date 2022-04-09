@@ -104,7 +104,7 @@ export default function Footer() {
 							rel='noopener noreferrer'
 						>
 							<IconButton
-								variant='ghost'
+								variant='unstyled'
 								aria-label='Instagram'
 								icon={<FiInstagram fontSize='20' />}
 							/>
@@ -115,7 +115,7 @@ export default function Footer() {
 							rel='noopener noreferrer'
 						>
 							<IconButton
-								variant='ghost'
+								variant='unstyled'
 								aria-label='Twitter'
 								icon={<FiTwitter fontSize='20' />}
 							/>
@@ -126,7 +126,7 @@ export default function Footer() {
 							rel='noopener noreferrer'
 						>
 							<IconButton
-								variant='ghost'
+								variant='unstyled'
 								aria-label='Discord'
 								icon={<FaDiscord fontSize='20' />}
 							/>
@@ -137,7 +137,7 @@ export default function Footer() {
 							rel='noopener noreferrer'
 						>
 							<IconButton
-								variant='ghost'
+								variant='unstyled'
 								aria-label='YouTube'
 								icon={<FiYoutube fontSize='20' />}
 							/>
@@ -148,7 +148,7 @@ export default function Footer() {
 							rel='noopener noreferrer'
 						>
 							<IconButton
-								variant='ghost'
+								variant='unstyled'
 								aria-label='Facebook'
 								icon={<FiFacebook fontSize='20' />}
 							/>
@@ -159,7 +159,7 @@ export default function Footer() {
 							rel='noopener noreferrer'
 						>
 							<IconButton
-								variant='ghost'
+								variant='unstyled'
 								aria-label='Linkedin'
 								icon={<FiLinkedin fontSize='20' />}
 							/>
@@ -170,7 +170,7 @@ export default function Footer() {
 							rel='noopener noreferrer'
 						>
 							<IconButton
-								variant='ghost'
+								variant='unstyled'
 								aria-label='Linkedin'
 								icon={<FiMail fontSize='20' />}
 							/>

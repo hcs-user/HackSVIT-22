@@ -13,7 +13,7 @@ import {
 	HStack,
 } from "@chakra-ui/react";
 import { FirstPrizeIcon, SecondPrizeIcon, ThirdPrizeIcon } from "./svgs";
-import { MdArrowRightAlt } from "react-icons/md";
+import { BsArrowRight } from "react-icons/bs";
 import { useRouter } from "next/router";
 import PrizeCard from "./Prizecard";
 
@@ -64,8 +64,8 @@ export default function Prize() {
 			<Flex justifyContent='center' my='8' alignItems='center' gap='2'>
 				<chakra.a onClick={(e) => (router.replace("/prizes"))}>
 					<HStack cursor='pointer'>
-						<Text fontSize={'xl'} color="red.300">View More</Text>
-						<MdArrowRightAlt fontSize='24px' />
+						<Text fontSize={'xl'} color="blue.300">View More</Text>
+						<BsArrowRight />
 					</HStack>
 				</chakra.a>
 			</Flex>
