@@ -33,7 +33,6 @@
 		"id": 3,
 		"category": "Diamond",
 		"company": [
-			
 			{
 				"id": 1,
 				"name": "Celo",
@@ -195,6 +194,12 @@
 				"name": "Courier",
 				"siteUrl": "https://www.courier.com/",
 				"iconPath": "/sponsors/courier.svg"
+			},
+			{
+				"id": 21,
+				"name": "Codedamn",
+				"siteUrl": "https://codedamn.com/",
+				"iconPath": "/sponsors/codedamn.svg"
 			}
 		]
 	},
