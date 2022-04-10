@@ -230,6 +230,12 @@
 				"name": "Stickergiant",
 				"iconPath": "/sponsors/stickergiant.svg",
 				"siteUrl": "https://www.stickergiant.com/"
+			},
+			{
+				"id": 3,
+				"name": "Devhero",
+				"iconPath": "/sponsors/devhero.webp",
+				"siteUrl": "https://devhero.shop/"
 			}
 		]
 	},
