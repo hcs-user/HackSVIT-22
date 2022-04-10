@@ -80,6 +80,12 @@
 				"name": "Github",
 				"siteUrl": "https://github.com/",
 				"iconPath": "/sponsors/github.png"
+			},
+			{
+				"id": 2,
+				"name": "DigitalOcean",
+				"siteUrl": "https://www.digitalocean.com/",
+				"iconPath": "/sponsors/digitalocean.svg"
 			}
 		]
 	},
