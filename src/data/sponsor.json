@@ -60,6 +60,18 @@
 		]
 	},
 	{
+		"id": 6,
+		"category": "Silver",
+		"company": [
+			{
+				"id": 1,
+				"name": "Replit",
+				"siteUrl": "https://replit.com/",
+				"iconPath": "/sponsors/repl.svg"
+			}
+		]
+	},
+	{
 		"id": 7,
 		"category": "Bronze",
 		"company": [
