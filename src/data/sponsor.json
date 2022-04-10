@@ -77,129 +77,129 @@
 		"company": [
 			{
 				"id": 1,
-				"name": "Axure",
-				"iconPath": "/sponsors/axure.svg",
-				"siteUrl": "https://www.axure.com/"
-			},
-			{
-				"id": 2,
-				"name": "Clerky",
-				"iconPath": "/sponsors/clerky.svg",
-				"siteUrl": "https://www.clerky.com/"
-			},
-			{
-				"id": 3,
-				"name": "Sashido",
-				"iconPath": "/sponsors/sashido.svg",
-				"siteUrl": "https://www.sashido.io/en/"
-			},
-			{
-				"id": 4,
-				"name": "Interview Cake",
-				"iconPath": "/sponsors/interview-cake.svg",
-				"siteUrl": "https://www.interviewcake.com/"
-			},
-			{
-				"id": 5,
-				"name": "Rosenfeld Media",
-				"iconPath": "/sponsors/rosenfeld.svg",
-				"siteUrl": "https://www.rosenfeldmedia.com/"
-			},
-			{
-				"id": 6,
-				"name": "TestMail",
-				"iconPath": "/sponsors/testmail.svg",
-				"siteUrl": "https://testmail.app/"
-			},
-			{
-				"id": 7,
-				"name": "Voiceflow",
-				"iconPath": "/sponsors/voiceflow.svg",
-				"siteUrl": "https://www.voiceflow.com/"
-			},
-			{
-				"id": 8,
-				"name": "Taskade",
-				"iconPath": "/sponsors/taskade.svg",
-				"siteUrl": "https://www.taskade.com/"
-			},
-			{
-				"id": 9,
-				"name": "Echo3D",
-				"iconPath": "/sponsors/echo3D.webp",
-				"siteUrl": "https://www.echo3d.co/"
-			},
-			{
-				"id": 10,
-				"name": "Elastic",
-				"iconPath": "/sponsors/elastic.svg",
-				"siteUrl": "https://www.elastic.co/"
-			},
-			{
-				"id": 11,
-				"name": "Sketch",
-				"iconPath": "/sponsors/sketch.svg",
-				"siteUrl": "https://www.sketch.com/"
-			},
-			{
-				"id": 12,
-				"name": "Supabase",
-				"iconPath": "/sponsors/supabase.svg",
-				"siteUrl": "https://supabase.com/"
-			},
-			{
-				"id": 13,
-				"name": "Figma",
-				"iconPath": "/sponsors/figma.svg",
-				"siteUrl": "https://www.figma.com/"
-			},
-			{
-				"id": 14,
-				"name": "Slido",
-				"iconPath": "/sponsors/slido.svg",
-				"siteUrl": "https://www.sli.do/"
-			},
-			{
-				"id": 15,
-				"name": "Cypress.io",
-				"iconPath": "/sponsors/cypress-io-white.svg",
-				"siteUrl": "https://www.cypress.io/"
-			},
-			{
-				"id": 16,
-				"name": ".xyz",
-				"iconPath": "/sponsors/xyz.svg",
-				"siteUrl": "https://gen.xyz/"
-			},
-			{
-				"id": 17,
-				"name": "Wolfram",
-				"iconPath": "/sponsors/wolfram-mathematical.svg",
-				"siteUrl": "https://www.wolfram.com/"
-			},
-			{
-				"id": 18,
-				"name": "1 Password",
-				"iconPath": "/sponsors/1password.svg",
-				"siteUrl": "https://1password.com/"
-			},
-			{
-				"id": 19,
-				"name": "O'Reilly",
-				"iconPath": "/sponsors/oreilly.svg",
-				"siteUrl": "https://www.oreilly.com/"
-			},
-			{
-				"id": 20,
 				"name": "Courier",
 				"siteUrl": "https://www.courier.com/",
 				"iconPath": "/sponsors/courier.svg"
 			},
 			{
-				"id": 21,
+				"id": 2,
 				"name": "Codedamn",
 				"siteUrl": "https://codedamn.com/",
 				"iconPath": "/sponsors/codedamn.svg"
+			},
+			{
+				"id": 3,
+				"name": "Axure",
+				"iconPath": "/sponsors/axure.svg",
+				"siteUrl": "https://www.axure.com/"
+			},
+			{
+				"id": 4,
+				"name": "Clerky",
+				"iconPath": "/sponsors/clerky.svg",
+				"siteUrl": "https://www.clerky.com/"
+			},
+			{
+				"id": 5,
+				"name": "Sashido",
+				"iconPath": "/sponsors/sashido.svg",
+				"siteUrl": "https://www.sashido.io/en/"
+			},
+			{
+				"id": 6,
+				"name": "Interview Cake",
+				"iconPath": "/sponsors/interview-cake.svg",
+				"siteUrl": "https://www.interviewcake.com/"
+			},
+			{
+				"id": 7,
+				"name": "Rosenfeld Media",
+				"iconPath": "/sponsors/rosenfeld.svg",
+				"siteUrl": "https://www.rosenfeldmedia.com/"
+			},
+			{
+				"id": 8,
+				"name": "TestMail",
+				"iconPath": "/sponsors/testmail.svg",
+				"siteUrl": "https://testmail.app/"
+			},
+			{
+				"id": 9,
+				"name": "Voiceflow",
+				"iconPath": "/sponsors/voiceflow.svg",
+				"siteUrl": "https://www.voiceflow.com/"
+			},
+			{
+				"id": 10,
+				"name": "Taskade",
+				"iconPath": "/sponsors/taskade.svg",
+				"siteUrl": "https://www.taskade.com/"
+			},
+			{
+				"id": 11,
+				"name": "Echo3D",
+				"iconPath": "/sponsors/echo3D.webp",
+				"siteUrl": "https://www.echo3d.co/"
+			},
+			{
+				"id": 12,
+				"name": "Elastic",
+				"iconPath": "/sponsors/elastic.svg",
+				"siteUrl": "https://www.elastic.co/"
+			},
+			{
+				"id": 13,
+				"name": "Sketch",
+				"iconPath": "/sponsors/sketch.svg",
+				"siteUrl": "https://www.sketch.com/"
+			},
+			{
+				"id": 14,
+				"name": "Supabase",
+				"iconPath": "/sponsors/supabase.svg",
+				"siteUrl": "https://supabase.com/"
+			},
+			{
+				"id": 15,
+				"name": "Figma",
+				"iconPath": "/sponsors/figma.svg",
+				"siteUrl": "https://www.figma.com/"
+			},
+			{
+				"id": 16,
+				"name": "Slido",
+				"iconPath": "/sponsors/slido.svg",
+				"siteUrl": "https://www.sli.do/"
+			},
+			{
+				"id": 17,
+				"name": "Cypress.io",
+				"iconPath": "/sponsors/cypress-io-white.svg",
+				"siteUrl": "https://www.cypress.io/"
+			},
+			{
+				"id": 18,
+				"name": ".xyz",
+				"iconPath": "/sponsors/xyz.svg",
+				"siteUrl": "https://gen.xyz/"
+			},
+			{
+				"id": 19,
+				"name": "Wolfram",
+				"iconPath": "/sponsors/wolfram-mathematical.svg",
+				"siteUrl": "https://www.wolfram.com/"
+			},
+			{
+				"id": 20,
+				"name": "1 Password",
+				"iconPath": "/sponsors/1password.svg",
+				"siteUrl": "https://1password.com/"
+			},
+			{
+				"id": 21,
+				"name": "O'Reilly",
+				"iconPath": "/sponsors/oreilly.svg",
+				"siteUrl": "https://www.oreilly.com/"
 			}
 		]
 	},
