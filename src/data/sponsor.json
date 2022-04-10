@@ -274,17 +274,5 @@
 				"siteUrl": "https://www.geeksforgeeks.org/"
 			}
 		]
-	},
-	{
-		"id": 12,
-		"category": "Media Partner",
-		"company": [
-			{
-				"id": 1,
-				"name": "Streamyard",
-				"iconPath": "/sponsors/streamyard.svg",
-				"siteUrl": "https://streamyard.com/"
-			}
-		]
 	}
 ]

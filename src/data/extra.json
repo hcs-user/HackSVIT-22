@@ -195,15 +195,14 @@
     ]
 },
 {
-    "id": 10,
+    "id": 12,
     "category": "Media Partner",
     "company": [
         {
             "id": 1,
             "name": "Streamyard",
-            "iconPath": "/sponsors/echo3D.webp",
-            "siteUrl": "https://streamyard.com/",
-            "bg": "gray.500"
+            "iconPath": "/sponsors/streamyard.svg",
+            "siteUrl": "https://streamyard.com/"
         }
     ]
 }
