@@ -38,20 +38,20 @@
 		"id": 6,
 		"img": "Symbl.svg",
 		"prize": "$200",
-		"description": "winner",
+		"description": "winner Team",
 		"url": ""
 	},
 	{
 		"id": 7,
 		"img": "axure.svg",
-		"prize": "$1,512",
-		"description": "RP Team for top 3 Teams",
+		"prize": "",
+		"description": "Axure RP for top 3 Teams",
 		"url": ""
 	},
 	{
 		"id": 8,
 		"img": "clerky.svg",
-		"prize": "$799",
+		"prize": "",
 		"description": "Lifetime Package for Winning Team",
 		"url": ""
 	},
@@ -156,7 +156,7 @@
 	{
 		"id": 22,
 		"img": "digitalocean.svg",
-		"prize": "$2,000",
+		"prize": "",
 		"description": "$2,000 in credits to the winning team(s)",
 		"url": ""
 	},

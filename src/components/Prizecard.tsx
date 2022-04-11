@@ -32,7 +32,7 @@ export default function PrizeCard({
                 {icon ? (
                     <Icon as={icon} h='100px' w='auto' mx='auto' />
                 ) : (
-                    <Img src={logo} alt={companyName} w='full' maxH='100px' />
+                    <Img src={logo} alt={companyName} w='auto' h='20' mx='auto' />
                 )}
             </Flex>
             <VStack spacing='6' p='8' textAlign='center' flex='1'>
