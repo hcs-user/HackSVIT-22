@@ -1,5 +1,4 @@
 import {
-    Box,
     Button,
     Flex,
     Heading,
@@ -38,7 +37,7 @@ export default function PrizeCard({
             </Flex>
             <VStack spacing='6' p='8' textAlign='center' flex='1'>
                 <Heading size='2xl'>{amount}</Heading>
-                <Text noOfLines={2}>{description}</Text>
+                <Text fontSize={amount ? "xl" : "2xl"}>{description}</Text>
             </VStack>
 
             {url && (
