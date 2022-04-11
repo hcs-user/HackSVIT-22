@@ -40,7 +40,7 @@ export default function Home() {
 		<>
 			<Container
 				as={Flex}
-				pt={[32, null, 60]}
+				pt={[24, null, 32]}
 				maxW='container.xl'
 				align='center'
 				justify='center'

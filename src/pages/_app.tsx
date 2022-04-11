@@ -14,6 +14,7 @@ import theme from "../theme";
 import "swiper/css";
 import Navbar from "@components/Navbar";
 import Footer from "@components/Footer";
+import Layout from "@components/Layout";
 
 function MyApp({ Component, pageProps, router }: AppProps) {
 	return (
@@ -37,9 +38,12 @@ function MyApp({ Component, pageProps, router }: AppProps) {
 							},
 						}}
 					>
-						<Navbar />
+						{/* <Navbar />
 						<Component {...pageProps} />
-						<Footer />
+						<Footer /> */}
+						<Layout>
+							<Component {...pageProps} />
+						</Layout>
 					</motion.div>
 				</AnimatePresence>
 			</ChakraProvider>
