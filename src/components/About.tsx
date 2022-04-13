@@ -49,7 +49,6 @@ export default function About() {
 				>
 					<ReactPlayer
 						playing={shouldPlay}
-						on
 						controls
 						width='100%'
 						height='100%'

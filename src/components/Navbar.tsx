@@ -10,6 +10,7 @@ import {
 	MenuItem,
 	MenuList,
 	Portal,
+	chakra,
 	useDisclosure,
 } from "@chakra-ui/react";
 import Link from "next/link";
@@ -54,14 +55,16 @@ export default function Navbar() {
 						<MonogramLogo fill='white' h='8' w='auto' shadow='base' />
 					</Link>
 				</Container>
-				<Img
-					pos='absolute'
+				<chakra.a
+					href='https://mlh.io/seasons/2022/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2022-season&utm_content=white'
+					target='_blank'
+					rel='noopener noreferrer'
+					pos='fixed'
 					top='0'
 					right='5%'
-					src='/mlh-trust-badge-2022-white.svg'
-					h='144'
-					w='auto'
-				/>
+				>
+					<Img src='/mlh-trust-badge-2022-white.svg' h='150' w='auto' />
+				</chakra.a>
 			</Box>
 			{/* <Button size='lg' variant='ghost' onClick={isOpen ? onClose : onOpen}>
 					Menu
