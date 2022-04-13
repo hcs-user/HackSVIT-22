@@ -56,7 +56,7 @@ export default function Navbar() {
 					</Link>
 				</Container>
 				<chakra.a
-					href='https://mlh.io/seasons/2022/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2022-season&utm_content=white'
+					href='https://mlh.io/seasons/2022/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2022-season&utm_content=blue'
 					target='_blank'
 					rel='noopener noreferrer'
 					pos='fixed'
