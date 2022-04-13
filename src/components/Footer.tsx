@@ -89,12 +89,12 @@ export default function Footer() {
 						</Link>
 						.&nbsp;&nbsp;All rights reserved. &nbsp; &bull; &nbsp;
 						<Link
-							href='https://devfolio.co/code-of-conduct'
+							href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'
 							target='_blank'
 							rel='noopener noreferrer'
 							color='orange.100'
 						>
-							Code of Conduct
+							MLH	Code of Conduct
 						</Link>
 					</Text>
 					<Flex justify='center' flexWrap='wrap'>
