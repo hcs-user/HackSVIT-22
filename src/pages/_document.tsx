@@ -14,7 +14,7 @@ export default class Document extends NextDocument {
 					property='og:title'
 					content="Hack SVIT | Gujarat's largest in-person hackathon"
 				/>
-				<meta property='og:image' content='website-thumbnail.png' />
+				<meta property='og:image' content='Poster.png' />
 
 				<meta
 					property='og:description'

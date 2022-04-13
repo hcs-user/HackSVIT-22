@@ -4,6 +4,7 @@ import {
 	Container,
 	Fade,
 	Flex,
+	Img,
 	Menu,
 	MenuButton,
 	MenuItem,
@@ -47,11 +48,21 @@ export default function Navbar() {
 			backdropFilter='blur(4px)'
 			// background='linear(to-b, gray.800, rgba(8, 8, 8, 0.6))'
 		>
-			<Container as={Flex} maxW='container.xl' justify='space-between' py='4'>
-				<Link href='/'>
-					<MonogramLogo fill='white' h='8' w='auto' shadow='base' />
-				</Link>
-			</Container>
+			<Box pos='relative'>
+				<Container as={Flex} maxW='container.xl' justify='space-between' py='4'>
+					<Link href='/'>
+						<MonogramLogo fill='white' h='8' w='auto' shadow='base' />
+					</Link>
+				</Container>
+				<Img
+					pos='absolute'
+					top='0'
+					right='5%'
+					src='/mlh-trust-badge-2022-white.svg'
+					h='144'
+					w='auto'
+				/>
+			</Box>
 			{/* <Button size='lg' variant='ghost' onClick={isOpen ? onClose : onOpen}>
 					Menu
 				</Button> 
