@@ -56,14 +56,14 @@ export default function Navbar() {
 					</Link>
 				</Container>
 				<chakra.a
-					href='https://mlh.io/seasons/2022/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2022-season&utm_content=blue'
+					href='https://mlh.io/seasons/2022/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2022-season&utm_content=white'
 					target='_blank'
 					rel='noopener noreferrer'
 					pos='fixed'
 					top='0'
 					right='5%'
 				>
-					<Img src='/mlh-trust-badge-2022-white.svg' h='150' w='auto' />
+					<Img src='https://s3.amazonaws.com/logged-assets/trust-badge/2022/mlh-trust-badge-2022-blue.svg' h='150' w='auto' />
 				</chakra.a>
 			</Box>
 			{/* <Button size='lg' variant='ghost' onClick={isOpen ? onClose : onOpen}>
