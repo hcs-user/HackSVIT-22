@@ -37,7 +37,7 @@ export default function prizes() {
                     amount='₹20,000'
                     description='Third Prize'
                 />
-                {PRIZES.map(prize => <PrizeCard logo={`/sponsors/${prize.img}`} amount={prize.prize} description={prize.description} />)}
+                {PRIZES.map(prize => <PrizeCard logo={`/sponsors/${prize.img}`} amount={prize.prize} description={prize.description} url={prize.url} />)}
             </Flex>
         </Container>
     )
