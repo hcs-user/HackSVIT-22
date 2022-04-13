@@ -62,7 +62,7 @@ export default function Prize() {
 				/>
 			</Flex>
 			<Flex justifyContent='center' my='8' alignItems='center' gap='2'>
-				<chakra.a onClick={(e) => (router.replace("/prizes"))}>
+				<chakra.a onClick={(e) => (router.push("/prizes"))}>
 					<HStack cursor='pointer'>
 						<Text fontSize={'xl'} color="blue.300">View More</Text>
 						<BsArrowRight />
