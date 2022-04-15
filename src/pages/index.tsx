@@ -124,7 +124,7 @@ export default function Home() {
 			<Team />
 			<PresentedBy />
 			<FAQs />
-			<Venue />
+			{/* <Venue /> */}
 			<BackToTop />
 		</>
 	);
