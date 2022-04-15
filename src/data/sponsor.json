@@ -91,7 +91,7 @@
 	},
 	{
 		"id": 8,
-		"category": "Sponsor",
+		"category": "Sponsors",
 		"company": [
 			{
 				"id": 1,
@@ -223,7 +223,7 @@
 	},
 	{
 		"id": 9,
-		"category": "Swags Partner",
+		"category": "Swag Partners",
 		"company": [
 			{
 				"id": 1,
@@ -247,7 +247,55 @@
 	},
 	{
 		"id": 10,
-		"category": "Hackathon Partner",
+		"category": "Community Partners",
+		"company": [
+			{
+				"id": 1,
+				"name": "Bluelearn",
+				"iconPath": "/sponsors/bluelearn.svg",
+				"siteUrl": "https://www.bluelearn.in/?src=hacksvit"
+			},
+			{
+				"id": 2,
+				"name": "CyberJunk",
+				"iconPath": "/sponsors/cyberjunk.svg",
+				"siteUrl": "https://cyberjunk.co/"
+			},
+			{
+				"id": 3,
+				"name": "Hack Club NUV",
+				"iconPath": "/sponsors/HackClubNUV.png",
+				"siteUrl": ""
+			},
+			{
+				"id": 4,
+				"name": "Evoking Hack Club",
+				"iconPath": "/sponsors/EvokingHackClub.png",
+				"siteUrl": ""
+			},
+			{
+				"id": 5,
+				"name": "EduHub",
+				"iconPath": "/sponsors/EduHub.png",
+				"siteUrl": "https://eduhubcommunity.tech/"
+			},
+			{
+				"id": 6,
+				"name": "CSE Student Community",
+				"iconPath": "/sponsors/cse.png",
+				"siteUrl": ""
+			},
+			{
+				"id": 7,
+				"name": "Club Gamma",
+				"iconPath": "/sponsors/ClubGamma.png",
+				"siteUrl": ""
+			}
+		]
+	},
+	{
+		"id": 11,
+		"category": "Hackathon Partners",
 		"company": [
 			{
 				"id": 1,
@@ -264,8 +312,8 @@
 		]
 	},
 	{
-		"id": 11,
-		"category": "Learning Partner",
+		"id": 12,
+		"category": "Learning Partners",
 		"company": [
 			{
 				"id": 1,

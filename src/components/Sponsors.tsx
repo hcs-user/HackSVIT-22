@@ -21,12 +21,11 @@ const MotionBox = motion(Box);
 const Sponsor = ({ name, iconPath, siteUrl }) => (
 	<Tooltip hasArrow label={name} placement='bottom'>
 		<MotionBox alignItems='flex-start' in>
-			<LinkBox as={Flex} m='3' p='2' rounded='lg' userSelect='none'>
+			<LinkBox as={Flex} m='3' p='2'  userSelect='none'>
 				<LinkOverlay target='_blank' href={siteUrl}>
 					<Img
 						h={name == "SVIT" ? "48" : "12"}
 						w='auto'
-						rounded='lg'
 						src={iconPath}
 					/>
 				</LinkOverlay>
