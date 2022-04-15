@@ -1,123 +1,123 @@
 [
-    [
-        {
-            "startTime": "1:00pm",
-            "activity": "Check-in",
-            "location": "Trophy Room Lobby"
-        },
-        {
-            "startTime": "3:45pm",
-            "activity": "Opening Ceremony",
-            "location": "Center Gardens"
-        },
-        {
-            "startTime": "5:00pm",
-            "activity": "Hacking Begins",
-            "location": "Respective Labs"
-        },
-        {
-            "startTime": "8:00pm",
-            "activity": "Dinner",
-            "location": "MCA Side Area"
-        },
-        {
-            "startTime": "11:00pm",
-            "activity": "Mentoring Session",
-            "location": null
-        }
-    ],
-    [
-        {
-            "startTime": "12:00am",
-            "activity": "GitHub Workshop",
-            "location": null
-        },
-        {
-            "startTime": "1:00am",
-            "activity": "Mini Event 1",
-            "location": null
-        },
-        {
-            "startTime": "8:00am",
-            "activity": "Breakfast",
-            "location": "MCA Side Area"
-        },
-        {
-            "startTime": "9:00am",
-            "activity": "Judging Phase I",
-            "location": null
-        },
-        {
-            "startTime": "12:00pm",
-            "activity": "Lunch",
-            "location": "MCA Side Area"
-        },
-        {
-            "startTime": "1:00pm",
-            "activity": "Chill Session",
-            "location": null
-        },
-        {
-            "startTime": "4:00pm",
-            "activity": "Evening Snack",
-            "location": "MCA Side Area"
-        },
-        {
-            "startTime": "4:30pm",
-            "activity": "Mini Event 2",
-            "location": null
-        },
-        {
-            "startTime": "8:00pm",
-            "activity": "Dinner",
-            "location": "MCA Side Area"
-        },
-        {
-            "startTime": "9:00pm",
-            "activity": "Mentoring Session",
-            "location": null
-        }
-    ],
-    [
-        {
-            "startTime": "12:00am",
-            "activity": "Midnight Snack",
-            "location": null
-        },
-        {
-            "startTime": "12:30am",
-            "activity": "Mini Event 3",
-            "location": null
-        },
-        {
-            "startTime": "5:00am",
-            "activity": "Soft Deadline",
-            "location": null
-        },
-        {
-            "startTime": "6:00am",
-            "activity": "Final Deadline",
-            "location": null
-        },
-        {
-            "startTime": "8:00am",
-            "activity": "Breakfast",
-            "location": "MCA Side Area"
-        },
-        {
-            "startTime": "9:00am",
-            "activity": "Preliminary Judging",
-            "location": "Center Gardens"
-        },
-        {
-            "startTime": "10:00am",
-            "activity": "Final Pitch & Judging",
-            "location": "Center Gardens"
-        },
-        {
-            "startTime": "11:00am",
-            "activity": "Closing Ceremony",
-            "location": "Center Gardens"
-        }
-    ]
+	[
+		{
+			"startTime": "1:00pm",
+			"activity": "Check-in",
+			"location": "Trophy Room Lobby"
+		},
+		{
+			"startTime": "3:45pm",
+			"activity": "Opening Ceremony",
+			"location": "Center Gardens"
+		},
+		{
+			"startTime": "5:00pm",
+			"activity": "Hacking Begins",
+			"location": "Respective Labs"
+		},
+		{
+			"startTime": "8:00pm",
+			"activity": "Dinner",
+			"location": "MCA Side Area"
+		},
+		{
+			"startTime": "11:00pm",
+			"activity": "Mentoring Session",
+			"location": null
+		}
+	],
+	[
+		{
+			"startTime": "12:00am",
+			"activity": "GitHub Workshop",
+			"location": null
+		},
+		{
+			"startTime": "1:00am",
+			"activity": "Mini Event 1",
+			"location": null
+		},
+		{
+			"startTime": "8:00am",
+			"activity": "Breakfast",
+			"location": "MCA Side Area"
+		},
+		{
+			"startTime": "9:00am",
+			"activity": "Judging Phase I",
+			"location": null
+		},
+		{
+			"startTime": "12:00pm",
+			"activity": "Lunch",
+			"location": "MCA Side Area"
+		},
+		{
+			"startTime": "1:00pm",
+			"activity": "Chill Session",
+			"location": null
+		},
+		{
+			"startTime": "4:00pm",
+			"activity": "Evening Snack",
+			"location": "MCA Side Area"
+		},
+		{
+			"startTime": "4:30pm",
+			"activity": "Mini Event 2",
+			"location": null
+		},
+		{
+			"startTime": "8:00pm",
+			"activity": "Dinner",
+			"location": "MCA Side Area"
+		},
+		{
+			"startTime": "9:00pm",
+			"activity": "Mentoring Session",
+			"location": null
+		}
+	],
+	[
+		{
+			"startTime": "12:00am",
+			"activity": "Midnight Snack",
+			"location": null
+		},
+		{
+			"startTime": "12:30am",
+			"activity": "Mini Event 3",
+			"location": null
+		},
+		{
+			"startTime": "5:00am",
+			"activity": "Soft Deadline",
+			"location": null
+		},
+		{
+			"startTime": "6:00am",
+			"activity": "Final Deadline",
+			"location": null
+		},
+		{
+			"startTime": "8:00am",
+			"activity": "Breakfast",
+			"location": "MCA Side Area"
+		},
+		{
+			"startTime": "9:00am",
+			"activity": "Preliminary Judging",
+			"location": "Center Gardens"
+		},
+		{
+			"startTime": "10:00am",
+			"activity": "Final Pitch & Judging",
+			"location": "Center Gardens"
+		},
+		{
+			"startTime": "11:00am",
+			"activity": "Closing Ceremony",
+			"location": "Center Gardens"
+		}
+	]
 ]

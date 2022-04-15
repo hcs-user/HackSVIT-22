@@ -22,6 +22,7 @@ import Timeline from "@components/Timeline";
 import { useEffect, useState } from "react";
 import { FaDiscord } from "react-icons/fa";
 import BackToTop from "@components/BackToTop";
+import Venue from "@components/Venue";
 
 export default function Home() {
 	let [shouldPlay, updatePlayState] = useState(false);
@@ -123,6 +124,7 @@ export default function Home() {
 			<Team />
 			<PresentedBy />
 			<FAQs />
+			{/* <Venue /> */}
 			<BackToTop />
 		</>
 	);
