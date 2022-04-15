@@ -21,11 +21,11 @@ export default function Venue() {
             </Flex>
             <Flex direction='column'>
                 <Box pos='absolute' mt='12' p='5' bg='blue.300'>
-                    <Heading>SVIT Road, Rajupura Village, Vasad, Anand, Gujarat</Heading>
+                    <Heading fontSize={["5", "15", "20"]}>SVIT Road, Rajupura Village, Vasad, Anand, Gujarat</Heading>
                     <chakra.a href='https://goo.gl/maps/hyJCVXNcRgmv1QkY6' target='_blank'>
                         <Flex alignItems='center' gap='1' mt='2' cursor='pointer'>
                             <BiLink />
-                            <Text as='span'>https://goo.gl/maps/hyJCVXNcRgmv1QkY6</Text>
+                            <Text as='span' fontSize={["6", "10", "12"]}>https://goo.gl/maps/hyJCVXNcRgmv1QkY6</Text>
                         </Flex>
                     </chakra.a>
                 </Box>
