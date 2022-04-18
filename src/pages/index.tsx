@@ -13,7 +13,7 @@ import FAQs from "@components/FAQs";
 import Footer from "@components/Footer";
 import Navbar from "@components/Navbar";
 import PresentedBy from "@components/PresentedBy";
-import Prize from "@components/Prize";
+import Prizes from "@components/Prizess";
 import Sponsors from "@components/Sponsors";
 import StatusIndicator from "@components/StatusIndicator";
 import Team from "@components/Team";
@@ -23,6 +23,7 @@ import { useEffect, useState } from "react";
 import { FaDiscord } from "react-icons/fa";
 import BackToTop from "@components/BackToTop";
 import Venue from "@components/Venue";
+import Schedule from "@components/Schedule";
 
 export default function Home() {
 	let [shouldPlay, updatePlayState] = useState(false);
@@ -119,7 +120,8 @@ export default function Home() {
 			<Timeline />
 			<Themes />
 			{/* <Speakers /> */}
-			<Prize />
+			<Prizes />
+			{/* <Schedule /> */}
 			<Sponsors />
 			<Team />
 			<PresentedBy />

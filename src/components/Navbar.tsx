@@ -63,7 +63,11 @@ export default function Navbar() {
 					top='0'
 					right='5%'
 				>
-					<Img src='https://s3.amazonaws.com/logged-assets/trust-badge/2022/mlh-trust-badge-2022-white.svg' h='150' w='auto' />
+					<Img
+						src='https://s3.amazonaws.com/logged-assets/trust-badge/2022/mlh-trust-badge-2022-white.svg'
+						h='180'
+						w='auto'
+					/>
 				</chakra.a>
 			</Box>
 			{/* <Button size='lg' variant='ghost' onClick={isOpen ? onClose : onOpen}>
