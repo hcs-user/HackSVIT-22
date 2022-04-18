@@ -122,7 +122,7 @@ export default function Home() {
 			{/* <Speakers /> */}
 			<Prizes />
 			{/* <Schedule /> */}
-			<Sponsors /> 
+			<Sponsors />
 			<Team />
 			<PresentedBy />
 			<FAQs />
