@@ -242,6 +242,12 @@
 				"name": "Devhero",
 				"iconPath": "/sponsors/devhero.webp",
 				"siteUrl": "https://devhero.shop/"
+			},
+			{
+				"id": 4,
+				"name": "Standout Stickers",
+				"iconPath": "/sponsors/standout.svg",
+				"siteUrl": "https://hackp.ac/mlh-standoutstickers-hackathons"
 			}
 		]
 	},
