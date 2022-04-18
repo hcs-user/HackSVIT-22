@@ -296,6 +296,18 @@
 				"name": "Club Gamma",
 				"iconPath": "/sponsors/ClubGamma.png",
 				"siteUrl": ""
+			},
+			{
+				"id": 8,
+				"name": "CSI PHCET",
+				"iconPath": "/sponsors/csi.png",
+				"siteUrl": ""
+			},
+			{
+				"id": 9,
+				"name": "GDSC Parul",
+				"iconPath": "/sponsors/parul.png",
+				"siteUrl": ""
 			}
 		]
 	},
