@@ -121,8 +121,8 @@ export default function Home() {
 			<Themes />
 			{/* <Speakers /> */}
 			<Prizes />
-			<Schedule />
-			{/* <Sponsors />  */}
+			{/* <Schedule /> */}
+			<Sponsors /> 
 			<Team />
 			<PresentedBy />
 			<FAQs />
