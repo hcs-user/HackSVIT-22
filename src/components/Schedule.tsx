@@ -32,7 +32,10 @@ export default function Schedule() {
 		<Container maxW='container.xl'>
 			<Flex justify='space-between' align='center'>
 				<Heading size='2xl'>Schedule</Heading>
-				<HStack>
+				<Text color='gray.400' fontSize='sm'>
+					*All the mentioned times are in IST timezone
+				</Text>
+				<HStack display={["initial", null, "none"]}>
 					<IconButton
 						aria-label='Previous'
 						icon={<BiLeftArrow />}
