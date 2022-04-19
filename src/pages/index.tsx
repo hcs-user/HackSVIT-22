@@ -121,12 +121,12 @@ export default function Home() {
 			<Themes />
 			{/* <Speakers /> */}
 			<Prizes />
-			{/* <Schedule /> */}
+			<Schedule />
 			<Sponsors />
 			<Team />
 			<PresentedBy />
 			<FAQs />
-			{/* <Venue /> */}
+			<Venue />
 			<BackToTop />
 		</>
 	);
