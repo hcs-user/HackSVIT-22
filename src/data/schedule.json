@@ -21,15 +21,15 @@
 				"valid": true
 			},
 			{
-				"startTime": "20:00",
-				"activity": "Dinner",
-				"location": "MCA Side Area",
+				"startTime": "19:00",
+				"activity": "Mentoring Session",
+				"location": null,
 				"valid": true
 			},
 			{
-				"startTime": "23:00",
-				"activity": "Mentoring Session",
-				"location": null,
+				"startTime": "20:00",
+				"activity": "Dinner",
+				"location": "MCA Side Area",
 				"valid": true
 			}
 		]
@@ -39,12 +39,12 @@
 		"activities": [
 			{
 				"startTime": "0:00",
-				"activity": "GitHub Workshop",
+				"activity": "Midnight snacks",
 				"location": null,
 				"valid": false
 			},
 			{
-				"startTime": "1:00",
+				"startTime": "12:30",
 				"activity": "Mini Event 1",
 				"location": null,
 				"valid": true
@@ -86,17 +86,18 @@
 				"valid": true
 			},
 			{
+				"startTime": "19:00",
+				"activity": "Mentoring Session",
+				"location": null,
+				"valid": true
+			},
+			{
 				"startTime": "20:00",
 				"activity": "Dinner",
 				"location": "MCA Side Area",
 				"valid": true
-			},
-			{
-				"startTime": "21:00",
-				"activity": "Mentoring Session",
-				"location": null,
-				"valid": true
 			}
+			
 		]
 	},
 	{
