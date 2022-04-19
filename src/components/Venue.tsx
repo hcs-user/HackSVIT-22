@@ -62,8 +62,8 @@ export default function Venue() {
 						Sardar Vallabhbhai Patel Institute of Technology, Vasad
 					</Heading>
 					{/* <chakra.a href='https://goo.gl/maps/hyJCVXNcRgmv1QkY6' target='_blank'> */}
-					<HStack as={LinkBox} cursor='pointer' align='start'>
-						<Icon as={FiMap} mt='2' />
+					<HStack as={LinkBox} cursor='pointer'>
+						<Icon as={FiMap} />
 						<Text
 							as={LinkOverlay}
 							href='https://goo.gl/maps/hyJCVXNcRgmv1QkY6'
