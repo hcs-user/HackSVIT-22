@@ -49,19 +49,17 @@ const FAQItem = ({
 
 export default function FAQs() {
 	return (
-		<Box bg='gray.900'>
-			<Container id='faqs' maxW='container.xl' pb='6' py={20}>
-				<Flex align='flex-end' gap='4' mb='12'>
-					<Heading fontSize={[24, null, 36]}>
-						(FAQ) Frequently asked questions
-					</Heading>
-				</Flex>
-				<Accordion allowToggle allowMultiple>
-					{FAQ_DATA.map(({ question, answer }) => (
-						<FAQItem question={question} answer={answer} />
-					))}
-				</Accordion>
-			</Container>
-		</Box>
+		<Container id='faqs' maxW='container.xl' pb='6' py={15}>
+			<Flex align='flex-end' gap='4' mb='12'>
+				<Heading fontSize={[24, null, 36]}>
+					(FAQ) Frequently asked questions
+				</Heading>
+			</Flex>
+			<Accordion allowToggle allowMultiple>
+				{FAQ_DATA.map(({ question, answer }) => (
+					<FAQItem question={question} answer={answer} />
+				))}
+			</Accordion>
+		</Container>
 	);
 }
