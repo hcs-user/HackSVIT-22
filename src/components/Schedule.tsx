@@ -20,12 +20,14 @@ export default function Schedule() {
 					{SCHEDULE.map(({ date, activities }, i) => (
 						<>
 							<VStack w='full' align='start'>
-								<Heading>
-									<Text as='span' fontWeight='400'>
+								<Text ml='5'>
+									{/* <Text as='span' fontWeight='400'>
 										Day {i + 1}.
 									</Text>{" "}
-									{format(new Date(date), "MMM d, cccc")}
-								</Heading>
+									{format(new Date(date), "MMM d, cccc")} */}
+									<Heading fontSize='4xl'>Day {i + 1}</Heading>
+									<Text fontSize='2xl'>{format(new Date(date), "MMM d, cccc")}</Text>
+								</Text>
 								<VStack spacing='3' pt='4' w='full' align='start'>
 									{activities.map(({ startTime, activity }, j) => {
 										const dateTime = date + " " + startTime;

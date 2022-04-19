@@ -60,18 +60,6 @@
 		]
 	},
 	{
-		"id": 6,
-		"category": "Silver",
-		"company": [
-			{
-				"id": 1,
-				"name": "Replit",
-				"siteUrl": "https://replit.com/",
-				"iconPath": "/sponsors/repl.svg"
-			}
-		]
-	},
-	{
 		"id": 7,
 		"category": "Bronze",
 		"company": [
@@ -80,12 +68,6 @@
 				"name": "Github",
 				"siteUrl": "https://github.com/",
 				"iconPath": "/sponsors/github.png"
-			},
-			{
-				"id": 2,
-				"name": "DigitalOcean",
-				"siteUrl": "https://www.digitalocean.com/",
-				"iconPath": "/sponsors/digitalocean.svg"
 			}
 		]
 	},
@@ -218,6 +200,18 @@
 				"name": "O'Reilly",
 				"iconPath": "/sponsors/oreilly.svg",
 				"siteUrl": "https://www.oreilly.com/"
+			},
+			{
+				"id": 22,
+				"name": "DigitalOcean",
+				"siteUrl": "https://www.digitalocean.com/",
+				"iconPath": "/sponsors/digitalocean.svg"
+			},
+			{
+				"id": 23,
+				"name": "Replit",
+				"siteUrl": "https://replit.com/",
+				"iconPath": "/sponsors/repl.svg"
 			}
 		]
 	},
@@ -242,6 +236,12 @@
 				"name": "Devhero",
 				"iconPath": "/sponsors/devhero.webp",
 				"siteUrl": "https://devhero.shop/"
+			},
+			{
+				"id": 4,
+				"name": "Standout Stickers",
+				"iconPath": "/sponsors/standout.svg",
+				"siteUrl": "https://hackp.ac/mlh-standoutstickers-hackathons"
 			}
 		]
 	},
@@ -289,6 +289,18 @@
 				"id": 7,
 				"name": "Club Gamma",
 				"iconPath": "/sponsors/ClubGamma.png",
+				"siteUrl": ""
+			},
+			{
+				"id": 8,
+				"name": "CSI PHCET",
+				"iconPath": "/sponsors/csi.png",
+				"siteUrl": ""
+			},
+			{
+				"id": 9,
+				"name": "GDSC Parul",
+				"iconPath": "/sponsors/parul.png",
 				"siteUrl": ""
 			}
 		]

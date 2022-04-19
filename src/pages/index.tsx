@@ -13,7 +13,7 @@ import FAQs from "@components/FAQs";
 import Footer from "@components/Footer";
 import Navbar from "@components/Navbar";
 import PresentedBy from "@components/PresentedBy";
-import Prizes from "@components/Prizess";
+import Prizes from "@components/Prizes";
 import Sponsors from "@components/Sponsors";
 import StatusIndicator from "@components/StatusIndicator";
 import Team from "@components/Team";
