@@ -39,9 +39,9 @@
 		"activities": [
 			{
 				"startTime": "0:00",
-				"activity": "Midnight snacks",
+				"activity": "Midnight Snack",
 				"location": null,
-				"valid": false
+				"valid": true
 			},
 			{
 				"startTime": "0:30",
@@ -57,7 +57,7 @@
 			},
 			{
 				"startTime": "9:00",
-				"activity": "Judging Phase I",
+				"activity": "Judging Phase 1",
 				"location": null,
 				"valid": true
 			},
@@ -97,7 +97,6 @@
 				"location": "MCA Side Area",
 				"valid": true
 			}
-			
 		]
 	},
 	{

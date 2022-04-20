@@ -21,7 +21,6 @@ export default function Schedule() {
 	const breakpoint = useBreakpoint();
 	const { valueAsNumber, increment, decrement, isAtMin, isAtMax } = useCounter({
 		defaultValue: 0,
-
 		keepWithinRange: true,
 		step: 1,
 		min: 0,
@@ -31,10 +30,12 @@ export default function Schedule() {
 	return (
 		<Container maxW='container.xl'>
 			<Flex justify='space-between' align='center'>
-				<Heading size='2xl'>Schedule</Heading>
-				<Text color='gray.400' fontSize='sm'>
-					*All the mentioned times are in IST timezone
-				</Text>
+				<Box>
+					<Heading size='2xl'>Schedule</Heading>
+					<Text color='gray.400' fontSize='sm' pt='2'>
+						*All the mentioned times are in IST timezone
+					</Text>
+				</Box>
 				<HStack display={["initial", null, "none"]}>
 					<IconButton
 						aria-label='Previous'
@@ -65,7 +66,7 @@ export default function Schedule() {
 										{format(new Date(date), "MMMM d, cccc")}
 									</Heading>
 								</Text>
-								<VStack spacing='3' pt='4' w='full' align='start'>
+								<VStack pt='4' w='full' align='start'>
 									{activities.map(({ startTime, activity, valid }, j) => {
 										const dateTime = date + " " + startTime;
 										// const active = formatDistance(
@@ -80,12 +81,14 @@ export default function Schedule() {
 											valid && (
 												<Flex
 													key={j}
-													px='2'
-													py='1'
+													px='3'
+													py='2'
 													// bg={active ? "yellow.500" : undefined}
 													rounded='base'
 													w='full'
 													align='center'
+													transition='0.3s'
+													_hover={{ bg: "yellow.500" }}
 												>
 													<Text
 														fontSize='lg'

@@ -37,7 +37,7 @@ export default function Venue() {
 			<Flex direction='column' pos='relative'>
 				<AspectRatio ratio={16 / 9}>
 					<Img
-						src='https://www.svitvasad.ac.in/img/landingbanner/1.jpg'
+						src='/college-photo.webp'
 						roundedTop='xl'
 						roundedBottom={["none", null, "xl"]}
 						// minH='64'
