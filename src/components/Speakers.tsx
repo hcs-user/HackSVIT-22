@@ -6,8 +6,10 @@ import {
 	Img,
 	Stack,
 	Text,
+	VStack,
 } from "@chakra-ui/react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import PEOPLE from "../data/people.json";
 
 export default function Speakers() {
 	return (
@@ -27,7 +29,7 @@ export default function Speakers() {
 					/>
 				</Box>
 			</Flex>
-			<Swiper
+			{/* <Swiper
 				spaceBetween={10}
 				slidesPerView={5}
 				grabCursor={true}
@@ -48,64 +50,38 @@ export default function Speakers() {
 						slidesPerView: 5.4,
 					},
 				}}
+			> */}
+
+			{/* <SwiperSlide> */}
+			<Flex
+				rowGap='8'
+				columnGap='6'
+				flexWrap='wrap'
+				justify={["center", null, "flex-start"]}
+				alignItems={["center", null, "flex-start"]}
 			>
-				<SwiperSlide>
-					<Stack alignItems='center' w='fit-content'>
-						<Img src='https://picsum.photos/200' h='60' w='48' rounded='xl' />
-						<Heading fontSize='xl'>Mr Sathwara</Heading>
-						<Text>Speaker</Text>
-					</Stack>
-				</SwiperSlide>
-				<SwiperSlide>
-					<Stack alignItems='center' w='fit-content'>
-						<Img src='https://picsum.photos/200' h='60' w='48' rounded='xl' />
-						<Heading fontSize='xl'>Mr Sathwara</Heading>
-						<Text>Speaker</Text>
-					</Stack>
-				</SwiperSlide>{" "}
-				<SwiperSlide>
-					<Stack alignItems='center' w='fit-content'>
-						<Img src='https://picsum.photos/200' h='60' w='48' rounded='xl' />
-						<Heading fontSize='xl'>Mr Sathwara</Heading>
-						<Text>Speaker</Text>
-					</Stack>
-				</SwiperSlide>{" "}
-				<SwiperSlide>
-					<Stack alignItems='center' w='fit-content'>
-						<Img src='https://picsum.photos/200' h='60' w='48' rounded='xl' />
-						<Heading fontSize='xl'>Mr Sathwara</Heading>
-						<Text>Speaker</Text>
-					</Stack>
-				</SwiperSlide>
-				<SwiperSlide>
-					<Stack alignItems='center' w='fit-content'>
-						<Img src='https://picsum.photos/200' h='60' w='48' rounded='xl' />
-						<Heading fontSize='xl'>Mr Sathwara</Heading>
-						<Text>Speaker</Text>
-					</Stack>
-				</SwiperSlide>
-				<SwiperSlide>
-					<Stack alignItems='center' w='fit-content'>
-						<Img src='https://picsum.photos/200' h='60' w='48' rounded='xl' />
-						<Heading fontSize='xl'>Mr Sathwara</Heading>
-						<Text>Speaker</Text>
-					</Stack>
-				</SwiperSlide>
-				<SwiperSlide>
-					<Stack alignItems='center' w='fit-content'>
-						<Img src='https://picsum.photos/200' h='60' w='48' rounded='xl' />
-						<Heading fontSize='xl'>Mr Sathwara</Heading>
-						<Text>Speaker</Text>
-					</Stack>
-				</SwiperSlide>
-				<SwiperSlide>
-					<Stack alignItems='center' w='fit-content'>
-						<Img src='https://picsum.photos/200' h='60' w='48' rounded='xl' />
-						<Heading fontSize='xl'>Mr Sathwara</Heading>
-						<Text>Speaker</Text>
-					</Stack>
-				</SwiperSlide>
-			</Swiper>
+				{PEOPLE.map(
+					({ name, post, company, photo }) =>
+						photo && (
+							<VStack w='fit-content' spacing='1'>
+								<Box h='60' w='48'>
+									<Img
+										src={"/people/" + name.toLowerCase().split(" ").join("_") + ".jfif"}
+										objectFit='cover'
+										h='full'
+										rounded='xl'
+									/>
+								</Box>
+								<Heading fontSize='xl'>{name}</Heading>
+								<Text lineHeight='1'>{post}</Text>
+								<Text fontSize='sm'>{company}</Text>
+							</VStack>
+						)
+				)}
+			</Flex>
+			{/* </SwiperSlide> */}
+
+			{/* </Swiper> */}
 		</Container>
 	);
 }

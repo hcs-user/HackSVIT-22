@@ -1,18 +1,15 @@
-import { Box } from '@chakra-ui/react';
-import Footer from './Footer';
-import Navbar from './Navbar';
+import { Box } from "@chakra-ui/react";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 function Layout({ children }) {
-
-    return (
-        <>
-            <Navbar />
-            <Box mt='20'>
-                {children}
-            </Box>
-            <Footer />
-        </>
-    )
+	return (
+		<Box scrollPadding='72'>
+			<Navbar />
+			<Box mt='20'>{children}</Box>
+			<Footer />
+		</Box>
+	);
 }
 
-export default Layout
+export default Layout;

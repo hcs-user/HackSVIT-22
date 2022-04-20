@@ -24,6 +24,7 @@ import { FaDiscord } from "react-icons/fa";
 import BackToTop from "@components/BackToTop";
 import Venue from "@components/Venue";
 import Schedule from "@components/Schedule";
+import Speakers from "@components/Speakers";
 
 export default function Home() {
 	let [shouldPlay, updatePlayState] = useState(false);
@@ -56,12 +57,14 @@ export default function Home() {
 						<Text fontSize='20' color='red.300' fontWeight='600'>
 							Apr 29 - May 1, 2022
 						</Text>
-						<Flex>
-							<StatusIndicator />{" "}
-							<Text as='span' fontWeight='400' color='white'>
-								SVIT, Vasad
-							</Text>
-						</Flex>
+						<a href='#venue'>
+							<Flex>
+								<StatusIndicator />{" "}
+								<Text as='span' fontWeight='400' color='white'>
+									SVIT, Vasad
+								</Text>
+							</Flex>
+						</a>
 					</Flex>
 
 					{/* <Text fontSize='xl' color='yellow.300' fontWeight='600'>
@@ -119,7 +122,7 @@ export default function Home() {
 			<About />
 			<Timeline />
 			<Themes />
-			{/* <Speakers /> */}
+			<Speakers />
 			<Prizes />
 			<Schedule />
 			<Sponsors />

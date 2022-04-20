@@ -12,7 +12,7 @@ const STAGES = [
 		title: "March 10th",
 		description: "Pre-registration",
 		active: true,
-		color: "blue",
+		color: "yellow",
 	},
 	{
 		title: "March 20th",
@@ -24,13 +24,13 @@ const STAGES = [
 		title: "April 5th",
 		description: "Registration phase II",
 		color: "pink",
-
 		active: true,
 	},
 	{
 		title: "April 20th",
 		description: "Registrations Close",
-		active: false,
+		color: "purple",
+		active: true,
 	},
 ];
 
@@ -90,7 +90,7 @@ export default function Timeline() {
 							pos='absolute'
 							top={["78%", null, 8]}
 							right={[8, null, "-54%"]}
-							stroke={active ? `${color}.300` : "gray.200"}
+							stroke={active ? "blue.300" : "gray.200"}
 							strokeWidth='20'
 							borderRadius='full'
 							overflow='hidden'

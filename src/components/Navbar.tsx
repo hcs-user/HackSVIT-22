@@ -50,7 +50,13 @@ export default function Navbar() {
 			// background='linear(to-b, gray.800, rgba(8, 8, 8, 0.6))'
 		>
 			<Box pos='relative'>
-				<Container as={Flex} maxW='container.xl' justify='space-between' py='4'>
+				<Container
+					cursor='pointer'
+					as={Flex}
+					maxW='container.xl'
+					justify='space-between'
+					py='4'
+				>
 					<Link href='/'>
 						<MonogramLogo fill='white' h='8' w='auto' shadow='base' />
 					</Link>

@@ -15,8 +15,9 @@ export default function About() {
 
 	return (
 		<Waypoint
-			onEnter={() => updatePlayState(true)}
-			onLeave={() => updatePlayState(false)}
+		// onEnter={() => updatePlayState(true)}
+
+		// onLeave={() => updatePlayState(false)}
 		>
 			<Container
 				maxW='container.xl'
@@ -49,6 +50,7 @@ export default function About() {
 				>
 					<ReactPlayer
 						playing={shouldPlay}
+						volume={0.2}
 						controls
 						width='100%'
 						height='100%'

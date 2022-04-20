@@ -20,7 +20,9 @@ export default function Venue() {
 	return (
 		<Container maxW='container.xl' pb='6' my='12'>
 			<Flex align='flex-end' gap='4' mb='12'>
-				<Heading size='2xl'>Venue</Heading>
+				<Heading size='2xl' id='venue'>
+					Venue
+				</Heading>
 				<Box as='svg' viewBox='0 0 661.099 359.579' maxW='lg' mb='2' me='8'>
 					<path
 						data-name='Path 14'
