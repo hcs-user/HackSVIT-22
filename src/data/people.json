@@ -1,7 +1,100 @@
 [
-    {
-        "name": "",
-        "post": "",
-        "company": ""
-    }
+  {
+    "name": "Manan Vasavada",
+    "post": "Owner and CEO",
+    "company": "AV Devs Solutions Pvt. Ltd.",
+    "link": "https://www.linkedin.com/in/mananvasavada/",
+    "photo": "https://media-exp1.licdn.com/dms/image/C5103AQEF-kgQREpofw/profile-displayphoto-shrink_800_800/0/1576915284309?e=1655942400&v=beta&t=QGSMNTUZI3FDEbnvwPBDN1i0pOta32WO1o-wgxykXnY"
+  },
+  {
+    "name": "Chetan Patel",
+    "post": "Life Coach I Supporting IT Startups & Businesses for Growth,System and Happiness",
+    "company": "",
+    "link": "https://www.linkedin.com/in/chetanpatelworld/",
+    "photo": "https://media-exp1.licdn.com/dms/image/C4E03AQE4pMtK1pY9RQ/profile-displayphoto-shrink_800_800/0/1627049333921?e=1655942400&v=beta&t=Ctw0eRvEMqwIt7KFMSuwemzR1L-qCJYaC6mH8EGT9L0"
+  },
+  {
+    "name": "Siddharth Dayalwal",
+    "post": "",
+    "company": "",
+    "link": "https://www.linkedin.com/in/siddharthdayalwal/",
+    "photo": "/siddharth.jpg"
+  },
+  {
+    "name": "Dr. Keyur Brahmbhatt",
+    "post": "HOD(IT Dept.)",
+    "company": "BVM",
+    "link": "https://www.linkedin.com/in/keyur-brahmbhatt-179046aa/",
+    "photo": ""
+  },
+  {
+    "name": "Dr. Udesang Jaliya",
+    "post": "Assistant Professor",
+    "company": "BVM",
+    "link": "https://www.bvmengineering.ac.in/full_faculty_info.aspx?email_id=udesang.jaliya@bvmengineering.ac.in&&branch_id=3",
+    "photo": ""
+  },
+  {
+    "name": "Akash Patel",
+    "post": "Assistant Professor",
+    "company": "CHARUSAT",
+    "link": "",
+    "photo": ""
+  },
+  {
+    "name": "Dipak Ramoliya",
+    "post": "Assistant Professor",
+    "company": "CHARUSAT",
+    "link": "https://www.linkedin.com/in/dipakramoliya/",
+    "photo": ""
+  },
+  {
+    "name": "Dr. Miral Patel",
+    "post": "Associate Professor",
+    "company": "GCET-CVM",
+    "link": "",
+    "photo": ""
+  },
+  {
+    "name": "Bhavin Patel",
+    "post": "Assistant Consultant",
+    "company": "TCS Delhi",
+    "link": "https://www.linkedin.com/in/bhavin-patel-77279769/",
+    "photo": "https://media-exp1.licdn.com/dms/image/C5603AQGfvmbZbCVF3w/profile-displayphoto-shrink_800_800/0/1517430846927?e=1655942400&v=beta&t=1AREcdFnkJvYGusXhCAYpIyJ1jEcT53G8mUQ40Z-fzo"
+  },
+  {
+    "name": "Ronak Soni",
+    "post": "QA Lead",
+    "company": "Maruti Techlabs Pvt. Ltd.",
+    "link": "https://www.linkedin.com/in/ronak-soni-sqa/",
+    "photo": "https://media-exp1.licdn.com/dms/image/C5103AQF4c9Ei1Bvkng/profile-displayphoto-shrink_800_800/0/1536777349738?e=1655942400&v=beta&t=nmWVOrGytXVvI_34JYHHfIr3_dwXXB9bGkYZFk2kOwQ"
+  },
+  {
+    "name": "Dr. Chirag Patel",
+    "post": "Associate Professor",
+    "company": "CHARUSAT",
+    "link": "https://www.linkedin.com/in/chirag-patel-b728688/",
+    "photo": "https://media-exp1.licdn.com/dms/image/C5603AQFLjN3sBSW6kQ/profile-displayphoto-shrink_800_800/0/1587581778768?e=1655942400&v=beta&t=TI0xQfl9k56jIsvuiDCnJ0r8uHrA_m7tfx4UZZ2jfUA"
+  },
+  {
+    "name": "Dr. Kirit Modi",
+    "post": "Dean, Professor & Head",
+    "company": "Sakalchand Patel University",
+    "link": "https://www.linkedin.com/in/kirit-modi-4a70a320/",
+    "photo": ""
+  },
+  {
+    "name": "Vishal Patel",
+    "post": "VP of Technology",
+    "company": "ViitorCloud Technologies Pvt. Ltd.",
+    "link": "https://www.linkedin.com/in/vishal-patel-3001551a/",
+    "photo": "https://media-exp1.licdn.com/dms/image/C4E03AQHWBXdvqK5Elw/profile-displayphoto-shrink_800_800/0/1618467473887?e=1655942400&v=beta&t=e34F8YvMUYiAaslbAzkZ2n2hN1LNhYX2Cr8mk4KAPQU"
+  },
+  {
+    "name": "Vikas Brahmbhatt",
+    "post": "Analytics Practice - India Lead",
+    "company": "Civica",
+    "link": "https://www.linkedin.com/in/vikas-brahmbhatt-29158a5a/",
+    "photo": "https://media-exp1.licdn.com/dms/image/C5103AQG2n4NJSbGPrw/profile-displayphoto-shrink_800_800/0/1556735340478?e=1655942400&v=beta&t=CsNuOXJTMyZotnuMchgakcDx3rIBETQTbCL4ogpPrMc"
+  }
 ]
