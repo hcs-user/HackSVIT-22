@@ -63,7 +63,7 @@ export default function Speakers() {
 					({ name, post, company, photo, link }) =>
 						photo && (
 							<a href={link} target='_blank' rel='noopener noreferrer'>
-								<VStack spacing='3' maxW='48' textAlign='center'>
+								<VStack spacing='1' w='64'>
 									<Box h='60' w='48'>
 										<Img
 											src={"/people/" + name.toLowerCase().split(" ").join("_") + ".jfif"}
@@ -89,6 +89,6 @@ export default function Speakers() {
 			{/* </SwiperSlide> */}
 
 			{/* </Swiper> */}
-		</Container >
+		</Container>
 	);
 }
