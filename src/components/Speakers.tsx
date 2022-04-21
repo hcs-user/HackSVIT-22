@@ -54,7 +54,7 @@ export default function Speakers() {
 			{/* <SwiperSlide> */}
 			<Flex
 				rowGap='8'
-				columnGap='6'
+				columnGap='12'
 				flexWrap='wrap'
 				justify={["center", null, "flex-start"]}
 				alignItems={["center", null, "flex-start"]}
