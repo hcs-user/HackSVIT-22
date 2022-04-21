@@ -125,7 +125,7 @@ export default function Prizes() {
 					description='Best Blockchain Project Using Hedera'
 				/>
 				<PrizeCard
-					logo='/sponsors/abindev.svg'
+					logo='/sponsors/abinbev.svg'
 					amount='Anker Wireless Charger Bundle'
 					description='Dream Big and Create More Cheers with AB InBev'
 				/>
