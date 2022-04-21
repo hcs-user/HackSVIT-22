@@ -14,7 +14,7 @@ export default function Speakers() {
 	return (
 		<Container maxW='container.xl' pb='6'>
 			<Flex align='flex-end' gap='4' mb='12'>
-				<Heading size='2xl'>Speakers & Judges</Heading>
+				<Heading size='2xl'>Mentors & Judges</Heading>
 				<Box as='svg' viewBox='0 0 661.099 359.579' maxW='lg' mb='2'>
 					<path
 						data-name='Path 14'
@@ -60,21 +60,27 @@ export default function Speakers() {
 				alignItems={["center", null, "flex-start"]}
 			>
 				{PEOPLE.map(
-					({ name, post, company, photo }) =>
+					({ name, post, company, photo, link }) =>
 						photo && (
-							<VStack w='fit-content' spacing='1'>
-								<Box h='60' w='48'>
-									<Img
-										src={"/people/" + name.toLowerCase().split(" ").join("_") + ".jfif"}
-										objectFit='cover'
-										h='full'
-										rounded='xl'
-									/>
-								</Box>
-								<Heading fontSize='xl'>{name}</Heading>
-								<Text lineHeight='1'>{post}</Text>
-								<Text fontSize='sm'>{company}</Text>
-							</VStack>
+							<a href={link} target='_blank' rel='noopener noreferrer'>
+								<VStack w='fit-content' spacing='1'>
+									<Box h='60' w='48'>
+										<Img
+											src={"/people/" + name.toLowerCase().split(" ").join("_") + ".jfif"}
+											objectFit='cover'
+											h='full'
+											rounded='xl'
+										/>
+									</Box>
+									<Heading fontSize='xl'>{name}</Heading>
+									<Text lineHeight='1' color='gray.300'>
+										{post}
+									</Text>
+									<Text fontSize='sm' color='gray.300'>
+										{company}
+									</Text>
+								</VStack>
+							</a>
 						)
 				)}
 			</Flex>
