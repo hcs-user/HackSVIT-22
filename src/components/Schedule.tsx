@@ -29,16 +29,26 @@ export default function Schedule() {
 
 	return (
 		<Container maxW='container.xl'>
-			<Flex justify='space-between' align='center'>
-				<Box>
-					{/* <Box as='svg' viewBox='0 0 381.09 195.074' mb='2' me='8'>
-						<path id="Path_16" data-name="Path 16" d="M1465.254,6107.661c92.535-77.88,363.022,66.563,363.022-41.871s-245.783,14.236-220.661-133.987" transform="translate(-1454.686 -5923.155)" fill="none" stroke="#fb0" stroke-linecap="round" stroke-linejoin="round" stroke-width="15" />
-					</Box> */}
-					<Heading size='2xl'>Schedule</Heading>
-					<Text color='gray.400' fontSize='sm' pt='2'>
-						*All the mentioned times are in IST timezone
-					</Text>
-				</Box>
+			<Box as='svg' viewBox='0 0 381.09 195.074' my='4' ps='20' maxW='381'>
+				<path
+					id="Path_16"
+					data-name="Path 16"
+					d="M1465.254,6107.661c92.535-77.88,363.022,66.563,363.022-41.871s-245.783,14.236-220.661-133.987"
+					transform="translate(-1454.686 -5923.155)"
+					fill="none"
+					stroke="#fb0"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="15"
+				/>
+			</Box>
+			<Flex align='flex-end' gap='4' mb='4'>
+				<Heading size='2xl'>Schedule</Heading>
+			</Flex>
+			<HStack justifyContent='space-between'>
+				<Text color='gray.400' fontSize='sm' pt='2'>
+					*All the mentioned times are in IST timezone
+				</Text>
 				<HStack display={["initial", null, "none"]}>
 					<IconButton
 						aria-label='Previous'
@@ -53,7 +63,7 @@ export default function Schedule() {
 						onClick={() => increment()}
 					/>
 				</HStack>
-			</Flex>
+			</HStack>
 			{
 				breakpoint == "lg" || breakpoint == "xl" || breakpoint == "2xl" ? (
 					<Flex gap='6' py='8'>
