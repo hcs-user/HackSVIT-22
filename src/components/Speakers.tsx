@@ -63,7 +63,7 @@ export default function Speakers() {
 					({ name, post, company, photo, link }) =>
 						photo && (
 							<a href={link} target='_blank' rel='noopener noreferrer'>
-								<VStack w='fit-content' spacing='1'>
+								<VStack spacing='3' maxW='48' textAlign='center'>
 									<Box h='60' w='48'>
 										<Img
 											src={"/people/" + name.toLowerCase().split(" ").join("_") + ".jfif"}
@@ -72,13 +72,15 @@ export default function Speakers() {
 											rounded='xl'
 										/>
 									</Box>
-									<Heading fontSize='xl'>{name}</Heading>
-									<Text lineHeight='1' color='gray.300'>
-										{post}
-									</Text>
-									<Text fontSize='sm' color='gray.300'>
-										{company}
-									</Text>
+									<VStack spacing='1'>
+										<Heading fontSize='lg'>{name}</Heading>
+										<Text lineHeight='1' color='gray.300' fontSize='md'>
+											{post}
+										</Text>
+										<Text fontSize='sm' color='gray.300'>
+											{company}
+										</Text>
+									</VStack>
 								</VStack>
 							</a>
 						)
@@ -87,6 +89,6 @@ export default function Speakers() {
 			{/* </SwiperSlide> */}
 
 			{/* </Swiper> */}
-		</Container>
+		</Container >
 	);
 }

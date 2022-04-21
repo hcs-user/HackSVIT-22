@@ -29,7 +29,7 @@ export default function Venue() {
 						d='M1929.157,5045.173c21.265,294.752-134.373,288.267-279.152,184.251s-209.538,142.455-364.223,159.051'
 						transform='translate(-1277.525 -5037.153)'
 						fill='none'
-						stroke='#fe0169'
+						stroke='#0083FF'
 						strokeLinecap='round'
 						strokeLinejoin='round'
 						strokeWidth='15'
