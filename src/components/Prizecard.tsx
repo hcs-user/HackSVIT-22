@@ -28,17 +28,27 @@ export default function PrizeCard({
             minW='300'
             maxW='300'
         >
-            <Flex align='center' p='8' bg='gray.600' rounded='3xl' minH='140'>
-                {icon ? (
-                    <Icon as={icon} h='100px' w='auto' mx='auto' />
-                ) : (
-                    <Img src={logo} alt={companyName} w='auto' h='20' mx='auto' />
-                )}
-            </Flex>
-            <VStack spacing='6' p='8' textAlign='center' flex='1'>
-                <Heading size='2xl'>{amount}</Heading>
-                <Text fontSize={amount ? "xl" : "2xl"}>{description}</Text>
-            </VStack>
+            {icon ? (
+                <>
+                    <Flex align='center' p='8' bg='gray.600' rounded='3xl' minH='140'>
+                        <Icon as={icon} h='100px' w='auto' mx='auto' />
+                    </Flex>
+                    <VStack spacing='6' p='8' textAlign='center' flex='1'>
+                        <Heading size='2xl'>{amount}</Heading>
+                        <Text fontSize={amount ? "xl" : "2xl"}>{description}</Text>
+                    </VStack>
+                </>
+            ) : (
+                <>
+                    <Flex align='center' p='8' bg='gray.600' rounded='3xl' minH='140'>
+                        <Img src={logo} alt={companyName} w='auto' h='20' mx='auto' />
+                    </Flex>
+                    <VStack spacing='6' p='4' textAlign='center' flex='1'>
+                        <Heading fontSize='2xl'>{amount}</Heading>
+                        <Text fontSize={amount ? "lg" : "2xl"}>{description}</Text>
+                    </VStack>
+                </>
+            )}
 
             {url && (
                 <chakra.a

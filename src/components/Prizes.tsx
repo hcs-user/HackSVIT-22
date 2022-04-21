@@ -59,6 +59,81 @@ export default function Prizes() {
 					amount='₹20,000'
 					description='Third Prize'
 				/>
+				<PrizeCard
+					logo='/sponsors/deso.svg'
+					amount='$100 worth of $DESO coin and an exclusive DeSo Tumbler'
+					description='Best Use of DeSo'
+				/>
+				<PrizeCard
+					logo='/sponsors/circleci.svg'
+					amount='CircleCI Swag Pack'
+					description='Best Usage of CI/CD sponsored by CircleCI'
+				/>
+				<PrizeCard
+					logo='/sponsors/coil.svg'
+					amount='Portable Charger, Coil Pin and $60 Coil Credit'
+					description='Best Web Monetization Project'
+				/>
+				<PrizeCard
+					logo='/sponsors/auth0.svg'
+					amount='Exclusive Auth0 Swag made for MLH'
+					description='Best Use of Auth0'
+				/>
+				<PrizeCard
+					logo='/sponsors/twilio.png'
+					amount='Twilio Swag Box & GameGo Console'
+					description='Most Creative Use of Twilio'
+				/>
+				<PrizeCard
+					logo='/sponsors/googleCloud.svg'
+					amount='Google Cloud Swag Bag or Backpack'
+					description='Best use of Google Cloud'
+				/>
+				<PrizeCard
+					logo='/sponsors/digikey.png'
+					amount='Grove Beginner Kit'
+					description='Best Hardware Hack Sponsored by Digi-Key'
+				/>
+				<PrizeCard
+					logo='/sponsors/domain.svg'
+					amount='PowerSquare Qi Wireless Phone Charger'
+					description='Best Domain Name from Domain.com'
+				/>
+				<PrizeCard
+					logo='/sponsors/CockroachDb.svg'
+					amount='3D Printing Pen'
+					description='Best Use of CockroachDB'
+				/>
+				<PrizeCard
+					logo='/sponsors/GoDaddyRegistry.svg'
+					amount='Hack from Home kit'
+					description='Best Domain Name from GoDaddy Registry'
+				/>
+				<PrizeCard
+					logo='/sponsors/linode.svg'
+					amount='Raspberry Pi 4 Starter Kit'
+					description='Best Use of Linode Cloud'
+				/>
+				<PrizeCard
+					logo='/sponsors/mathworks.png'
+					amount='MathWorks Swag Bag'
+					description='Best Use of MATLAB'
+				/>
+				<PrizeCard
+					logo='/sponsors/Hedera.png'
+					amount='Glorious Modular Compact Mechanical Keyboard'
+					description='Best Blockchain Project Using Hedera'
+				/>
+				<PrizeCard
+					logo='/sponsors/abindev.svg'
+					amount='Anker Wireless Charger Bundle'
+					description='Dream Big and Create More Cheers with AB InBev'
+				/>
+				<PrizeCard
+					logo='/sponsors/blackrock.svg'
+					amount='KeepCup and Blackrock swag bag'
+					description='Best Hack for Social Good by BlackRock'
+				/>
 			</Flex>
 			<Flex justifyContent='center' my='8' alignItems='center' gap='2'>
 				<chakra.a onClick={(e) => router.push("/prizes")}>
