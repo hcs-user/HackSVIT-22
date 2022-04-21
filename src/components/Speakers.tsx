@@ -4,11 +4,10 @@ import {
 	Flex,
 	Heading,
 	Img,
-	Stack,
+	// Stack,
 	Text,
 	VStack,
 } from "@chakra-ui/react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import PEOPLE from "../data/people.json";
 
 export default function Speakers() {

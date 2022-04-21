@@ -25,21 +25,21 @@
         "post": "HOD(IT Dept.)",
         "company": "BVM",
         "link": "https://www.linkedin.com/in/keyur-brahmbhatt-179046aa/",
-        "photo": null
+        "photo": "null"
     },
     {
         "name": "Dr. Udesang Jaliya",
         "post": "Assistant Professor",
         "company": "BVM",
         "link": "https://www.bvmengineering.ac.in/full_faculty_info.aspx?email_id=udesang.jaliya@bvmengineering.ac.in&&branch_id=3",
-        "photo": null
+        "photo": "null"
     },
     {
         "name": "Akash Patel",
         "post": "Assistant Professor",
         "company": "CHARUSAT",
-        "link": "",
-        "photo": null
+        "link": "https://www.linkedin.com/in/akash-patel-03",
+        "photo": "null"
     },
     {
         "name": "Dipak Ramoliya",
@@ -53,7 +53,7 @@
         "post": "Associate Professor",
         "company": "GCET-CVM",
         "link": "",
-        "photo": null
+        "photo": "not null"
     },
     {
         "name": "Bhavin Patel",
