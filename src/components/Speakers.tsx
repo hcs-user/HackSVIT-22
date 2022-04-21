@@ -63,7 +63,7 @@ export default function Speakers() {
 					({ name, post, company, photo, link }) =>
 						photo && (
 							<a href={link} target='_blank' rel='noopener noreferrer'>
-								<VStack w='fit-content' spacing='1'>
+								<VStack spacing='1' w='64'>
 									<Box h='60' w='48'>
 										<Img
 											src={"/people/" + name.toLowerCase().split(" ").join("_") + ".jfif"}
