@@ -54,7 +54,7 @@ export default function Speakers() {
 			{/* <SwiperSlide> */}
 			<Flex
 				rowGap='8'
-				columnGap='6'
+				columnGap='12'
 				flexWrap='wrap'
 				justify={["center", null, "flex-start"]}
 				alignItems={["center", null, "flex-start"]}
@@ -72,13 +72,15 @@ export default function Speakers() {
 											rounded='xl'
 										/>
 									</Box>
-									<Heading fontSize='xl'>{name}</Heading>
-									<Text lineHeight='1' color='gray.300'>
-										{post}
-									</Text>
-									<Text fontSize='sm' color='gray.300'>
-										{company}
-									</Text>
+									<VStack spacing='1'>
+										<Heading fontSize='lg'>{name}</Heading>
+										<Text lineHeight='1' color='gray.300' fontSize='md'>
+											{post}
+										</Text>
+										<Text fontSize='sm' color='gray.300'>
+											{company}
+										</Text>
+									</VStack>
 								</VStack>
 							</a>
 						)
