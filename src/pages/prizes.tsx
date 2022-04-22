@@ -105,6 +105,12 @@ export default function prizes() {
 					amount='Anker Wireless Charger Bundle'
 					description='Dream Big and Create More Cheers with AB InBev'
 				/>
+				<PrizeCard
+					url='https://hack.mlh.io/prizes'
+					logo='/sponsors/github.svg'
+					amount='Anker Wireless Charger Bundle'
+					description='GitHub Octocat Statue, Plushy & Sticker bundle'
+				/>
 			
 			</Flex>
 
