@@ -1,0 +1,67 @@
+[
+	{
+		"id": 1,
+		"name": "Best Use of DeSo",
+		"sub_heading": "$100 worth of $DESO coin & an exclusive DeSo Tumbler",
+		"description": "DeSo is the official Web3 sponsor of the MLH Hackathon League and the first Layer 1 blockchain custom-built for decentralized social media applications. While a blockchain like Avalanche costs $0.50+ to store just a 200-character post, the DeSo blockchain is built with custom indexing and storage optimizations which make it 10,000X cheaper to store social content on-chain! In order to qualify for the contest, you must launch an app that writes to the DeSo blockchain and implements DeSo identity. While social media apps are a great fit for DeSo, you can also build financial apps, marketplaces, and more on the DeSo blockchain. For inspiration on project ideas, you can check out some of the existing 200+ apps already live on DeSo at Bithunt.com as well as our DeSo APIs. The Best Use of DeSo gets $100 worth of $DESO coin & an exclusive DeSo branded tumbler!",
+		"company": "Deso",
+		"url": "https://images.ctfassets.net/bf706sfba7pw/ftEvE8lSEcD4dS4sJaiBU/03feb569fed4ae8da532c00359f316dc/Group_39929_1.svg.png"
+        "link": ""
+	},
+	{
+		"id": 2,
+		"name": "Best Hardware Hack Sponsored by Digi-Key",
+		"sub_heading": "Grove Beginner Kit",
+		"description": "Using your preferred hardware or hardware emulator, build a hack for your chance to win a Grove Beginner Kit, with embedded Arduino Uno compatible board. Each winning team member will receive a prize!",
+		"company": "Digi-Key",
+		"url": "https://images.ctfassets.net/bf706sfba7pw/5IcDuWRWyH1TAH9qi5I2Wi/989fcb1b361646b52ef21ad25b1aee64/sponsor-digi-key-logo-color.png"
+	},
+	{
+		"id": 3,
+		"name": "Best Domain Name from GoDaddy Registry",
+		"sub_heading": "Hack from Home kit",
+		"description": "GoDaddy Registry is giving you everything you need to be the best hacker no matter where you are. Register your domain name with GoDaddy Registry for a chance to win a Hack from Home Kit! Each Kit contains wireless earbuds, blue light glasses, selfie ring light and a pouch for easy transport.",
+		"company": "GoDaddy Registry",
+		"url": "https://images.ctfassets.net/bf706sfba7pw/4AdL7rUPrxv3fiVfDG3GLt/4ce6666b30a85d5d4e4aba030f11c259/GoDaddyRegistry.svg"
+	},
+	{
+		"id": 4,
+		"name": "Best Use of Linode Cloud",
+		"sub_heading": "Raspberry Pi 4 Starter Kit",
+		"description": "Use any one of Linode's wide array of cloud products and take your hack to the next level! Whether you're looking for data storage, compute power or hosting, Linode has what you need and the complimentary credits to get you started. Sign up and start hacking for your chance to win a Raspberry Pi 4 Starter Kit.",
+		"company": "Linode",
+		"url": "https://images.ctfassets.net/bf706sfba7pw/4X9iSV7ydnltSpDScSHDYV/8ce243e89d3d3074fcd4094293fe5de0/Linode_logo.png"
+	},
+	{
+		"id": 5,
+		"name": "Most Creative Use of Twilio",
+		"sub_heading": "Twilio Swag Box & GameGo Console",
+		"description": "Twilio allows you to incorporate mobile messaging, phone calls and a ton of other awesome communication features right into your hackathon project using a web service API. Are you building an e-commerce website and want to send text notifications or email confirmations once an order is completed? Or maybe you'd like to verify users based on their mobile numbers? Twilio makes all this possible and more. Build a hack that simplifies your life using any Twilio API for a chance to win some awesome prizes! Get started with $50 in free credit!",
+		"company": "Twilio",
+		"url": "https://images.ctfassets.net/bf706sfba7pw/4evbIKr5cgp1IE4J2fRHE6/4d95d9275bf1b9e47d2f6d7a44974fe2/twilio-logo.png"
+	},
+	{
+		"id": 6,
+		"name": "Best Use of Auth0",
+		"sub_heading": "Exclusive Auth0 Swag made for MLH",
+		"description": "Auth0 wants your applications to be secure! Use any of the Auth0 APIs for a chance to win some exclusive swag, including a Miir 12oz tumbler, Rubiks Cube, and sticker! Why spend hours building features like social sign-in, Multi-Factor Authentication, and passwordless log-in when you can enable them through Auth0 straight out of the box? Save some time on your hack and set yourself up for a big win. It doesn't take much to get started. Auth0 is free to try with up to 7,000 free active users and unlimited log-ins. Make your new account today!",
+		"company": "Auth0",
+		"url": "https://images.ctfassets.net/bf706sfba7pw/7fo7tDn32A0IiiuCvR1BSG/687691a864c34fbabeee003dd9b7e020/auth0_indigo.svg"
+	},
+	{
+		"id": 7,
+		"name": "Dream Big and Create More Cheers with AB InBev",
+		"sub_heading": "Anker Wireless Charger Bundle",
+		"description": "AB InBev is all about bringing people together and creating more cheers for a better world! Using whatever tools, hardware and/or software at your disposal, build a hack that leads us into a brighter future for a chance to win some amazing prizes for you and your team. Remember, AB inBev is looking for innovative projects that can possibly change the world in a positive way! We can't wait to see what you come up with.",
+		"company": "AB InBev",
+		"url": "https://images.ctfassets.net/bf706sfba7pw/eltHtX4Z8Bsy7Lc56SRcH/d7e35900a34e13e3167462b8bc4a258f/AB-InBev.png"
+	},
+	{
+		"id": 8,
+		"name": "Most Creative Use of GitHub",
+		"sub_heading": "GitHub Octocat Statue, Plushy & Sticker bundle",
+		"description": "GitHub is one of the best ways to collaborate, push code, get feedback, and show the world what you’ve built during a hackathon. To take it a step further, GitHub is now offering you access to industry tools, events & learning resources through something called GitHub Global Campus. Win this weekend’s Most Creative Use of GitHub prize category, first by signing up for GitHub Global Campus and second by using a GitHub repository to host your hackathon project’s code! Make sure your use of GitHub stands out with a detailed ReadMe page, meaningful pull requests and collaboration history, and even a GitHub pages deployment!",
+		"company": "GitHub",
+		"url": "https://images.ctfassets.net/bf706sfba7pw/2L2WjzDNsS5tDOw3lVfr53/11eff22722313f7c36cdfcc8752c372c/github.svg"
+	}
+]
