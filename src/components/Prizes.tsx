@@ -100,7 +100,7 @@ export default function Prizes() {
 					description='Best Domain Name from Domain.com'
 				/>
 				<PrizeCard
-					logo='/sponsors/CockroachDb.svg'
+					logo='/sponsors/CockroachDB.svg'
 					amount='3D Printing Pen'
 					description='Best Use of CockroachDB'
 				/>
