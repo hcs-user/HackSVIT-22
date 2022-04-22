@@ -149,6 +149,12 @@
 				"activity": "Closing Ceremony",
 				"location": "Center Gardens",
 				"valid": true
+			},
+			{
+				"startTime": "12:00",
+				"activity": "Lunch",
+				"location": "Center Gardens",
+				"valid": true
 			}
 		]
 	}
