@@ -107,9 +107,9 @@ export default function prizes() {
 				/>
 				<PrizeCard
 					url='https://hack.mlh.io/prizes'
-					logo='/sponsors/github.svg'
-					amount='Anker Wireless Charger Bundle'
-					description='GitHub Octocat Statue, Plushy & Sticker bundle'
+					logo='/sponsors/github.png'
+					amount='GitHub Octocat Statue, Plushy & Sticker bundle'
+					description='Most Creative Use of GitHub'
 				/>
 			
 			</Flex>
