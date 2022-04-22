@@ -65,18 +65,7 @@ export default function prizes() {
 					amount='$100 worth of $DESO coin and an exclusive DeSo Tumbler'
 					description='Best Use of DeSo'
 				/>
-				<PrizeCard
-					url='https://hack.mlh.io/prizes'
-					logo='/sponsors/circleci.svg'
-					amount='CircleCI Swag Pack'
-					description='Best Usage of CI/CD sponsored by CircleCI'
-				/>
-				<PrizeCard
-					url='https://hack.mlh.io/prizes'
-					logo='/sponsors/coil.svg'
-					amount='Portable Charger, Coil Pin and $60 Coil Credit'
-					description='Best Web Monetization Project'
-				/>
+				
 				<PrizeCard
 					url='https://hack.mlh.io/prizes'
 					logo='/sponsors/auth0.svg'
@@ -89,30 +78,14 @@ export default function prizes() {
 					amount='Twilio Swag Box & GameGo Console'
 					description='Most Creative Use of Twilio'
 				/>
-				<PrizeCard
-					url='https://hack.mlh.io/prizes'
-					logo='/sponsors/googleCloud.svg'
-					amount='Google Cloud Swag Bag or Backpack'
-					description='Best use of Google Cloud'
-				/>
+				
 				<PrizeCard
 					url='https://hack.mlh.io/prizes'
 					logo='/sponsors/digikey.png'
 					amount='Grove Beginner Kit'
 					description='Best Hardware Hack Sponsored by Digi-Key'
 				/>
-				<PrizeCard
-					url='https://hack.mlh.io/prizes'
-					logo='/sponsors/domain.svg'
-					amount='PowerSquare Qi Wireless Phone Charger'
-					description='Best Domain Name from Domain.com'
-				/>
-				<PrizeCard
-					url='https://hack.mlh.io/prizes'
-					logo='/sponsors/CockroachDB.svg'
-					amount='3D Printing Pen'
-					description='Best Use of CockroachDB'
-				/>
+				
 				<PrizeCard
 					url='https://hack.mlh.io/prizes'
 					logo='/sponsors/GoDaddyRegistry.svg'
@@ -125,30 +98,14 @@ export default function prizes() {
 					amount='Raspberry Pi 4 Starter Kit'
 					description='Best Use of Linode Cloud'
 				/>
-				<PrizeCard
-					url='https://hack.mlh.io/prizes'
-					logo='/sponsors/mathworks.png'
-					amount='MathWorks Swag Bag'
-					description='Best Use of MATLAB'
-				/>
-				<PrizeCard
-					url='https://hack.mlh.io/prizes'
-					logo='/sponsors/Hedera.png'
-					amount='Glorious Modular Compact Mechanical Keyboard'
-					description='Best Blockchain Project Using Hedera'
-				/>
+				
 				<PrizeCard
 					url='https://hack.mlh.io/prizes'
 					logo='/sponsors/abinbev.svg'
 					amount='Anker Wireless Charger Bundle'
 					description='Dream Big and Create More Cheers with AB InBev'
 				/>
-				<PrizeCard
-					url='https://hack.mlh.io/prizes'
-					logo='/sponsors/blackrock.svg'
-					amount='KeepCup and Blackrock swag bag'
-					description='Best Hack for Social Good by BlackRock'
-				/>
+			
 			</Flex>
 
 			<Flex
