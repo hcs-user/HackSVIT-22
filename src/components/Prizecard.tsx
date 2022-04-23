@@ -34,8 +34,8 @@ export default function PrizeCard({
 						<Icon as={icon} h='100px' w='auto' mx='auto' />
 					</Flex>
 					<VStack spacing='6' p='8' textAlign='center' flex='1'>
-						<Heading size='2xl'>{description}</Heading>
-						<Text fontSize={description ? "xl" : "2xl"}>{amount}</Text>
+						<Heading fontSize='3xl'>{description}</Heading>
+						<Text fontSize='2xl'>{amount}</Text>
 					</VStack>
 				</>
 			) : (
