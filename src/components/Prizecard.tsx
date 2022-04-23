@@ -52,7 +52,7 @@ export default function PrizeCard({
 					</Flex>
 					<VStack spacing='3' p='4' textAlign='center' flex='1'>
 						<Heading fontSize='xl'>{description}</Heading>
-						<Text fontSize={description ? "lg" : "2xl"}>{amount}</Text>
+						<Text fontSize={description ? "xl" : "2xl"}>{amount}</Text>
 					</VStack>
 				</>
 			)}

@@ -65,7 +65,7 @@ export default function prizes() {
 					amount='$100 worth of $DESO coin and an exclusive DeSo Tumbler'
 					description='Best Use of DeSo'
 				/>
-				
+
 				<PrizeCard
 					url='https://hack.mlh.io/prizes'
 					logo='/sponsors/auth0.svg'
@@ -78,14 +78,14 @@ export default function prizes() {
 					amount='Twilio Swag Box & GameGo Console'
 					description='Most Creative Use of Twilio'
 				/>
-				
+
 				<PrizeCard
 					url='https://hack.mlh.io/prizes'
 					logo='/sponsors/digikey.png'
 					amount='Grove Beginner Kit'
 					description='Best Hardware Hack Sponsored by Digi-Key'
 				/>
-				
+
 				<PrizeCard
 					url='https://hack.mlh.io/prizes'
 					logo='/sponsors/GoDaddyRegistry.svg'
@@ -98,7 +98,7 @@ export default function prizes() {
 					amount='Raspberry Pi 4 Starter Kit'
 					description='Best Use of Linode Cloud'
 				/>
-				
+
 				<PrizeCard
 					url='https://hack.mlh.io/prizes'
 					logo='/sponsors/abinbev.svg'
@@ -111,8 +111,14 @@ export default function prizes() {
 					amount='GitHub Octocat Statue, Plushy & Sticker bundle'
 					description='Most Creative Use of GitHub'
 				/>
-			
+
 			</Flex>
+
+			<Divider my='4' />
+
+			<Heading textAlign='center' my='6'>
+				Sponsored Prizes
+			</Heading>
 
 			<Flex
 				gap='12'
@@ -120,7 +126,6 @@ export default function prizes() {
 				flexWrap='wrap'
 				justifyContent={["center", null, "center"]}
 			>
-				<Divider my='4' />
 
 				{PRIZES.map((prize) => (
 					<PrizeCard
