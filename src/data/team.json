@@ -13,72 +13,60 @@
 	},
 	{
 		"id": 3,
-		"name": "Krima Patel",
-		"link": "krima-patel-a25487227",
-		"img": "/team/krima.webp"
-	},
-	{
-		"id": 4,
 		"name": "Darshil Rathod",
 		"link": "darshil-rathod-783679128",
 		"img": "/team/darshil.webp"
 	},
 	{
-		"id": 5,
+		"id": 4,
 		"name": "Dvija Patel",
 		"link": "dvija-patel-90b501227",
 		"img": "/team/dvija.webp"
 	},
 	{
-		"id": 6,
+		"id": 5,
 		"name": "Manan Nayak",
 		"link": "manan-nayak",
 		"img": "/team/manan.webp"
 	},
 	{
-		"id": 7,
+		"id": 6,
 		"name": "Heta Chokshi",
 		"link": "hetachokshi",
 		"img": "/team/Heta.webp"
 	},
 	{
-		"id": 8,
-		"name": "Arya Pradeep",
-		"link": "arya-pradeep-9a18661a1",
-		"img": "/team/arya.webp"
-	},
-	{
-		"id": 9,
+		"id": 7,
 		"name": "Gautami Parikh",
 		"link": "gautami-parikh",
 		"img": "/team/gautami.webp"
 	},
 	{
-		"id": 10,
+		"id": 8,
 		"name": "Aum Sathwara",
 		"link": "aum-sathwara-3433b21a3",
 		"img": "/team/aum.webp"
 	},
 	{
-		"id": 11,
+		"id": 9,
 		"name": "Akshar Vandara",
 		"link": "akshar-vandara",
 		"img": "/team/akshar.webp"
 	},
 	{
-		"id": 12,
+		"id": 10,
 		"name": "Harsh Upadhyay",
 		"link": "harsh-upadhyay-60741a121",
 		"img": "/team/haru.webp"
 	},
 	{
-		"id": 13,
+		"id": 11,
 		"name": "Smit Patel",
 		"link": "imsp18",
 		"img": "/team/smit.webp"
 	},
 	{
-		"id": 14,
+		"id": 12,
 		"name": "Harsh Sachaniya",
 		"link": "harsh2220",
 		"img": "/team/Harsh.webp"
