@@ -90,14 +90,14 @@ export default function Schedule() {
 
 											// const active = i == 0 && j == 0;
 											// console.log(active);
-
+											console.log(format(new Date(), 'yyyy-MM-dd'));
 											return (
 												valid && (
 													<Flex
 														key={j}
 														px='3'
 														py='2'
-														// bg={active ? "yellow.500" : undefined}
+														// bg={active ? startTime < new Date : undefined}
 														rounded='base'
 														w='full'
 														align='center'
