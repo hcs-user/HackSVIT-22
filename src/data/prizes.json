@@ -85,107 +85,82 @@
 	},
 	{
 		"id": 13,
-		"img": "taskade.svg",
-		"prize": "",
-		"description": "Lifetime upgrades to Winner Team",
-		"url": ""
-	},
-	{
-		"id": 14,
-		"img": "taskade.svg",
-		"prize": "",
-		"description": "5 Years Upgrade to all participants",
-		"url": ""
-	},
-	{
-		"id": 15,
 		"img": "echo3D.webp",
 		"prize": "",
 		"description": "1 Month Business Plan to all participants",
 		"url": ""
 	},
 	{
-		"id": 16,
+		"id": 14,
 		"img": "supabase.svg",
 		"prize": "",
 		"description": "$300 credits to top 10 teams",
 		"url": ""
 	},
 	{
-		"id": 17,
+		"id": 15,
 		"img": "xyz.svg",
 		"prize": "",
 		"description": "Domains per team to all participants",
 		"url": ""
 	},
 	{
-		"id": 18,
+		"id": 16,
 		"img": "wolfram-mathematical.svg",
 		"prize": "",
 		"description": "Top 30 team will recieve $375 award",
 		"url": ""
 	},
 	{
-		"id": 19,
+		"id": 17,
 		"img": "1password.svg",
 		"prize": "",
 		"description": "25% off the first year of 1Password to all participants",
 		"url": ""
 	},
 	{
-		"id": 20,
+		"id": 18,
 		"img": "oreilly.svg",
 		"prize": "",
 		"description": "free 30-day trial to all participants",
 		"url": ""
 	},
 	{
-		"id": 21,
+		"id": 19,
 		"img": "repl.svg",
 		"prize": "",
 		"description": "Participants",
 		"url": ""
 	},
 	{
+		"id": 20,
+		"img": "digitalocean.svg",
+		"prize": "",
+		"description": [
+			"$2,000 in credits to the winning team(s)",
+			"60-day free trial for all attendees to all participants"
+		],
+		"url": ""
+	},
+	{
+		"id": 21,
+		"img": "taskade.svg",
+		"prize": "",
+		"description": [
+			"Lifetime upgrades to Winner Team",
+			"5 Years Upgrade to all participants"
+		],
+		"url": ""
+	},
+	{
 		"id": 22,
-		"img": "digitalocean.svg",
+		"img": "gfg.png",
 		"prize": "",
-		"description": "$2,000 in credits to the winning team(s)",
-		"url": ""
-	},
-	{
-		"id": 23,
-		"img": "digitalocean.svg",
-		"prize": "",
-		"description": "60-day free trial for all attendees to all participants",
-		"url": ""
-	},
-	{
-		"id": 24,
-		"img": "gfg.png",
-		"prize": "Rs.2000/- GFG-Discount coupon winner (maximum 4 people)",
-		"description": "Winner Team",
-		"url": ""
-	},
-	{
-		"id": 25,
-		"img": "gfg.png",
-		"prize": "Rs.1000/- GFG-Discount coupon 1st Runner Up (maximum 4 people)",
-		"description": "1st Runner Up",
-		"url": ""
-	},
-	{
-		"id": 26,
-		"img": "gfg.png",
-		"prize": "Rs.800/- INR GFG-Discount coupon 2nd Runner Up (maximum 4 people)",
-		"description": "2nd Runner Up",
-		"url": ""
-	},
-	{
-		"id": 27,
-		"img": "gfg.png",
-		"prize": "Rs.300/ - GFG-Discount coupon to all participants.",
-		"description": "Participants",
+		"description": [
+			"Rs.1000/- GFG-Discount coupon 1st Runner Up",
+			"Rs.800/- INR GFG-Discount coupon 2nd Runner Up",
+			"Rs.300/ - GFG-Discount coupon to all participants"
+		],
 		"url": ""
 	}
 ]

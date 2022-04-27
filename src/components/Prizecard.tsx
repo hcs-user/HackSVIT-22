@@ -7,6 +7,8 @@ import {
 	Text,
 	VStack,
 	Icon,
+	UnorderedList,
+	ListItem,
 } from "@chakra-ui/react";
 
 export default function PrizeCard({
@@ -19,6 +21,7 @@ export default function PrizeCard({
 }: {
 	[key: string]: any;
 }) {
+
 	return (
 		<Flex
 			flexDir='column'
@@ -51,7 +54,13 @@ export default function PrizeCard({
 						/>
 					</Flex>
 					<VStack spacing='3' p='4' textAlign='center' flex='1'>
-						<Heading fontSize='xl'>{description}</Heading>
+						<UnorderedList>
+							{Array.isArray(description) ? description.map(el => <ListItem fontSize='xl'>{el}</ListItem>) :
+								<Heading fontSize='xl'>
+									{description}
+								</Heading>
+							}
+						</UnorderedList>
 						<Text fontSize={description ? "xl" : "2xl"}>{amount}</Text>
 					</VStack>
 				</>
