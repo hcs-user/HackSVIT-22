@@ -121,7 +121,7 @@
 				"valid": true
 			},
 			{
-				"startTime": "6:00",
+				"startTime": "8:00",
 				"activity": "Final Deadline",
 				"location": null,
 				"valid": true
@@ -139,14 +139,27 @@
 				"valid": true
 			},
 			{
-				"startTime": "10:00",
+				"startTime": "11:00",
 				"activity": "Final Pitch & Judging",
 				"location": "Center Gardens",
 				"valid": true
 			},
 			{
-				"startTime": "11:00",
+				"startTime": "12:30",
+				"activity": "Lunch",
+				"location": "Center Gardens",
+				"valid": true
+			},
+			{
+				"startTime": "13:30",
 				"activity": "Closing Ceremony",
+				"location": "Center Gardens",
+				"valid": true
+			},
+			
+			{
+				"startTime": "14:30",
+				"activity": "Good Bye🥺",
 				"location": "Center Gardens",
 				"valid": true
 			}

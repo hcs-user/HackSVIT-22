@@ -71,11 +71,15 @@ export default function Home() {
 						Sardar Vallabhbhai Patel Institute of Technology, Vasad
 					</Text> */}
 					<Flex gap='4' flexWrap='wrap' flexDir='column' justifyContent='center'>
-						<Box
+						{/* <Box
 							className='apply-button'
 							data-hackathon-slug='hacksvit2022'
 							data-button-theme='blue'
-						/>
+						/> */}
+						<Text fontSize='md' size='sm' color='gray.400'>
+							Applications closed💔, see you next year!
+						</Text>
+
 						<a href='https://discord.gg/KZZzD8a7PY' target='_blank'>
 							<Button
 								py='7px'

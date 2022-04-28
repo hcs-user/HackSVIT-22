@@ -45,8 +45,8 @@ export default function Schedule() {
 			<Flex align='flex-end' gap='4' mb='4'>
 				<Heading size='2xl'>Schedule</Heading>
 			</Flex>
-			<HStack justifyContent='space-between'>
-				<Text color='gray.400' fontSize='sm' pt='2'>
+			<Flex justifyContent='space-between'>
+				<Text color='gray.400' fontSize='sm' pt='2' w={['40', 'auto']}>
 					*All the mentioned times are in IST timezone
 				</Text>
 				<HStack display={["initial", null, "none"]}>
@@ -63,7 +63,7 @@ export default function Schedule() {
 						onClick={() => increment()}
 					/>
 				</HStack>
-			</HStack>
+			</Flex>
 			{
 				breakpoint == "lg" || breakpoint == "xl" || breakpoint == "2xl" ? (
 					<Flex gap='6' py='8'>
@@ -90,14 +90,14 @@ export default function Schedule() {
 
 											// const active = i == 0 && j == 0;
 											// console.log(active);
-
+											console.log(format(new Date(), 'yyyy-MM-dd'));
 											return (
 												valid && (
 													<Flex
 														key={j}
 														px='3'
 														py='2'
-														// bg={active ? "yellow.500" : undefined}
+														// bg={active ? startTime < new Date : undefined}
 														rounded='base'
 														w='full'
 														align='center'

@@ -73,6 +73,54 @@
 	},
 	{
 		"id": 8,
+		"category": "MLH Sponsors",
+		"company": [
+			{
+				"id": 1,
+				"name": "DigiKey Physical",
+				"iconPath": "/sponsors/digikey.png",
+				"siteUrl": "https://www.digikey.in/"
+			},
+			{
+				"id": 2,
+				"name": "GoDaddy Registry",
+				"iconPath": "/sponsors/GoDaddyRegistry.svg",
+				"siteUrl": "https://registry.godaddy/"
+			},
+			{
+				"id": 3,
+				"name": "Linode",
+				"iconPath": "/sponsors/linode.svg",
+				"siteUrl": "https://www.linode.com/"
+			},
+			{
+				"id": 4,
+				"name": "Twilio",
+				"iconPath": "/sponsors/twilio.png",
+				"siteUrl": "https://www.twilio.com/"
+			},
+			{
+				"id": 5,
+				"name": "Auth0",
+				"iconPath": "/sponsors/auth0.svg",
+				"siteUrl": "https://auth0.com/"
+			},
+			{
+				"id": 6,
+				"name": "AbInBev",
+				"iconPath": "/sponsors/abinbev.svg",
+				"siteUrl": "https://www.ab-inbev.com/"
+			},
+			{
+				"id": 7,
+				"name": "Deso",
+				"iconPath": "/sponsors/deso.svg",
+				"siteUrl": "https://www.deso.org/"
+			}
+		]
+	},
+	{
+		"id": 9,
 		"category": "Sponsors",
 		"company": [
 			{

@@ -37,15 +37,15 @@
 	{
 		"id": 6,
 		"img": "Symbl.svg",
-		"prize": "$200",
-		"description": "winner Team",
+		"prize": "Swags for the winning team if they use Symbl.ai - Symbl.ai Tshirt + $100 USD Amazon Gift card.",
+		"description": "Winner Team",
 		"url": ""
 	},
 	{
 		"id": 7,
 		"img": "axure.svg",
 		"prize": "",
-		"description": "Axure RP for top 3 Teams",
+		"description": "Axure RP for Top 3 Teams",
 		"url": ""
 	},
 	{
@@ -85,86 +85,82 @@
 	},
 	{
 		"id": 13,
-		"img": "taskade.svg",
-		"prize": "",
-		"description": "Lifetime upgrades to winner team",
-		"url": ""
-	},
-	{
-		"id": 14,
-		"img": "taskade.svg",
-		"prize": "",
-		"description": "5 Years Upgrade to all participants",
-		"url": ""
-	},
-	{
-		"id": 15,
 		"img": "echo3D.webp",
 		"prize": "",
 		"description": "1 Month Business Plan to all participants",
 		"url": ""
 	},
 	{
-		"id": 16,
+		"id": 14,
 		"img": "supabase.svg",
 		"prize": "",
 		"description": "$300 credits to top 10 teams",
 		"url": ""
 	},
 	{
-		"id": 17,
-		"img": "slido.svg",
-		"prize": "",
-		"description": "Premium Plan to all participants",
-		"url": ""
-	},
-	{
-		"id": 18,
+		"id": 15,
 		"img": "xyz.svg",
 		"prize": "",
 		"description": "Domains per team to all participants",
 		"url": ""
 	},
 	{
-		"id": 19,
+		"id": 16,
 		"img": "wolfram-mathematical.svg",
 		"prize": "",
 		"description": "Top 30 team will recieve $375 award",
 		"url": ""
 	},
 	{
-		"id": 20,
+		"id": 17,
 		"img": "1password.svg",
 		"prize": "",
 		"description": "25% off the first year of 1Password to all participants",
 		"url": ""
 	},
 	{
-		"id": 21,
+		"id": 18,
 		"img": "oreilly.svg",
 		"prize": "",
 		"description": "free 30-day trial to all participants",
 		"url": ""
 	},
 	{
-		"id": 22,
+		"id": 19,
 		"img": "repl.svg",
 		"prize": "",
 		"description": "Participants",
 		"url": ""
 	},
 	{
-		"id": 22,
+		"id": 20,
 		"img": "digitalocean.svg",
 		"prize": "",
-		"description": "$2,000 in credits to the winning team(s)",
+		"description": [
+			"$2,000 in credits to the winning team(s)",
+			"60-day free trial for all attendees to all participants"
+		],
+		"url": ""
+	},
+	{
+		"id": 21,
+		"img": "taskade.svg",
+		"prize": "",
+		"description": [
+			"Lifetime upgrades to Winner Team",
+			"5 Years Upgrade to all participants"
+		],
 		"url": ""
 	},
 	{
 		"id": 22,
-		"img": "digitalocean.svg",
+		"img": "gfg.png",
 		"prize": "",
-		"description": "60-day free trial for all attendees to all participants",
+		"description": [
+			"Rs.1000/- GFG-Discount coupon 1st Runner Up",
+			"Rs.800/- INR GFG-Discount coupon 2nd Runner Up",
+			"Rs.300/ - GFG-Discount coupon to all participants"
+		],
 		"url": ""
 	}
 ]
