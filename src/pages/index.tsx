@@ -77,7 +77,6 @@ export default function Home() {
 							data-button-theme='blue'
 						/> */}
 						<Text fontSize='md' size='sm' color='gray.400'>
-							Applications closed💔, see you next year!
 						</Text>
 
 						<a href='https://discord.gg/KZZzD8a7PY' target='_blank'>

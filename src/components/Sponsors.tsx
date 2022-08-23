@@ -34,7 +34,7 @@ export default function Sponsors() {
 	return (
 		<Container id='sponsors' maxW='container.xl' pb='6'>
 			<Flex align='flex-end' gap='4' mb='12'>
-				<Heading size='2xl'>Sponsors</Heading>
+				<Heading size='2xl'>Previous Sponsors</Heading>
 				<Box as='svg' viewBox='0 0 296.153 488.185' maxW='200' mb='2' me='8'>
 					<path
 						id='Path_15'

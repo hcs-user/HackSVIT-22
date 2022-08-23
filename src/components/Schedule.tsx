@@ -77,7 +77,7 @@ export default function Schedule() {
 									{format(new Date(date), "MMM d, cccc")} */}
 										<Text fontSize='2xl'>Day {i + 1}.</Text>
 										<Heading fontSize='3xl' color='orange.300'>
-											{format(new Date(date), "MMMM d, cccc")}
+											{/* {format(new Date(date), "MMMM d, cccc")} */}
 										</Heading>
 									</Text>
 									<VStack pt='4' w='full' align='start'>
