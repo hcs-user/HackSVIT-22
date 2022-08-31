@@ -52,12 +52,12 @@ export default function Sponsors() {
 			<VStack alignItems='flex-start'>
 				{SPONSORS.map((type, index) => (
 					<VStack alignItems='flex-start' py='1' w='full'>
-						<Flex w='full' align='center'>
+						{/* <Flex w='full' align='center'>
 							<Text my='2' fontSize='2xl'>
 								{type.category}
 							</Text>
 							<Box ms='4' bg='blue.400' flex='1' h='0.5' rounded='full' />
-						</Flex>
+						</Flex> */}
 						<Flex rowGap='6' columnGap='3' flexWrap='wrap' alignItems='flex-start'>
 							{type.company.map((el) => (
 								<Sponsor {...el} />

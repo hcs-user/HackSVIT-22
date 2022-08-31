@@ -25,6 +25,7 @@ import BackToTop from "@components/BackToTop";
 import Venue from "@components/Venue";
 import Schedule from "@components/Schedule";
 import Speakers from "@components/Speakers";
+import Testimonial from "@components/Testimonial";
 
 export default function Home() {
 	let [shouldPlay, updatePlayState] = useState(false);
@@ -76,8 +77,7 @@ export default function Home() {
 							data-hackathon-slug='hacksvit2022'
 							data-button-theme='blue'
 						/> */}
-						<Text fontSize='md' size='sm' color='gray.400'>
-						</Text>
+						<Text fontSize='md' size='sm' color='gray.400'></Text>
 
 						<a href='https://discord.gg/KZZzD8a7PY' target='_blank'>
 							<Button
@@ -123,11 +123,12 @@ export default function Home() {
 				</Box>
 			</Container>
 			<About />
-			<Timeline />
+			{/* <Timeline /> */}
+			<Testimonial />
 			<Themes />
 			<Speakers />
 			<Prizes />
-			<Schedule />
+			{/* <Schedule /> */}
 			<Sponsors />
 			<Team />
 			<PresentedBy />

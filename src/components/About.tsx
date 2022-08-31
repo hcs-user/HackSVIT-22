@@ -39,7 +39,7 @@ export default function About() {
 						in the premises of Sardar Vallabhbhai Institute of Technology, Vasad.
 					</Text>
 				</Box>
-				<AspectRatio
+				{/* <AspectRatio
 					// minH='480px'
 					w='full'
 					maxW='lg'
@@ -56,7 +56,7 @@ export default function About() {
 						height='100%'
 						url={`https://www.youtube.com/watch?v=VYYQwkd4L_M`}
 					/>
-				</AspectRatio>
+				</AspectRatio> */}
 			</Container>
 		</Waypoint>
 	);
