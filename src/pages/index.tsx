@@ -124,7 +124,7 @@ export default function Home() {
 			</Container>
 			<About />
 			{/* <Timeline /> */}
-			<Testimonial />
+			{/* <Testimonial /> */}
 			<Themes />
 			<Speakers />
 			<Prizes />
