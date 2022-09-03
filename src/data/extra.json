@@ -1,209 +1,381 @@
 [
-    {
-    "id": 4,
-    "category": "Platinium",
-    "company": [
-        {
-            "id": 1,
-            "name": "",
-            "siteUrl": "",
-            "iconPath": ""
-        }
-    ]
-},
-{
-    "id": 5,
-    "category": "Gold",
-    "company": [
-        {
-            "id": 1,
-            "name": "",
-            "siteUrl": "",
-            "iconPath": ""
-        }
-    ]
-},
-{
-    "id": 6,
-    "category": "Silver",
-    "company": [
-        {
-            "id": 1,
-            "name": "",
-            "siteUrl": "",
-            "iconPath": ""
-        }
-    ]
-},
-{
-    "id": 8,
-    "category": "Sponsor",
-    "company": [
-        {
-            "id": 1,
-            "name": "Axure",
-            "iconPath": "/sponsors/axure.svg",
-            "siteUrl": "https://www.axure.com/",
-            "bg": "#fff"
-        },
-        {
-            "id": 2,
-            "name": "Clerky",
-            "iconPath": "/sponsors/clerky.svg",
-            "siteUrl": "https://www.clerky.com/",
-            "bg": "#fff"
-        },
-        {
-            "id": 3,
-            "name": "Sashido",
-            "iconPath": "/sponsors/sashido.svg",
-            "siteUrl": "#",
-            "bg": "#fff"
-        },
-        {
-            "id": 4,
-            "name": "Interview Cake",
-            "iconPath": "/sponsors/interview-cake.svg",
-            "siteUrl": "https://www.interviewcake.com/",
-            "bg": "#fff"
-        },
-        {
-            "id": 5,
-            "name": "Rosenfeld Media",
-            "iconPath": "/sponsors/rosenfeld.svg",
-            "siteUrl": "https://www.rosenfeldmedia.com/",
-            "bg": "#fff"
-        },
-        {
-            "id": 6,
-            "name": "TestMail",
-            "iconPath": "/sponsors/testmail.png",
-            "siteUrl": "https://testmail.app/",
-            "bg": "#fff"
-        },
-        {
-            "id": 7,
-            "name": "Voiceflow",
-            "iconPath": "/sponsors/voiceflow.svg",
-            "siteUrl": "https://www.voiceflow.com/",
-            "bg": "#fff"
-        },
-        {
-            "id": 8,
-            "name": "Taskade",
-            "iconPath": "/sponsors/taskade.svg",
-            "siteUrl": "https://www.taskade.com/",
-            "bg": "gray.500"
-        },
-        {
-            "id": 9,
-            "name": "Echo3D",
-            "iconPath": "/sponsors/echo3D.webp",
-            "siteUrl": "https://www.echo3d.co/",
-            "bg": "gray.500"
-        },
-        {
-            "id": 10,
-            "name": "Elastic",
-            "iconPath": "",
-            "siteUrl": "https://www.elastic.co/",
-            "bg": "gray.500"
-        },
-        {
-            "id": 11,
-            "name": "Sketch",
-            "iconPath": "/sponsors/echo3D.webp",
-            "siteUrl": "https://www.sketch.com/",
-            "bg": "gray.500"
-        },
-        {
-            "id": 12,
-            "name": "Rosenfled Media",
-            "iconPath": "/sponsors/echo3D.webp",
-            "siteUrl": "https://rosenfeldmedia.com/",
-            "bg": "gray.500"
-        },
-        {
-            "id": 13,
-            "name": "Supabase",
-            "iconPath": "/sponsors/echo3D.webp",
-            "siteUrl": "https://supabase.com/",
-            "bg": "gray.500"
-        },
-        {
-            "id": 14,
-            "name": "Figma",
-            "iconPath": "/sponsors/echo3D.webp",
-            "siteUrl": "https://www.figma.com/",
-            "bg": "gray.500"
-        },
-        {
-            "id": 15,
-            "name": "Slido",
-            "iconPath": "/sponsors/echo3D.webp",
-            "siteUrl": "https://www.sli.do/",
-            "bg": "gray.500"
-        },
-        {
-            "id": 16,
-            "name": "Cypress.io",
-            "iconPath": "/sponsors/echo3D.webp",
-            "siteUrl": "https://www.cypress.io/",
-            "bg": "gray.500"
-        },
-        {
-            "id": 17,
-            "name": ".xyz",
-            "iconPath": "/sponsors/echo3D.webp",
-            "siteUrl": "https://gen.xyz/",
-            "bg": "gray.500"
-        },
-        {
-            "id": 18,
-            "name": "Wolfram",
-            "iconPath": "/sponsors/echo3D.webp",
-            "siteUrl": "https://www.wolfram.com/",
-            "bg": "gray.500"
-        },
-        {
-            "id": 19,
-            "name": "1 Password",
-            "iconPath": "/sponsors/echo3D.webp",
-            "siteUrl": "https://1password.com/",
-            "bg": "gray.500"
-        },
-        {
-            "id": 20,
-            "name": "O'Reilly",
-            "iconPath": "/sponsors/echo3D.webp",
-            "siteUrl": "https://www.oreilly.com/",
-            "bg": "gray.500"
-        }
-    ]
-},
-{
-    "id": 9,
-    "category": "Education Partner",
-    "company": [
-        {
-            "id": 1,
-            "name": "Geeks for Geeks",
-            "iconPath": "/sponsors/echo3D.webp",
-            "siteUrl": "https://www.geeksforgeeks.org/",
-            "bg": "gray.500"
-        }
-    ]
-},
-{
-    "id": 12,
-    "category": "Media Partner",
-    "company": [
-        {
-            "id": 1,
-            "name": "Streamyard",
-            "iconPath": "/sponsors/streamyard.svg",
-            "siteUrl": "https://streamyard.com/"
-        }
-    ]
-}
+	{
+		"id": 1,
+		"category": "Title Sponsor",
+		"company": [
+			{
+				"id": 1,
+				"name": "SVIT",
+				"siteUrl": "https://www.svitvasad.ac.in/",
+				"iconPath": "svit2.png"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"category": "Gold",
+		"company": [
+			{
+				"id": 1,
+				"name": "Devfolio",
+				"siteUrl": "https://devfolio.co/home/",
+				"iconPath": "/sponsors/devfolio.svg"
+			},
+			{
+				"id": 2,
+				"name": "Polygon",
+				"siteUrl": "https://polygon.technology/",
+				"iconPath": "/sponsors/polygon.svg"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"category": "Silver",
+		"company": [
+			{
+				"id": 1,
+				"name": "Celo",
+				"siteUrl": "https://celo.org/",
+				"iconPath": "/sponsors/celo.svg"
+			},
+			{
+				"id": 2,
+				"name": "Symbl.ai",
+				"siteUrl": "https://symbl.ai/",
+				"iconPath": "/sponsors/Symbl.svg"
+			},
+			{
+				"id": 3,
+				"name": "Tezos",
+				"siteUrl": "https://tezos.com/",
+				"iconPath": "/sponsors/tezos.svg"
+			},
+			{
+				"id": 4,
+				"name": "Filecoin",
+				"siteUrl": "https://filecoin.io/",
+				"iconPath": "/sponsors/filecoin.svg"
+			}
+		]
+	},
+	{
+		"id": 7,
+		"category": "Bronze",
+		"company": [
+			{
+				"id": 1,
+				"name": "Github",
+				"siteUrl": "https://github.com/",
+				"iconPath": "/sponsors/github.png"
+			}
+		]
+	},
+	{
+		"id": 8,
+		"category": "MLH Sponsors",
+		"company": [
+			{
+				"id": 1,
+				"name": "DigiKey Physical",
+				"iconPath": "/sponsors/digikey.png",
+				"siteUrl": "https://www.digikey.in/"
+			},
+			{
+				"id": 2,
+				"name": "GoDaddy Registry",
+				"iconPath": "/sponsors/GoDaddyRegistry.svg",
+				"siteUrl": "https://registry.godaddy/"
+			},
+			{
+				"id": 3,
+				"name": "Linode",
+				"iconPath": "/sponsors/linode.svg",
+				"siteUrl": "https://www.linode.com/"
+			},
+			{
+				"id": 4,
+				"name": "Twilio",
+				"iconPath": "/sponsors/twilio.png",
+				"siteUrl": "https://www.twilio.com/"
+			},
+			{
+				"id": 5,
+				"name": "Auth0",
+				"iconPath": "/sponsors/auth0.svg",
+				"siteUrl": "https://auth0.com/"
+			},
+			{
+				"id": 6,
+				"name": "AbInBev",
+				"iconPath": "/sponsors/abinbev.svg",
+				"siteUrl": "https://www.ab-inbev.com/"
+			},
+			{
+				"id": 7,
+				"name": "Deso",
+				"iconPath": "/sponsors/deso.svg",
+				"siteUrl": "https://www.deso.org/"
+			}
+		]
+	},
+	{
+		"id": 9,
+		"category": "Sponsors",
+		"company": [
+			{
+				"id": 1,
+				"name": "Courier",
+				"siteUrl": "https://www.courier.com/",
+				"iconPath": "/sponsors/courier.svg"
+			},
+			{
+				"id": 2,
+				"name": "Codedamn",
+				"siteUrl": "https://codedamn.com/",
+				"iconPath": "/sponsors/codedamn.svg"
+			},
+			{
+				"id": 3,
+				"name": "Axure",
+				"iconPath": "/sponsors/axure.svg",
+				"siteUrl": "https://www.axure.com/"
+			},
+			{
+				"id": 4,
+				"name": "Clerky",
+				"iconPath": "/sponsors/clerky.svg",
+				"siteUrl": "https://www.clerky.com/"
+			},
+			{
+				"id": 5,
+				"name": "Sashido",
+				"iconPath": "/sponsors/sashido.svg",
+				"siteUrl": "https://www.sashido.io/en/"
+			},
+			{
+				"id": 6,
+				"name": "Interview Cake",
+				"iconPath": "/sponsors/interview-cake.svg",
+				"siteUrl": "https://www.interviewcake.com/"
+			},
+			{
+				"id": 7,
+				"name": "Rosenfeld Media",
+				"iconPath": "/sponsors/rosenfeld.svg",
+				"siteUrl": "https://www.rosenfeldmedia.com/"
+			},
+			{
+				"id": 8,
+				"name": "TestMail",
+				"iconPath": "/sponsors/testmail.svg",
+				"siteUrl": "https://testmail.app/"
+			},
+			{
+				"id": 9,
+				"name": "Voiceflow",
+				"iconPath": "/sponsors/voiceflow.svg",
+				"siteUrl": "https://www.voiceflow.com/"
+			},
+			{
+				"id": 10,
+				"name": "Taskade",
+				"iconPath": "/sponsors/taskade.svg",
+				"siteUrl": "https://www.taskade.com/"
+			},
+			{
+				"id": 11,
+				"name": "Echo3D",
+				"iconPath": "/sponsors/echo3D.webp",
+				"siteUrl": "https://www.echo3d.co/"
+			},
+			{
+				"id": 12,
+				"name": "Elastic",
+				"iconPath": "/sponsors/elastic.svg",
+				"siteUrl": "https://www.elastic.co/"
+			},
+			{
+				"id": 13,
+				"name": "Sketch",
+				"iconPath": "/sponsors/sketch.svg",
+				"siteUrl": "https://www.sketch.com/"
+			},
+			{
+				"id": 14,
+				"name": "Supabase",
+				"iconPath": "/sponsors/supabase.svg",
+				"siteUrl": "https://supabase.com/"
+			},
+			{
+				"id": 15,
+				"name": "Figma",
+				"iconPath": "/sponsors/figma.svg",
+				"siteUrl": "https://www.figma.com/"
+			},
+			{
+				"id": 16,
+				"name": "Slido",
+				"iconPath": "/sponsors/slido.svg",
+				"siteUrl": "https://www.sli.do/"
+			},
+			{
+				"id": 17,
+				"name": "Cypress.io",
+				"iconPath": "/sponsors/cypress-io-white.svg",
+				"siteUrl": "https://www.cypress.io/"
+			},
+			{
+				"id": 18,
+				"name": ".xyz",
+				"iconPath": "/sponsors/xyz.svg",
+				"siteUrl": "https://gen.xyz/"
+			},
+			{
+				"id": 19,
+				"name": "Wolfram",
+				"iconPath": "/sponsors/wolfram-mathematical.svg",
+				"siteUrl": "https://www.wolfram.com/"
+			},
+			{
+				"id": 20,
+				"name": "1 Password",
+				"iconPath": "/sponsors/1password.svg",
+				"siteUrl": "https://1password.com/"
+			},
+			{
+				"id": 21,
+				"name": "O'Reilly",
+				"iconPath": "/sponsors/oreilly.svg",
+				"siteUrl": "https://www.oreilly.com/"
+			},
+			{
+				"id": 22,
+				"name": "DigitalOcean",
+				"siteUrl": "https://www.digitalocean.com/",
+				"iconPath": "/sponsors/digitalocean.svg"
+			},
+			{
+				"id": 23,
+				"name": "Replit",
+				"siteUrl": "https://replit.com/",
+				"iconPath": "/sponsors/repl.svg"
+			}
+		]
+	},
+	{
+		"id": 9,
+		"category": "Swag Partners",
+		"company": [
+			{
+				"id": 1,
+				"name": "Stickermule",
+				"iconPath": "/sponsors/stickermule.svg",
+				"siteUrl": "https://www.stickermule.com/"
+			},
+			{
+				"id": 2,
+				"name": "Stickergiant",
+				"iconPath": "/sponsors/stickergiant.svg",
+				"siteUrl": "https://www.stickergiant.com/"
+			},
+			{
+				"id": 3,
+				"name": "Devhero",
+				"iconPath": "/sponsors/devhero.webp",
+				"siteUrl": "https://devhero.shop/"
+			},
+			{
+				"id": 4,
+				"name": "Standout Stickers",
+				"iconPath": "/sponsors/standout.svg",
+				"siteUrl": "https://hackp.ac/mlh-standoutstickers-hackathons"
+			}
+		]
+	},
+	{
+		"id": 10,
+		"//category": "Community Partners",
+		"//company": [
+			{
+				"id": 1,
+				"name": "Bluelearn",
+				"iconPath": "/sponsors/bluelearn.svg",
+				"siteUrl": "https://www.bluelearn.in/?src=hacksvit"
+			},
+			{
+				"id": 2,
+				"name": "CyberJunk",
+				"iconPath": "/sponsors/cyberjunk.svg",
+				"siteUrl": "https://cyberjunk.co/"
+			},
+			{
+				"id": 3,
+				"name": "Hack Club NUV",
+				"iconPath": "/sponsors/HackClubNUV.png",
+				"siteUrl": ""
+			},
+			{
+				"id": 4,
+				"name": "Evoking Hack Club",
+				"iconPath": "/sponsors/EvokingHackClub.png",
+				"siteUrl": ""
+			},
+			{
+				"id": 5,
+				"name": "EduHub",
+				"iconPath": "/sponsors/EduHub.png",
+				"siteUrl": "https://eduhubcommunity.tech/"
+			},
+			{
+				"id": 6,
+				"name": "CSE Student Community",
+				"iconPath": "/sponsors/cse.png",
+				"siteUrl": ""
+			},
+			{
+				"id": 7,
+				"name": "Club Gamma",
+				"iconPath": "/sponsors/ClubGamma.png",
+				"siteUrl": ""
+			},
+			{
+				"id": 8,
+				"name": "CSI PHCET",
+				"iconPath": "/sponsors/csi.png",
+				"siteUrl": ""
+			},
+			{
+				"id": 9,
+				"name": "GDSC Parul",
+				"iconPath": "/sponsors/parul.png",
+				"siteUrl": ""
+			}
+		]
+	},
+	{
+		"id": 11,
+		"category": "Hackathon Partners",
+		"company": [
+			
+			{
+				"id": 2,
+				"name": "Hack Club",
+				"iconPath": "https://assets.hackclub.com/flag-standalone.svg",
+				"siteUrl": "https://hackclub.com/"
+			}
+		]
+	},
+	{
+		"id": 12,
+		"category": "Learning Partners",
+		"company": [
+			{
+				"id": 1,
+				"name": "Geeks for Geeks",
+				"iconPath": "/sponsors/gfg.png",
+				"siteUrl": "https://www.geeksforgeeks.org/"
+			}
+		]
+	}
 ]
